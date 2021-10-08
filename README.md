@@ -15,7 +15,7 @@
 
 ## Deployment script
 
-Build in Nuxt SPA mode
+Build in Nuxt Generate mode
 ```
 npm ci && npm run production
 ```

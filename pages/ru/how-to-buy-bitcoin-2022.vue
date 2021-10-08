@@ -2,7 +2,6 @@
 import getTitle from '~/assets/get-title.js';
 
 export default {
-    layout: 'landing',
     nuxtI18n: {
         paths: {
             ru: '/kak-kupit-bitkoin-2022',

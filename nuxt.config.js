@@ -12,6 +12,8 @@ import {BASE_TITLE, BASE_DESCRIPTION, I18N_ROUTE_NAME_SEPARATOR, LANGUAGE_COOKIE
 
 
 module.exports = {
+    target: 'static',
+    telemetry: false,
     /*
     ** Headers of the page
     */
@@ -90,7 +92,7 @@ module.exports = {
             seo: false,
             detectBrowserLanguage: false,
         }],
-        '@nuxt/content',
+        // '@nuxt/content',
     ],
     plugins: [
         { src: '~/plugins/i18n-mock-preferred.js'},
@@ -106,28 +108,14 @@ module.exports = {
             remarkAutolinkHeadings: false,
         },
     },
-    /*
-    ** PWA manifest
-     */
-    manifest: {
-        name: BASE_TITLE,
-        short_name: BASE_TITLE,
-        lang: 'en',
-    },
-    /*
-    ** PWA meta
-     */
-    meta: {
-        mobileAppIOS: true,
-        name: BASE_TITLE,
-        author: 'Honee',
-        favicon: false,
-    },
     modern: 'client',
     /*
     ** Build configuration
     */
     build: {
+        extractCSS: true,
+        optimizeCSS: false,
+        postcss: false,
         watch: [
             './api/',
             // `./lang/`, // this watcher dont-work yet
@@ -138,24 +126,25 @@ module.exports = {
             }
             config.resolve.mainFields =  ['module', 'browser', 'main'];
         },
-        babel: {
-            presets: [
-                [
-                    '@nuxt/babel-preset-app',
-                    {
-                        // targets: isServer ? { node: '10' } : { ie: '11' },
-                        corejs: { version: 3 },
-                    },
-                ],
-            ],
-            plugins: [
-                // '@babel/plugin-proposal-optional-chaining',
-            ],
-            // prevent @babel/plugin-transform-runtime from inserting `import` statement into commonjs files (bc. it breaks webpack)
-            sourceType: 'unambiguous',
-        },
+        // babel: {
+        //     presets: [
+        //         [
+        //             '@nuxt/babel-preset-app',
+        //             {
+        //                 // targets: isServer ? { node: '10' } : { ie: '11' },
+        //                 corejs: { version: 3 },
+        //             },
+        //         ],
+        //     ],
+        //     plugins: [
+        //         // '@babel/plugin-proposal-optional-chaining',
+        //     ],
+        //     // prevent @babel/plugin-transform-runtime from inserting `import` statement into commonjs files (bc. it breaks webpack)
+        //     sourceType: 'unambiguous',
+        // },
         transpile: [
             /es6-promise|\.(?!(?:js|json)$).{1,5}$/i,
+            '@material/',
             '/base-x/',
             'date-fns/esm',
             'vue-simple-suggest/dist/es7',

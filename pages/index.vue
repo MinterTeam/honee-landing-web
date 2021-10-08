@@ -3,7 +3,6 @@
 import getTitle from '~/assets/get-title.js';
 
 export default {
-    layout: 'landing',
     components: {
         // IndexSubscribeForm,
     },

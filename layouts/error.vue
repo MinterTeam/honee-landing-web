@@ -2,9 +2,7 @@
 import {getErrorText} from '~/assets/server-error.js';
 
 export default {
-    layout({store}) {
-        return store.getters.isAuthorized ? 'default' : 'splash';
-    },
+    layout: 'clean',
     props: {
         error: {
             type: Object,
