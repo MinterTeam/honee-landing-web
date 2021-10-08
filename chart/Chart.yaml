@@ -1,0 +1,16 @@
+version: 1.0.0
+apiVersion: v2
+name: honee-landing-web
+icon: https://honee.app/favicon.png
+description: A Helm chart for Honee Landing Web
+
+appVersion: v1.0.0
+
+home: https://github.com/MinterTeam/honee-landing-web
+keywords:
+  - minter
+  - honee
+maintainers:
+  - name: shrpne
+    email: shrpne@gmail.com
+
