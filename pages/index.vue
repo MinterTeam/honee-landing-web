@@ -48,7 +48,13 @@ export default {
 <!--                        <IndexSubscribeForm class="u-mb-15"/>-->
 <!--                        <h3>{{ $td('Alpha Coming Sep 28, 2021', 'index.hello-coming')}}</h3>-->
                     </div>
-                    <img src="/img/landing/phone.png" alt="" class="hello-image" />
+                    <picture>
+                        <source srcset="/img/landing/phone-mobile.avif 1x, /img/landing/phone-mobile@2x.avif 2x" type="image/avif" media="(max-width: 420px)">
+                        <source srcset="/img/landing/phone-mobile.webp 1x, /img/landing/phone-mobile@2x.webp 2x" type="image/webp" media="(max-width: 420px)">
+                        <source srcset="/img/landing/phone.avif 1x, /img/landing/phone@2x.avif 2x" type="image/avif">
+                        <source srcset="/img/landing/phone.webp 1x, /img/landing/phone@2x.webp 2x" type="image/webp">
+                        <img src="/img/landing/phone.png" srcset="/img/landing/phone@2x.png 2x" alt="" class="hello-image" role="presentation"/>
+                    </picture>
                 </div>
             </div>
         </header>
@@ -57,7 +63,7 @@ export default {
                 <h2>{{ $td('What’s Honee?', 'index.video-title')}}</h2>
                 <p class="subtitle-h2">{{ $td('Hit the play button to learn more', 'index.video-description')}}</p>
                 <div class="video-youtube">
-                    <iframe :src="$td('https://www.youtube.com/embed/fVRlrTYCtvg', 'index.video-url') + '?rel=0'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe :src="$td('https://www.youtube.com/embed/fVRlrTYCtvg', 'index.video-url') + '?rel=0'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
                 </div>
             </div>
         </section>

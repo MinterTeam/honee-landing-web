@@ -172,8 +172,8 @@
     .hello-image {
         position: absolute;
         z-index: -1;
+        top: 20px;
         left: 255px;
-        max-width: 1009px;
     }
     .logo {
         vertical-align: bottom;
@@ -296,7 +296,7 @@
     .footer {
         padding: 0 0 48px 0;
         line-height: 18px;
-        
+
         .footer-disclaimer {
             text-align: left;
             margin: 0 0 48px 0;
@@ -326,7 +326,7 @@
                     }
                 }
             }
-            
+
             .footer-contacts {
                 max-width: 352px;
             }
@@ -385,10 +385,11 @@
         .hello-content {
             padding: 0 0 20px 0;
         }
-        img.hello-image {
+        .hello-image {
             max-width: 70%;
             display: block;
             position: relative;
+            top: 0;
             left: 0;
             margin: 0 auto;
         }
@@ -405,10 +406,10 @@
         .socials img {width: 56px; height: 56px;}
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 440px) {
       h1 {font-size: 40px; line-height: 1.2em;}
       h2 {font-size: 30px; line-height: 1.2em;}
-      img.hello-image {max-width: 100%;}
+      .hello-image {max-width: 100%;}
       .features-item {margin: 0 8px 40px;}
     }
 

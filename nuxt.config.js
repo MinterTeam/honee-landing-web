@@ -30,6 +30,8 @@ module.exports = {
         link: [
             { rel: 'icon', href: '/favicon.png' },
             { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+            { rel: 'preload', href: '/fonts/Inter-Bold.woff2', as: 'font', type: 'font/woff2' },
+            { rel: 'preload', href: '/fonts/Inter-Regular.woff2', as: 'font', type: 'font/woff2' },
         ],
     },
     css: [
@@ -109,6 +111,21 @@ module.exports = {
         },
     },
     modern: 'client',
+    features: {
+        store: false,
+        // layouts: false,
+        // meta: false,
+        // middleware: false,
+        // transitions: false,
+        deprecations: false,
+        validate: false, // Component.options.validate
+        asyncData: false,
+        // fetch: false,
+        clientOnline: false,
+        // clientPrefetch: false,
+        componentAliases: false, // NLink, NChild
+        componentClientOnly: false,
+    },
     /*
     ** Build configuration
     */
@@ -120,6 +137,7 @@ module.exports = {
             './api/',
             // `./lang/`, // this watcher dont-work yet
         ],
+        // corejs: 2,
         extend(config, { isDev, isClient, isServer }) {
             if (!config.resolve) {
                 config.resolve = {};

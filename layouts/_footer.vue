@@ -11,21 +11,23 @@ export default {
                 <h2>{{ $td('Follow us', 'index.follow-title')}}</h2>
                 <div class="socials">
                     <a href="https://twitter.com/HoneeApp" target="_blank">
-                        <img src="/img/landing/twitter.svg" alt="" width="64" height="64">
+                        <img src="/img/landing/twitter.svg" width="64" height="64" loading="lazy" alt="Twitter">
                     </a>
                     <a href="https://t.me/HoneeApp" target="_blank">
-                        <img src="/img/landing/telegram.svg" alt="" width="64" height="64">
+                        <img src="/img/landing/telegram.svg" width="64" height="64" loading="lazy" alt="Telegram">
                     </a>
                     <a href="https://www.youtube.com/c/honeeapp" target="_blank">
-                        <img src="/img/landing/youtube.svg" alt="" width="64" height="64">
+                        <img src="/img/landing/youtube.svg" width="64" height="64" loading="lazy" alt="Youtube">
                     </a>
                     <a href="https://www.facebook.com/honeeapp" target="_blank">
-                        <img src="/img/landing/facebook.svg" alt="" width="64" height="64">
+                        <img src="/img/landing/facebook.svg" width="64" height="64" loading="lazy" alt="Facebook">
                     </a>
                     <a href="https://medium.com/@honeeapp" target="_blank">
-                        <img src="/img/landing/medium.svg" alt="" width="64" height="64">
+                        <img src="/img/landing/medium.svg" width="64" height="64" loading="lazy" alt="Medium">
                     </a>
-                    <a href="https://www.instagram.com/honee_app/" target="_blank"><img src="/img/landing/instagram.svg" alt="" width="64" height="64"></a>
+                    <a href="https://www.instagram.com/honee_app/" target="_blank">
+                        <img src="/img/landing/instagram.svg" width="64" height="64" loading="lazy" alt="Instagram">
+                    </a>
                 </div>
             </div>
         </section>

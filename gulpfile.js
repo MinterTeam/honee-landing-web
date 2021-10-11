@@ -18,13 +18,16 @@ const cache = require('gulp-cache');
 const imagemin = require('gulp-imagemin');
 const mozjpeg = require('imagemin-mozjpeg');
 const jpegtran = require('imagemin-jpegtran');
-//const pngquant = require('imagemin-pngquant');
+const pngquant = require('imagemin-pngquant');
+const imageminWebp = require('imagemin-webp');
+const imageminAvif = require('imagemin-avif');
 
 
 let paths = {
     src: {
         less: 'assets/less/*.less',
         img: ['assets/img/**/*.{png,jpg,gif,svg}'],
+        imgExtra: 'assets/img/**/*.{png,jpg}',
     },
     dest: {
         css: 'static/css/',
@@ -77,7 +80,7 @@ gulp.task('less', function() {
 
 
 // IMG
-gulp.task('imagemin', function() {
+gulp.task('imagemin:base', function() {
     return gulp.src(paths.src.img)
         .pipe(plumber({errorHandler: onError}))
         .pipe(cache(
@@ -85,7 +88,7 @@ gulp.task('imagemin', function() {
                 imagemin.gifsicle({interlaced: true}),
                 mozjpeg({quality: 90}),
                 jpegtran({progressive: true}),
-                //pngquant(),
+                pngquant(),
                 imagemin.optipng({optimizationLevel: 5}),
                 imagemin.svgo({plugins: [{removeViewBox: false}]}),
             ], {
@@ -96,6 +99,41 @@ gulp.task('imagemin', function() {
             }))
         .pipe(gulp.dest(paths.dest.img));
 });
+gulp.task('imagemin:webp', function() {
+    return gulp.src(paths.src.imgExtra)
+        .pipe(plumber({errorHandler: onError}))
+        .pipe(cache(
+            imagemin([
+                imageminWebp({quality: 90}),
+            ], {
+                verbose: true,
+            }), {
+                fileCache: new cache.Cache(paths.cache),
+                name: 'webp',
+            }))
+        .pipe(rename({
+            extname: '.webp',
+        }))
+        .pipe(gulp.dest(paths.dest.img));
+});
+gulp.task('imagemin:avif', function() {
+    return gulp.src(paths.src.imgExtra)
+        .pipe(plumber({errorHandler: onError}))
+        .pipe(cache(
+            imagemin([
+                imageminAvif({quality: 90, speed: 6}),
+            ], {
+                verbose: true,
+            }), {
+                fileCache: new cache.Cache(paths.cache),
+                name: 'avif',
+            }))
+        .pipe(rename({
+            extname: '.avif',
+        }))
+        .pipe(gulp.dest(paths.dest.img));
+});
+gulp.task('imagemin', gulp.series('imagemin:base', 'imagemin:webp', 'imagemin:avif'));
 gulp.task('imagemin:clean-dest', function(cb) {
     del.sync(paths.dest.img);
     cb();
