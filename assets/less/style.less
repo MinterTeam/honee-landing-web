@@ -1,4 +1,5 @@
 // normalize-css подключается с помощью postcss-normalize
+@import (inline) '../../node_modules/lite-youtube-embed/src/lite-yt-embed.css';
 //@import (inline) '../../node_modules/@material/snackbar/dist/mdc.snackbar.css';
 @import (inline) '../../node_modules/@material/menu/dist/mdc.menu.css';
 @import (inline) '../../node_modules/@material/menu-surface/dist/mdc.menu-surface.css';
@@ -15,6 +16,8 @@
 
 
 // vendor
+// lite-youtube
+lite-youtube::before {background: none;}
 // mdc
 //.mdc-snackbar {z-index: 16; /* higher than footer and modal */}
 //.mdc-snackbar__surface {min-width: 300px;}

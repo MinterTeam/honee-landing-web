@@ -30,8 +30,9 @@ module.exports = {
         link: [
             { rel: 'icon', href: '/favicon.png' },
             { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
-            { rel: 'preload', href: '/fonts/Inter-Bold.woff2', as: 'font', type: 'font/woff2' },
-            { rel: 'preload', href: '/fonts/Inter-Regular.woff2', as: 'font', type: 'font/woff2' },
+            // preload configures in bundleRenderer
+            // { rel: 'preload', href: '/fonts/Inter-Bold.woff2', as: 'font', type: 'font/woff2' },
+            // { rel: 'preload', href: '/fonts/Inter-Regular.woff2', as: 'font', type: 'font/woff2' },
         ],
     },
     css: [
@@ -125,6 +126,17 @@ module.exports = {
         // clientPrefetch: false,
         componentAliases: false, // NLink, NChild
         componentClientOnly: false,
+    },
+    render: {
+        bundleRenderer: {
+            shouldPreload: (file, type) => {
+                if (type === 'font' && /\.woff2$/.test(file)) {
+                    return /fonts\/Inter-Bold/.test(file) || /fonts\/Inter-Regular/.test(file);
+                }
+                return false;
+                // return ['script', 'style', 'font'].includes(type)
+            },
+        },
     },
     /*
     ** Build configuration

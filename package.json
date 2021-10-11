@@ -30,6 +30,7 @@
     "clipbrd": "^1.0.2",
     "entity-decode": "^2.0.2",
     "js-cookie": "^3.0.1",
+    "lite-youtube-embed": "^0.2.0",
     "lodash-es": "^4.17.21",
     "nuxt": "^2.15.8",
     "nuxt-i18n-default": "^0.0.2",

@@ -1,10 +1,10 @@
 <script>
-// import IndexSubscribeForm from '@/components/IndexSubscribeForm.vue';
 import getTitle from '~/assets/get-title.js';
+import LiteYoutube from '@/components/LiteYoutube.vue';
 
 export default {
     components: {
-        // IndexSubscribeForm,
+        LiteYoutube,
     },
     head() {
         const title = getTitle(this.$td('Crypto Wallet That Helps You Earn', 'index.title'));
@@ -62,9 +62,15 @@ export default {
             <div class="container">
                 <h2>{{ $td('What’s Honee?', 'index.video-title')}}</h2>
                 <p class="subtitle-h2">{{ $td('Hit the play button to learn more', 'index.video-description')}}</p>
+                <!--
                 <div class="video-youtube">
                     <iframe :src="$td('https://www.youtube.com/embed/fVRlrTYCtvg', 'index.video-url') + '?rel=0'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
                 </div>
+                -->
+                <LiteYoutube
+                    class="video-youtube"
+                    :video-id="$td('fVRlrTYCtvg', 'index.video-id')"
+                />
             </div>
         </section>
         <section class="features">

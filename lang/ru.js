@@ -30,6 +30,7 @@ export default {
 		'video-title': 'Что такое Honee?',
 		'video-description': 'Посмотрите 30-секундное видео',
 		'video-url': 'https://www.youtube.com/embed/dqi1569ICTQ',
+		'video-id': 'dqi1569ICTQ',
 
 
 		'features-title': 'Крипто-кошелек, каким он должен быть',
