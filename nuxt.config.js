@@ -104,6 +104,7 @@ module.exports = {
         // { src: '~/plugins/custom-event-polyfill.js', ssr: false },
         { src: '~/plugins/persistedState.js', ssr: false },
         { src: '~/plugins/click-blur.js', ssr: false },
+        { src: '~/plugins/seo-gtm.js', ssr: false },
     ],
     content: {
         liveEdit: false,
