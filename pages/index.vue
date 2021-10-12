@@ -1,10 +1,14 @@
 <script>
 import getTitle from '~/assets/get-title.js';
+import trackClick from '~/assets/v-track-click.js';
 import LiteYoutube from '@/components/LiteYoutube.vue';
 
 export default {
     components: {
         LiteYoutube,
+    },
+    directives: {
+        trackClick,
     },
     head() {
         const title = getTitle(this.$td('Crypto Wallet That Helps You Earn', 'index.title'));
@@ -44,7 +48,7 @@ export default {
                         <div class="logo"><img src="/img/logo-honee.svg" alt="" width="122" height="24"/></div>
                         <h1>{{ $td('The simplest crypto wallet that helps you earn', 'index.hello-title')}}</h1>
                         <p class="subtitle-h1">{{ $td('Honee is focused on helping people to earn crypto. Join today!', 'index.hello-description')}}</p>
-                        <a class="btn" :href="appUrl">{{ $td('Start Earning', 'index.hello-button')}}</a>
+                        <a class="btn" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Start Earning', 'index.hello-button')}}</a>
 <!--                        <IndexSubscribeForm class="u-mb-15"/>-->
 <!--                        <h3>{{ $td('Alpha Coming Sep 28, 2021', 'index.hello-coming')}}</h3>-->
                     </div>
@@ -135,7 +139,7 @@ export default {
                         <h3>{{ $td('Top it up', 'index.steps-step2')}}</h3>
                     </div>
                 </div>
-                <a class="btn btn-2 u-mt-40" :href="appUrl">{{ $td('Get Started', 'index.steps-button')}}</a>
+                <a class="btn btn-2 u-mt-40" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Get Started', 'index.steps-button')}}</a>
             </div>
         </section>
     </div>
