@@ -1,8 +1,8 @@
 <script>
 export default {
+    layout: 'clean',
     fetchOnServer: false,
     fetch() {
-        console.log(window.location);
         const location = window.location.toString();
         if (location.includes('://honee.app') && location.includes('/dashboard')) {
             window.location = location.replace('://honee.app', '://my.honee.app').replace('/dashboard', '');
@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <div class="u-section">
         <h3>Redirecting…</h3>
     </div>
 </template>

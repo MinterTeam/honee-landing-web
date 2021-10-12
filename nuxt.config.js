@@ -1,7 +1,6 @@
 // register env before other imports @see https://www.npmjs.com/package/dotenv#how-do-i-use-dotenv-with-import-
 import 'dotenv/config';
 import dotenv from 'dotenv';
-import webpack from 'webpack';
 
 const envConfig = dotenv.config();
 const envConfigParsed = envConfig.error ? {} : envConfig.parsed;
@@ -46,7 +45,7 @@ module.exports = {
         linkActiveClass: 'is-active-inner',
         linkExactActiveClass: 'is-active',
         middleware: [
-            'history',
+            // 'history',
         ],
         extendRoutes(routes, resolve) {
             routes.forEach((route) => {
@@ -146,6 +145,21 @@ module.exports = {
         extractCSS: true,
         optimizeCSS: false,
         postcss: false,
+        optimization: {
+            // minimize: false,
+            splitChunks: {
+                // name: true,
+                cacheGroups: {
+                    // extract all CSS to a single file
+                    styles: {
+                        name: 'styles',
+                        test: /\.(css|vue)$/,
+                        chunks: 'all',
+                        enforce: true
+                    },
+                },
+            },
+        },
         watch: [
             './api/',
             // `./lang/`, // this watcher dont-work yet
