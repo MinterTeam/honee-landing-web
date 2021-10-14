@@ -56,7 +56,7 @@ export default {
                     <p class="subtitle-h1">Ethereum (also known as Ether, or ETH) is the second-largest cryptocurrency. It was created back in 2015 and has since brought into the world the smart contracts and decentralized finance (DeFi). So what should the best Ethereum wallet of 2022 be like?</p>
                 </section>
                 <section class="asset-block">
-                    <img src="/img/articles/asset-ethereum.svg" alt="best ethereum (eth) wallet 2022">
+                    <img src="/img/articles/asset-ethereum.png" alt="best ethereum (eth) wallet 2022">
                     <div class="asset-info">
                         <div class="asset-info-data">
                             <div class="asset-info-item">

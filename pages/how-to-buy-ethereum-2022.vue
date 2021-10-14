@@ -92,7 +92,7 @@ export default {
                             <p>Once your wallet has been replenished with the tokens you’d want to swap for Ethereum, click on Swap or pick the Buy Ethereum card.</p>
                             <p>In the newly opened window:</p>
                             <ol>
-                                <li>CSelect the coin you’d like to spend</li>
+                                <li>Select the coin you’d like to spend</li>
                                 <li>Enter the amount</li>
                                 <li>Pick the coin under the ticker <b>ETH</b> (if you’ve opted for the <b>Buy Ethereum</b> card, it’ll be set by default)</li>
                                 <li>Check the price and the receivable amount of ETH</li>
@@ -103,7 +103,7 @@ export default {
                             <picture>
                                 <source srcset="/img/articles/buy-ethereum-3.avif 1x, /img/articles/buy-ethereum-3@2x.avif 2x" type="image/avif">
                                 <source srcset="/img/articles/buy-ethereum-3.webp 1x, /img/articles/buy-ethereum-3@2x.webp 2x" type="image/webp">
-                                <img src="/img/articles/buy-ethereum-3.png" srcset="/img/articles/buy-ethereum-3@2x.png 2x" alt="how to buy ethereum 2022" role="presentation"/>
+                                <img src="/img/articles/buy-ethereum-3.png" srcset="/img/articles/buy-ethereum-3@2x.png 2x" alt="how to buy ether 2022" role="presentation">
                             </picture>
                         </div>
                     </div>
