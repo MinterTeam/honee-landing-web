@@ -1,9 +1,13 @@
 <script>
 import getTitle from '~/assets/get-title.js';
+import trackClick from '~/assets/v-track-click.js';
 
 export default {
     nuxtI18n: {
         locales: ['en'],
+    },
+    directives: {
+        trackClick,
     },
     head() {
         const title = getTitle('How to Buy Bitcoin 2022');
@@ -17,6 +21,12 @@ export default {
                 { hid: 'og-description', name: 'og:description', content: description },
             ],
         };
+    },
+    computed: {
+        appUrl() {
+            const localeSuffix = this.$i18n.locale === 'en' ? '' : this.$i18n.locale;
+            return `https://my.honee.app/${localeSuffix}`;
+        },
     },
 };
 
@@ -90,7 +100,7 @@ export default {
                     </ol>
                     <p class="subtitle-h1">We hope that now that you’ve finished scrolling down this page, you have an actionable understanding of how to buy Bitcoin. In 2022, Honee release version hits the market—meaning this process will get much more user-friendly!</p>
                     <div class="cta-center">
-                        <a class="btn btn-2" href="#">{{ $td('Launch Honee', 'index.steps-button')}}</a>
+                        <a class="btn btn-2" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Launch Honee', 'index.steps-button')}}</a>
                     </div>
                 </section>
             </div>

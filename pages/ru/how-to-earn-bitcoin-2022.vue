@@ -1,5 +1,6 @@
 <script>
 import getTitle from '~/assets/get-title.js';
+import trackClick from '~/assets/v-track-click.js';
 
 export default {
     nuxtI18n: {
@@ -7,6 +8,9 @@ export default {
             ru: '/kak-zarabotat-bitkoin-2022',
         },
         locales: ['ru'],
+    },
+    directives: {
+        trackClick,
     },
     head() {
         const title = getTitle('Как заработать биткоин 2022');
@@ -20,6 +24,12 @@ export default {
                 { hid: 'og-description', name: 'og:description', content: description },
             ],
         };
+    },
+    computed: {
+        appUrl() {
+            const localeSuffix = this.$i18n.locale === 'en' ? '' : this.$i18n.locale;
+            return `https://my.honee.app/${localeSuffix}`;
+        },
     },
 };
 
@@ -79,7 +89,7 @@ export default {
                 <section class="article-last-block">
                     <p class="subtitle-h1">Мы надеемся, что после прочтения этой статьи у вас есть практическое понимание того, как заработать биткоин. В 2022 году на рынок выйдет релизная версия Honee, а значит, этот процесс станет более удобным для пользователя!</p>
                     <div class="cta-center">
-                        <a class="btn btn-2" href="#">{{ $td('Launch Honee', 'index.steps-button')}}</a>
+                        <a class="btn btn-2" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Launch Honee', 'index.steps-button')}}</a>
                     </div>
                 </section>
             </div>
