@@ -42,7 +42,7 @@ export default {
             <div class="container">
                 <div class="top-line">
                     <div class="logo">
-                        <a href="/"><img src="/img/logo-honee.svg" alt="" width="122" height="24"/></a>
+                        <a href="/"><img src="/img/logo-honee.svg" alt="Honee" width="122" height="24"/></a>
                     </div>
                     <div class="share">
                         <span>Поделиться</span>
@@ -101,7 +101,6 @@ export default {
                                 <li>Проверьте количество получаемых BTC и цену</li>
                                 <li>Нажмите кнопку <b>Подтвердить</b></li>
                             </ol>
-                            <p>После этого транзакция покупки Биткоина будет совершена и BTC появится на вашем балансе.</p>
                         </div>
                         <div class="article-picture-box-img buy-bitcoin-3">
                             <picture>
@@ -111,6 +110,7 @@ export default {
                             </picture>
                         </div>
                     </div>
+                    <p>После этого транзакция покупки Биткоина будет совершена и BTC появится на вашем балансе.</p>
                 </section>
                 <section class="article-last-block">
                     <h2>Цена Биткоин</h2>

@@ -47,18 +47,15 @@ export default {
                         <div class="footer-link-box">
                             <div class="buy-links">
                                 <a :href="$i18nGetPreferredPath('/how-to-buy-bitcoin-2022')">{{ $td('Buy Bitcoin', 'index.footer-link-box-buy-bitcoin')}}</a>
-                                <!--<a href="/how-to-buy-ethereum-2022">Buy Ethereum</a>
-                                <a href="/how-to-buy-usdt-2022">Buy USDT</a>-->
+                                <a :href="$i18nGetPreferredPath('/how-to-buy-ethereum-2022')">{{ $td('Buy Ethereum', 'index.footer-link-box-buy-ethereum')}}</a>
                             </div>
                             <div class="earn-links">
                                 <a :href="$i18nGetPreferredPath('/how-to-earn-bitcoin-2022')">{{ $td('Earn Bitcoin', 'index.footer-link-box-earn-bitcoin')}}</a>
-                                <!--<a href="/how-to-earn-ethereum-2022">Earn Ethereum</a>
-                                <a href="/how-to-earn-usdt-2022">Earn USDT</a>-->
+                                <a :href="$i18nGetPreferredPath('/how-to-earn-ethereum-2022')">{{ $td('Earn Ethereum', 'index.footer-link-box-earn-ethereum')}}</a>
                             </div>
                             <div class="wallet-links">
                                 <a :href="$i18nGetPreferredPath('/best-bitcoin-wallet-2022')">{{ $td('Bitcoin Wallet', 'index.footer-link-box-wallet-bitcoin')}}</a>
-                                <!--<a href="/best-ethereum-wallet-2022">Ethereum Wallet</a>
-                                <a href="/best-usdt-wallet-2022">USDT Wallet</a>-->
+                                <a :href="$i18nGetPreferredPath('/best-ethereum-wallet-2022')">{{ $td('Ethereum Wallet', 'index.footer-link-box-wallet-ethereum')}}</a>
                             </div>
                         </div>
                     </div>

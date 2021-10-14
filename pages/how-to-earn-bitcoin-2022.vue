@@ -39,7 +39,7 @@ export default {
             <div class="container">
                 <div class="top-line">
                     <div class="logo">
-                        <a href="/"><img src="/img/logo-honee.svg" alt="" width="122" height="24"/></a>
+                        <a href="/"><img src="/img/logo-honee.svg" alt="Honee" width="122" height="24"/></a>
                     </div>
                     <div class="share">
                         <span>Share</span>

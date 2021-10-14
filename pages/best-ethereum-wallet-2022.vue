@@ -10,8 +10,8 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle('The Best Bitcoin (BTC) Wallet 2022');
-        const description = 'You\'ll learn how to create and set up the best Bitcoin wallet of 2022 in this short, easy-to-understand guide. User-friendliness above all!';
+        const title = getTitle('The Best Ethereum Wallet 2022');
+        const description = 'Security aside, the best Ethereum wallet of 2022 should be capable of providing its users with mobility. Honee app is developed with user experience in mind, and one of its main goals is to allow holders to move coins and tokens freely across the networks.';
 
         return {
             title: title,
@@ -51,80 +51,77 @@ export default {
                     </div>
                 </div>
                 <section class="article-header">
-                    <h1>The Best Bitcoin (BTC) Wallet 2022</h1>
-                    <h2>What’s Bitcoin?</h2>
-                    <p class="subtitle-h1">Bitcoin (also known as BTC) is the first-ever cryptocurrency that was created back in 2009, paving the way for decentralized systems (blockchains) particularly and the whole crypto industry in general.</p>
+                    <h1>The Best Ethereum (ETH) Wallet in 2022</h1>
+                    <h2>What’s Ethereum?</h2>
+                    <p class="subtitle-h1">Ethereum (also known as Ether, or ETH) is the second-largest cryptocurrency. It was created back in 2015 and has since brought into the world the smart contracts and decentralized finance (DeFi). So what should the best Ethereum wallet of 2022 be like?</p>
                 </section>
                 <section class="asset-block">
-                    <img src="/img/articles/asset-bitcoin.png" alt="best bitcoin (btc) wallet 2022">
+                    <img src="/img/articles/asset-ethereum.svg" alt="best ethereum (eth) wallet 2022">
                     <div class="asset-info">
                         <div class="asset-info-data">
                             <div class="asset-info-item">
                                 <div class="item-label">Name</div>
-                                <b>Bitcoin</b>
+                                <b>Ethereum, Ether</b>
                             </div>
                             <div class="asset-info-item">
-                                <div class="item-label">Ticker</div>
-                                <b>BTC</b>
+                                <div class="item-label">Symbol</div>
+                                <b>ETH</b>
                             </div>
                             <div class="asset-info-item">
-                                <div class="item-label">Maximum supply</div>
-                                <b>21 000 000 BTC</b>
+                                <div class="item-label">Max. supply</div>
+                                <b>infinite</b>
                             </div>
                         </div>
                         <div class="asset-info-links">
                             <div class="asset-info-item">
-                                <a href="https://bitcoin.org" target="_blank" rel="nofollow">Website</a>
+                                <a href="https://ethereum.org/" target="_blank" rel="nofollow">Site</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://www.blockchain.com/explorer" target="_blank" rel="nofollow">Explorer</a>
+                                <a href="https://etherscan.io/" target="_blank" rel="nofollow">Explorer</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="nofollow">Whitepaper</a>
+                                <a href="https://github.com/ethereum/wiki/wiki/White-Paper" target="_blank" rel="nofollow">Whitepaper</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://coinmarketcap.com/currencies/bitcoin/" target="_blank" rel="nofollow">CMC</a>
+                                <a href="https://coinmarketcap.com/currencies/ethereum/" target="_blank" rel="nofollow">CMC</a>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <h2>The Best Bitcoin Wallet 2022: Honee</h2>
-                    <p>The BTC in the Honee crypto wallet is a token mirrored from the main network of Bitcoin onto Ethereum. Depending on your balance across different networks, both Ethereum’s wBTC (wrapped BTC) and Minter’s BTC can be put into the Honee wallet.</p>
-                    <p>Wrapped and mirrored Bitcoin on other networks is just as valuable as the one on the Mainnet. That is so because when the original BTC is mirrored, it’s locked in the smart contract and released on the other network in the same amount. When Bitcoin is moved between the networks, it’s locked and issued in the same amount, too.</p>
-                    <p>What makes Honee the best Bitcoin wallet of 2022 is that not only does it have a sleek and intuitive UI, but it’s also transparent.</p>
-                    <p><b>The WBTC smart contract on Ethereum:</b><br>
-                    <a href="https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599" target="_blank" rel="nofollow">etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599</a>
+                    <h2>The Best Ethereum Wallet 2022: Honee</h2>
+                    <p>There are many different tokens in the Honee crypto wallet, one of which is Ethereum (ticker: ETH). It is a mirrored asset available for cross-chain transfers between the Minter and Ethereum blockchains. The Honee wallet can store both the original ETH and its wrapped and mirrored versions.</p>
+                    <p>The value of Ether remains the same across different networks thanks to the Minter Hub bridge, which transfers exactly the amount of ETH that has been sent. When making a cross-chain transfer, tokens are frozen in a smart contract on the one network and issued (or unfrozen, depending on the direction) on the other. Thus, Ethereum retains its value regardless of which wallet or network it is stored in.</p>
+                    <p>What makes Honee the best Ethereum wallet of 2022 is that it’s not only user-oriented, but also ever-growing in features and completely transparent.</p>
+                    <p><b>The smart contract of WETH:</b><br>
+                    <a href="https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2" target="_blank" rel="nofollow">etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2</a>
                     </p>
-                    <p><b>The Minter Hub smart contract:</b><br>
+                    <p><b>The smart contract of Minter Hub:</b><br>
                     <a href="https://etherscan.io/address/0xc735478ef7562ecc37662fc7c5e521eb835f9dab" target="_blank" rel="nofollow">etherscan.io/address/0xc735478ef7562ecc37662fc7c5e521eb835f9dab</a>
-                    </p>
-                    <p><b>The BTC cold wallet on Minter Hub:</b><br>
-                    <a href="https://etherscan.io/address/0x58BD8047F441B9D511aEE9c581aEb1caB4FE0b6d" target="_blank" rel="nofollow">etherscan.io/address/0x58BD8047F441B9D511aEE9c581aEb1caB4FE0b6d</a>
                     </p>
                 </section>
                 <section>
-                    <h2>How to Set Up and Create a Bitcoin Wallet in 2022</h2>
+                    <h2>How to Set Up and Create an Ethereum Wallet in 2022</h2>
                     <div class="article-picture-box">
                         <div class="article-picture-box-content">
                             <ol>
-                                <li>Open <b>Honee</b> web app</li>
-                                <li>Press <b>Sign Up</b></li>
-                                <li>Save the generated seed phrase somewhere safe (it is this phrase that you’ll be using to log in to your newly created wallet)</li>
-                                <li>Hit <b>Launch</b> once you’ve double-checked that your seed phrase has been written down or copy-pasted to someplace safe and made sure you’re the only one who can access it.</li>
+                                <li>Open the web app of <b>Honee</b></li>
+                                <li>Click <b>Sign Up</b></li>
+                                <li>Save the seed phrase you got someplace safe (in future, you’ll need it to sign in to your freshly created wallet)</li>
+                                <li>Press <b>Launch</b></li>
                             </ol>
                         </div>
                         <div class="article-picture-box-img wallet-bitcoin-1">
                             <picture>
                                 <source srcset="/img/articles/buy-bitcoin-1.avif 1x, /img/articles/buy-bitcoin-1@2x.avif 2x" type="image/avif">
                                 <source srcset="/img/articles/buy-bitcoin-1.webp 1x, /img/articles/buy-bitcoin-1@2x.webp 2x" type="image/webp">
-                                <img src="/img/articles/buy-bitcoin-1.png" srcset="/img/articles/buy-bitcoin-1@2x.png 2x" alt="how to create and set up a bitcoin wallet in 2022" role="presentation"/>
+                                <img src="/img/articles/buy-bitcoin-1.png" srcset="/img/articles/buy-bitcoin-1@2x.png 2x" alt="how to create and set up an ethereum wallet in 2022" role="presentation"/>
                             </picture>
                         </div>
                     </div>
                 </section>
                 <section class="article-last-block">
-                    <p class="subtitle-h1">We hope that now that you’ve finished scrolling down this page, you have an actionable understanding of which Bitcoin wallet is the best. In 2022, Honee release version hits the market—meaning storing BTC will get much more user-friendly!</p>
+                    <p class="subtitle-h1">We hope that after reading this article, you have an answer to the question, <i>What is the best Ethereum wallet in 2022?</i> and will use Honee!</p>
                     <div class="cta-center">
                         <a class="btn btn-2" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Launch Honee', 'index.steps-button')}}</a>
                     </div>

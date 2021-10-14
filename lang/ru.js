@@ -72,6 +72,9 @@ export default {
 		'footer-link-box-buy-bitcoin': 'Купить Биткоин',
 		'footer-link-box-earn-bitcoin': 'Заработать Биткоин',
 		'footer-link-box-wallet-bitcoin': 'Биткоин кошелек',
+		'footer-link-box-buy-ethereum': 'Купить Эфириум',
+		'footer-link-box-earn-ethereum': 'Заработать Эфириум',
+		'footer-link-box-wallet-ethereum': 'Эфириум кошелек',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',
