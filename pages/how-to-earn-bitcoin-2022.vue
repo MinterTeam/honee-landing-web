@@ -61,7 +61,13 @@ export default {
                         <p>What’s better than buying Bitcoin low, selling high? Honee App allows you to trade in a fast and convenient way. You can make an exchange in just a couple of clicks.</p>
                         <p>Simply select the tokens you want to swap (for example, USDT) and specify the amount. The wallet will show you the amount of BTC you’ll get right away, along with the rate you’re buying it at.</p>
                     </div>
-                    <div class="article-picture-box-img earn-bitcoin-1"><img src="/img/articles/earn-bitcoin-1.png" alt="how to earn bitcoin 2022" /></div>
+                    <div class="article-picture-box-img earn-bitcoin-1">
+                        <picture>
+                            <source srcset="/img/articles/earn-bitcoin-1.avif 1x, /img/articles/earn-bitcoin-1@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/articles/earn-bitcoin-1.webp 1x, /img/articles/earn-bitcoin-1@2x.webp 2x" type="image/webp">
+                            <img src="/img/articles/earn-bitcoin-1.png" srcset="/img/articles/earn-bitcoin-1@2x.png 2x" alt="how to earn bitcoin 2022" role="presentation"/>
+                        </picture>
+                    </div>
                 </section>
                 <section class="article-picture-box box-reverse">
                     <div class="article-picture-box-content">
@@ -69,7 +75,13 @@ export default {
                         <p>Another answer to the question, “how to earn Bitcoin in 2022?” is liquidity mining, which is one of the elements of DeFi (decentralized finance). For providing liquidity to the pools that contain BTC, you’ll be getting a share of the fee charged for every swap made within those pools. For example, you’re an LP of the BTC-USDT pool, where someone makes a swap transaction and pays a fee in BTC. That fee will then be distributed among all participants of the pool proportionally to their share of pool, making the pool itself bigger and “richer.” To get the fee you’ve earned, you’ll need to remove a corresponding amount of liquidity from the pool.</p>
                         <p>To provide liquidity into a pool with Bitcoin, pick the card you need and leave the rest to Honee. When choosing a card, pay attention to APY—this parameter shows yearly returns.</p>
                     </div>
-                    <div class="article-picture-box-img earn-bitcoin-2"><img src="/img/articles/earn-bitcoin-2.png" alt="how to get bitcoin 2022" /></div>
+                    <div class="article-picture-box-img earn-bitcoin-2">
+                        <picture>
+                            <source srcset="/img/articles/earn-bitcoin-2.avif 1x, /img/articles/earn-bitcoin-2@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/articles/earn-bitcoin-2.webp 1x, /img/articles/earn-bitcoin-2@2x.webp 2x" type="image/webp">
+                            <img src="/img/articles/earn-bitcoin-2.png" srcset="/img/articles/earn-bitcoin-2@2x.png 2x" alt="how to get bitcoin 2022" role="presentation"/>
+                        </picture>
+                    </div>
                 </section>
                 <section>
                     <h3>Yield Farming with Bitcoin</h3>
@@ -81,7 +93,13 @@ export default {
                         <h2>How to Get Free Bitcoin 2022</h2>
                         <p>The last (but not least!) way to make money for BTC liquidity providers is to get Bitcoin for free through everyday giveaways. Each day, a randomly picked participant of the pool will win a prize outlined in a Honee card. The more BTC you’re supplying, the higher the chances.</p>
                     </div>
-                    <div class="article-picture-box-img earn-bitcoin-3"><img src="/img/articles/earn-bitcoin-3.png" alt="how to get bitcoin for free 2022" /></div>
+                    <div class="article-picture-box-img earn-bitcoin-3">
+                        <picture>
+                            <source srcset="/img/articles/earn-bitcoin-3.avif 1x, /img/articles/earn-bitcoin-3@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/articles/earn-bitcoin-3.webp 1x, /img/articles/earn-bitcoin-3@2x.webp 2x" type="image/webp">
+                            <img src="/img/articles/earn-bitcoin-3.png" srcset="/img/articles/earn-bitcoin-3@2x.png 2x" alt="how to get bitcoin for free 2022" role="presentation"/>
+                        </picture>
+                    </div>
                 </section>
                 <section class="article-last-block">
                     <p class="subtitle-h1">We hope that now that you’ve finished scrolling down this page, you have an actionable understanding of which Bitcoin wallet is the best. In 2022, Honee release version hits the market—meaning storing BTC will get much more user-friendly!</p>

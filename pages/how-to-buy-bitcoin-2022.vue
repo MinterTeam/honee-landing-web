@@ -59,7 +59,13 @@ export default {
                         <h2><span class="h2-badge">1</span>Deposit</h2>
                         <p>To buy BTC, you will need an address in the Honee crypto wallet. You can log in with the one you already have or create a new one.</p>
                     </div>
-                    <div class="article-picture-box-img buy-bitcoin-1"><img src="/img/articles/buy-bitcoin-1.png" alt="best way to buy bitcoin 2022" /></div>
+                    <div class="article-picture-box-img buy-bitcoin-1">
+                        <picture>
+                            <source srcset="/img/articles/buy-bitcoin-1.avif 1x, /img/articles/buy-bitcoin-1@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/articles/buy-bitcoin-1.webp 1x, /img/articles/buy-bitcoin-1@2x.webp 2x" type="image/webp">
+                            <img src="/img/articles/buy-bitcoin-1.png" srcset="/img/articles/buy-bitcoin-1@2x.png 2x" alt="best way to buy bitcoin 2022" role="presentation"/>
+                        </picture>
+                    </div>
                 </section>
                 <section class="article-picture-box box-reverse">
                     <div class="article-picture-box-content">
@@ -71,7 +77,13 @@ export default {
                         </ol>
                         <p>Once the transaction has gone through, you’ll see the deposited amount on your balance.</p>
                     </div>
-                    <div class="article-picture-box-img buy-bitcoin-2"><img src="/img/articles/buy-bitcoin-2.png" alt="how to buy bitcoin 2022" /></div>
+                    <div class="article-picture-box-img buy-bitcoin-2">
+                        <picture>
+                            <source srcset="/img/articles/buy-bitcoin-2.avif 1x, /img/articles/buy-bitcoin-2@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/articles/buy-bitcoin-2.webp 1x, /img/articles/buy-bitcoin-2@2x.webp 2x" type="image/webp">
+                            <img src="/img/articles/buy-bitcoin-2.png" srcset="/img/articles/buy-bitcoin-2@2x.png 2x" alt="how to buy bitcoin 2022" role="presentation"/>
+                        </picture>
+                    </div>
                 </section>
                 <section>
                     <h2><span class="h2-badge">2</span>How to Buy Bitcoin 2022</h2>
@@ -88,7 +100,13 @@ export default {
                             </ol>
                             <p>Once the buy Bitcoin transaction is completed, BTC will appear on your balance.</p>
                         </div>
-                        <div class="article-picture-box-img buy-bitcoin-3"><img src="/img/articles/buy-bitcoin-3.png" alt="how to buy btc 2022" class="img-deposit" /></div>
+                        <div class="article-picture-box-img buy-bitcoin-3">
+                            <picture>
+                                <source srcset="/img/articles/buy-bitcoin-3.avif 1x, /img/articles/buy-bitcoin-3@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/articles/buy-bitcoin-3.webp 1x, /img/articles/buy-bitcoin-3@2x.webp 2x" type="image/webp">
+                                <img src="/img/articles/buy-bitcoin-3.png" srcset="/img/articles/buy-bitcoin-3@2x.png 2x" alt="how to buy btc 2022" role="presentation"/>
+                            </picture>
+                        </div>
                     </div>
                 </section>
                 <section class="article-last-block">

@@ -117,7 +117,13 @@ export default {
                                 <li>Нажмите <b>Запуск</b>, убедившись, что ваша seed-фраза сохранена в надежном месте и доступ к ней имеете только вы.</li>
                             </ol>
                         </div>
-                        <div class="article-picture-box-img wallet-bitcoin-1"><img src="/img/articles/buy-bitcoin-1.png" alt="как создать биткойн-кошелек в 2022" /></div>
+                        <div class="article-picture-box-img wallet-bitcoin-1">
+                            <picture>
+                                <source srcset="/img/articles/buy-bitcoin-1.avif 1x, /img/articles/buy-bitcoin-1@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/articles/buy-bitcoin-1.webp 1x, /img/articles/buy-bitcoin-1@2x.webp 2x" type="image/webp">
+                                <img src="/img/articles/buy-bitcoin-1.png" srcset="/img/articles/buy-bitcoin-1@2x.png 2x" alt="как создать биткойн-кошелек в 2022" role="presentation"/>
+                            </picture>
+                        </div>
                     </div>
                 </section>
                 <section class="article-last-block">

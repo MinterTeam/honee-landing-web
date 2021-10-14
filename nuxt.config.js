@@ -155,7 +155,7 @@ module.exports = {
                         name: 'styles',
                         test: /\.(css|vue)$/,
                         chunks: 'all',
-                        enforce: true
+                        enforce: true,
                     },
                 },
             },

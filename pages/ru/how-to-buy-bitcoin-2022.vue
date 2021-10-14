@@ -62,7 +62,13 @@ export default {
                         <h2><span class="h2-badge">1</span>Депозит</h2>
                         <p>Для покупки BTC вам понадобится адрес в криптокошельке Honee. Вы можете зарегистрировать новый или войти с уже имеющимся.</p>
                     </div>
-                    <div class="article-picture-box-img buy-bitcoin-1"><img src="/img/articles/buy-bitcoin-1.png" alt="лучший способ купить биткоин 2022" /></div>
+                    <div class="article-picture-box-img buy-bitcoin-1">
+                        <picture>
+                            <source srcset="/img/articles/buy-bitcoin-1.avif 1x, /img/articles/buy-bitcoin-1@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/articles/buy-bitcoin-1.webp 1x, /img/articles/buy-bitcoin-1@2x.webp 2x" type="image/webp">
+                            <img src="/img/articles/buy-bitcoin-1.png" srcset="/img/articles/buy-bitcoin-1@2x.png 2x" alt="лучший способ купить биткоин 2022" role="presentation"/>
+                        </picture>
+                    </div>
                 </section>
                 <section class="article-picture-box box-reverse">
                     <div class="article-picture-box-content">
@@ -74,7 +80,13 @@ export default {
                         </ol>
                         <p>После того, как транзакция будет совершена, на вашем балансе отобразится сумма депозита.</p>
                     </div>
-                    <div class="article-picture-box-img buy-bitcoin-2"><img src="/img/articles/buy-bitcoin-2.png" alt="как купить биткоин 2022" /></div>
+                    <div class="article-picture-box-img buy-bitcoin-2">
+                        <picture>
+                            <source srcset="/img/articles/buy-bitcoin-2.avif 1x, /img/articles/buy-bitcoin-2@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/articles/buy-bitcoin-2.webp 1x, /img/articles/buy-bitcoin-2@2x.webp 2x" type="image/webp">
+                            <img src="/img/articles/buy-bitcoin-2.png" srcset="/img/articles/buy-bitcoin-2@2x.png 2x" alt="как купить биткоин 2022" role="presentation"/>
+                        </picture>
+                    </div>
                 </section>
                 <section>
                     <h2><span class="h2-badge">2</span>Как купить Биткоин 2022</h2>
@@ -91,7 +103,13 @@ export default {
                             </ol>
                             <p>После этого транзакция покупки Биткоина будет совершена и BTC появится на вашем балансе.</p>
                         </div>
-                        <div class="article-picture-box-img buy-bitcoin-3"><img src="/img/articles/buy-bitcoin-3.png" alt="как купить биткойн 2022" class="img-deposit" /></div>
+                        <div class="article-picture-box-img buy-bitcoin-3">
+                            <picture>
+                                <source srcset="/img/articles/buy-bitcoin-3.avif 1x, /img/articles/buy-bitcoin-3@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/articles/buy-bitcoin-3.webp 1x, /img/articles/buy-bitcoin-3@2x.webp 2x" type="image/webp">
+                                <img src="/img/articles/buy-bitcoin-3.png" srcset="/img/articles/buy-bitcoin-3@2x.png 2x" alt="как купить биткойн 2022" role="presentation"/>
+                            </picture>
+                        </div>
                     </div>
                 </section>
                 <section class="article-last-block">
