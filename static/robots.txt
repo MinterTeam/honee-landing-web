@@ -3,8 +3,8 @@ Disallow: /*?
 Disallow: /ru/*?
 Disallow: /*&
 Disallow: /ru/*&
-Disallow: /auth/
-Disallow: /ru/auth/
+Disallow: /_*
+Disallow: /ru/_*
 Disallow: /dashboard/
 Disallow: /ru/dashboard/
 Host: https://honee.app
