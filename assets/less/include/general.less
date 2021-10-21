@@ -68,11 +68,12 @@ a, .link {&:hover, &:focus {/*text-decoration: underline; */outline: none;}}
 }
 .link--default {.link--main(); .link--hover(); font-weight: 600;}
 .link--default-green {.link--green(); .link--hover(); font-weight: 600;}
+.link--default-black {.link--hover(); font-weight: 600;}
 button {cursor: pointer; outline: none;}
-p, ul, ol {margin: 0;}
-p, ul, ol, h5 {
-    &+& {margin-top: 0.75rem;}
-}
+//p, ul, ol {margin: 0;}
+//p, ul, ol, h5 {
+//    &+& {margin-top: 0.75rem;}
+//}
 sub, sup { font-size: 75%;}
 .no-list {
     padding: 0; margin: 0;
@@ -95,7 +96,7 @@ input {vertical-align: middle;}
 textarea {resize: none;}
 
 .u-h {margin: 0; font-family: @heading-font-family; font-weight: 700; line-height: 1.2;}
-h1, h2, h3, h4, h5, h6 {.u-h();}
+//h1, h2, h3, h4, h5, h6 {.u-h();}
 //.h-title {font-size: 24px; text-transform: uppercase; margin-bottom: 12px;}
 .u-h1 {font-size: 32px; line-height: 1.22;}
 .u-h2 {font-size: 24px;}
@@ -319,96 +320,5 @@ blockquote {
 .form-field__icon--copy {top: calc((100% - 24px) / 2);}
 
 
-// checkbox & radio
-.form-check-label {font-weight: 700; margin-bottom: 12px;}
-.form-check-error {.error-text(); margin-top: 4px;}
-.form-check {
-    position: relative; display: inline-block; user-select: none; cursor: pointer; font-weight: 600; margin: 0; line-height: 0;
-    &.is-disabled {opacity: 0.5; cursor: default;}
-    &+& {margin-left: 16px;} /* сейчас используются только в профиле, при больше ширине понадобится отдельный хелпер form-check-inline-group */
-}
-.form-check__input {position: absolute; left: 0; top: 0; opacity: 0; z-index: -1;}
-.form-check__label {padding-left: 30px; display: inline-block; font-size: 14px; line-height: 22px;}
-.form-check__label--radio {
-    &::before {content: ''; width: 20px; height: 20px; position: absolute; left: 1px; top: 1px; border: 2px solid hsl(0,0,46%); border-radius: 99px; transition: 0.15s;}
-    &::after {content: ''; position: absolute; left: 11px; top: 11px; transform: translate(-50%, -50%); border: 0 solid @c-main; border-radius: 99px; transition: 0.15s;}
-    .form-check__input:focus + & {
-        &::before {box-shadow: 0 0 3px @c-main;}
-    }
-    .form-check__input:checked + & {
-        &::before {border-color: @c-main;}
-        &::after {border-width: 5px;}
-    }
-}
-.form-check__label--checkbox {
-    &::before {content: ''; width: 18px; height: 18px; position: absolute; left: 2px; top: 2px; border: 2px solid hsl(0,0,46%); border-radius: 2px; transition: 0.15s;}
-    &::after {content: ''; position: absolute; left: 5px; top: 6px; width: 12px; height: 7px; border: solid #fff; border-width: 0 0 2px 2px; transform: rotate(-45deg); opacity: 0; transition: 0.15s;}
-    .form-check__input:focus + & {
-        &::before {box-shadow: 0 0 3px @c-main;}
-    }
-    .form-check__input:checked + & {
-        &::before {border-color: @c-main; background-color: @c-main;}
-        &::after {opacity: 1;}
-    }
-}
 
-@range-color-bg: #d7def6;
-@range-color: #707ba3;
-@range-track-height: 4px;
-@range-track-radius: 2px;
-.form-range {
-    --range:calc(var(--max) - var(--min));
-    --ratio:calc((var(--val) - var(--min)) / var(--range) * 100%);
-    -webkit-appearance:none; display: block; width:100%;background: none;outline:0;padding:0; height: 24px;
-}
-.form-range::-moz-focus-outer {border:0}
-.range-track() {width:100%;height:@range-track-height;border-radius:@range-track-radius;background:@range-color-bg;cursor:pointer;}
-.form-range::-webkit-slider-runnable-track {
-    .range-track();
-    background:linear-gradient(@range-color,@range-color) 0/var(--ratio) 100% no-repeat @range-color-bg
-}
-.form-range::-moz-range-track {
-    .range-track();
-}
-.form-range::-moz-range-progress {
-    .range-track();
-    background:@range-color
-}
-.form-range::-ms-track {
-    .range-track();
-    background: none;
-    border-color:transparent;
-    color:transparent;
-    border-width:9px 0
-}
-.form-range::-ms-fill-lower {
-    border-radius:@range-track-radius;
-    background:@range-color
-}
-.form-range::-ms-fill-upper {
-    border-radius:@range-track-radius;
-    background:@range-color-bg
-}
-// thumb
-.range-thumb() {
-    width:22px;
-    height:22px;
-    border:2px solid #f2f2f2;
-    border-radius:50%;
-    background: @range-color;
-    box-shadow: -8px 8px 20px rgba(0,0,0,.2);
-    cursor:pointer;
-}
-.form-range::-webkit-slider-thumb {
-    .range-thumb();
-    -webkit-appearance:none;
-    margin-top:-9px
-}
-.form-range::-moz-range-thumb {
-    .range-thumb();
-}
-.form-range::-ms-thumb {
-    .range-thumb();
-    margin-top:-1px
-}
 
