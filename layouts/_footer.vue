@@ -48,14 +48,17 @@ export default {
                             <div class="footer__links-cell u-cell u-cell--auto">
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-buy-bitcoin-2022')">{{ $td('Buy Bitcoin', 'index.footer-link-box-buy-bitcoin')}}</a>
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-buy-ethereum-2022')">{{ $td('Buy Ethereum', 'index.footer-link-box-buy-ethereum')}}</a>
+                                <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-buy-usdt-2022')">{{ $td('Buy USDT', 'index.footer-link-box-buy-usdt')}}</a>
                             </div>
                             <div class="footer__links-cell u-cell u-cell--auto">
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-earn-bitcoin-2022')">{{ $td('Earn Bitcoin', 'index.footer-link-box-earn-bitcoin')}}</a>
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-earn-ethereum-2022')">{{ $td('Earn Ethereum', 'index.footer-link-box-earn-ethereum')}}</a>
+                                <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-earn-usdt-2022')">{{ $td('Earn USDT', 'index.footer-link-box-earn-usdt')}}</a>
                             </div>
                             <div class="footer__links-cell u-cell u-cell--auto">
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/best-bitcoin-wallet-2022')">{{ $td('Bitcoin Wallet', 'index.footer-link-box-wallet-bitcoin')}}</a>
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/best-ethereum-wallet-2022')">{{ $td('Ethereum Wallet', 'index.footer-link-box-wallet-ethereum')}}</a>
+                                <a class="link--default-black" :href="$i18nGetPreferredPath('/best-usdt-wallet-2022')">{{ $td('USDT Wallet', 'index.footer-link-box-wallet-usdt')}}</a>
                             </div>
                         </div>
                     </div>

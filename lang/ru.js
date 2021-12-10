@@ -75,6 +75,9 @@ export default {
 		'footer-link-box-buy-ethereum': 'Купить Эфириум',
 		'footer-link-box-earn-ethereum': 'Заработать Эфириум',
 		'footer-link-box-wallet-ethereum': 'Эфириум кошелек',
+		'footer-link-box-buy-usdt': 'Купить USDT',
+		'footer-link-box-earn-usdt': 'Заработать USDT',
+		'footer-link-box-wallet-usdt': 'USDT кошелек',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',
