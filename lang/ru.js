@@ -81,6 +81,9 @@ export default {
 		'footer-link-box-buy-1inch': 'Купить 1INCH',
 		'footer-link-box-earn-1inch': 'Заработать 1INCH',
 		'footer-link-box-wallet-1inch': '1INCH кошелек',
+		'footer-link-box-buy-mvi': 'Купить MVI',
+		'footer-link-box-earn-mvi': 'Заработать MVI',
+		'footer-link-box-wallet-mvi': 'MVI кошелек',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',
