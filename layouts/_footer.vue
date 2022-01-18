@@ -51,6 +51,7 @@ export default {
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-buy-usdt-2022')">{{ $td('Buy USDT', 'index.footer-link-box-buy-usdt')}}</a>
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-buy-1inch-2022')">{{ $td('Buy 1INCH', 'index.footer-link-box-buy-1inch')}}</a>
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-buy-mvi-metaverse-index-2022')">{{ $td('Buy MVI', 'index.footer-link-box-buy-mvi')}}</a>
+                                <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-buy-toncoin-2022')">{{ $td('Buy TON', 'index.footer-link-box-buy-toncoin')}}</a>
                             </div>
                             <div class="footer__links-cell u-cell u-cell--auto">
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-earn-bitcoin-2022')">{{ $td('Earn Bitcoin', 'index.footer-link-box-earn-bitcoin')}}</a>
@@ -58,6 +59,7 @@ export default {
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-earn-usdt-2022')">{{ $td('Earn USDT', 'index.footer-link-box-earn-usdt')}}</a>
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-earn-1inch-2022')">{{ $td('Earn 1INCH', 'index.footer-link-box-earn-1inch')}}</a>
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-earn-mvi-metaverse-index-2022')">{{ $td('Earn MVI', 'index.footer-link-box-earn-mvi')}}</a>
+                                <a class="link--default-black" :href="$i18nGetPreferredPath('/how-to-earn-toncoin-2022')">{{ $td('Earn TON', 'index.footer-link-box-earn-toncoin')}}</a>
                             </div>
                             <div class="footer__links-cell u-cell u-cell--auto">
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/best-bitcoin-wallet-2022')">{{ $td('Bitcoin Wallet', 'index.footer-link-box-wallet-bitcoin')}}</a>
@@ -65,6 +67,7 @@ export default {
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/best-usdt-wallet-2022')">{{ $td('USDT Wallet', 'index.footer-link-box-wallet-usdt')}}</a>
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/best-1inch-wallet-2022')">{{ $td('1INCH Wallet', 'index.footer-link-box-wallet-1inch')}}</a>
                                 <a class="link--default-black" :href="$i18nGetPreferredPath('/best-mvi-metaindex-wallet-2022')">{{ $td('MVI Wallet', 'index.footer-link-box-wallet-mvi')}}</a>
+                                <a class="link--default-black" :href="$i18nGetPreferredPath('/best-toncoin-wallet-2022')">{{ $td('TON Wallet', 'index.footer-link-box-wallet-toncoin')}}</a>
                             </div>
                         </div>
                     </div>

@@ -84,6 +84,9 @@ export default {
 		'footer-link-box-buy-mvi': 'Купить MVI',
 		'footer-link-box-earn-mvi': 'Заработать MVI',
 		'footer-link-box-wallet-mvi': 'MVI кошелек',
+		'footer-link-box-buy-toncoin': 'Купить TON',
+		'footer-link-box-earn-toncoin': 'Заработать TON',
+		'footer-link-box-wallet-toncoin': 'TON кошелек',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',

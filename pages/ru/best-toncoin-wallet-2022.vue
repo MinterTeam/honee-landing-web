@@ -5,7 +5,7 @@ import trackClick from '~/assets/v-track-click.js';
 export default {
     nuxtI18n: {
         paths: {
-            ru: '/luchshij-koshelek-dlya-1inch-2022',
+            ru: '/luchshij-koshelek-dlya-toncoin-2022',
         },
         locales: ['ru'],
     },
@@ -13,8 +13,8 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle('Лучший кошелек для 1INCH в 2022');
-        const description = 'Honee — лучший кошелек для хранения и заработка 1INCH в 2022. Зарабатывайте криптовалюту даже когда вы спите.';
+        const title = getTitle('Лучший кошелек для Toncoin в 2022');
+        const description = 'Лучший кошелек для Toncoin в 2022 году, по нашему мнению, должен соответствовать всем современным требованиям в плане безопасности и ориентированности на безупречный пользовательский опыт.';
 
         return {
             title: title,
@@ -54,76 +54,75 @@ export default {
                     </div>
                 </div>
                 <section class="article-header">
-                    <h1>Лучший кошелек для 1INCH в 2022 году: Преимущества использования Honee</h1>
-                    <h2>Что такое 1INCH?</h2>
-                    <p class="subtitle-h1">1INCH — агрегатор децентрализованных обменников, объединяющий несколько DEX в одну платформу для поиска наиболее эффективных маршрутов обмена криптовалют. Быстро купить и приумножить криптовалюту позволит Honee — лучший кошелек для 1INCH в 2022 году.</p>
+                    <h1>Лучший кошелек для Toncoin в 2022 году</h1>
+                    <h2>Что такое TON?</h2>
+                    <p class="subtitle-h1">TON — это новый, быстро набирающий популярность блокчейн-проект. Иметь в своем инвестиционном портфеле подобный крипто-актив крайне полезно. Основным залогом успеха The Open Network является сильная команда разработчиков (победители различных конкурсов по блокчейн-кодингу), масштабируемость блокчейна, высокая скорость платежей и простота в использовании. Также козырем в рукаве можно назвать причастность Павла и Николая Дуровых к начальному этапу развития данного крипто-проекта. Какими же качествами должен обладать лучший кошелек для Toncoin в 2022 году?</p>
                 </section>
                 <section class="asset-block">
-                    <img src="/img/articles/asset-1inch.svg" alt="лучший 1inch кошелек 2022">
+                    <img src="/img/articles/asset-toncoin.svg" alt="лучший toncoin кошелек 2022">
                     <div class="asset-info">
                         <div class="asset-info-data">
                             <div class="asset-info-item">
                                 <div class="item-label">Название</div>
-                                <b>1inch Network</b>
+                                <b>Toncoin</b>
                             </div>
                             <div class="asset-info-item">
                                 <div class="item-label">Тикер</div>
-                                <b>1INCH</b>
+                                <b>TONCOIN</b>
                             </div>
                             <div class="asset-info-item">
                                 <div class="item-label">Макс. эмиссия</div>
-                                <b>не ограничена</b>
+                                <b>5,000,000,000</b>
                             </div>
                         </div>
                         <div class="asset-info-links">
                             <div class="asset-info-item">
-                                <a href="https://1inch.io/" target="_blank" rel="nofollow">Сайт</a>
+                                <a href="https://ton.org/" target="_blank" rel="nofollow">Сайт</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://etherscan.io/" target="_blank" rel="nofollow">Эксплорер</a>
+                                <a href="https://ton.sh/" target="_blank" rel="nofollow">Эксплорер</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://1inch.io/token/" target="_blank" rel="nofollow">Токен</a>
+                                <a href="https://ton.org/whitepaper.pdf" target="_blank" rel="nofollow">White Paper</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://coinmarketcap.com/currencies/1inch/" target="_blank" rel="nofollow">CMC</a>
+                                <a href="https://coinmarketcap.com/currencies/toncoin/" target="_blank" rel="nofollow">CMC</a>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <p>В криптокошельке Honee ваш заработок становится легким и безопасным. При его создании мы постарались сделать так, чтобы все операции с криптовалютой были легкими и непринужденными, а разобраться с основными операциями смогли бы даже начинающие трейдеры. Благодаря своей надежности и удобству использования, Honee является лучшим кошельком для хранения 1INCH 2022 года.</p>
-                    <p>В крипто-кошельке Honee токен 1INCH представляет собой зеркалированный актив из сети Ethereum с одноименным тикером в сети Minter и полностью обеспечен оригинальным токеном.</p>
-                    <p><b>Смарт-контракт 1INCH:</b><br>
-                    <a href="https://etherscan.io/address/0x111111111117dc0aa78b770fa6a738034120c302" target="_blank" rel="nofollow">etherscan.io/address/0x111111111117dc0aa78b770fa6a738034120c302</a>
+                    <h2>Лучший кошелек для Toncoin в 2022: Какие преимущества Honee?</h2>
+                    <p>Выбор кошелька для хранения перспективных токенов — очень важный аспект. Нельзя ни в коем случае пренебрегать безопасностью и юзабилити. Однако решение уже найдено — Honee. Данный кошелек полностью децентрализован (доступ к криптовалюте остается только у вас) так как он некастодиальный. К тому же, можно отметить низкие комиссии на переводы и удобный интерфейс.</p>
+                    <p>В кошельке Honee проект The Open Network представлен как токен под тикером Toncoin.</p>
+                    <p><b>Смарт-контракт TONCOIN:</b><br>
+                    <a href="https://etherscan.io/address/0x582d872a1b094fc48f5de31d3b73f2d9be47def1" target="_blank" rel="nofollow">etherscan.io/address/0x582d872a1b094fc48f5de31d3b73f2d9be47def1</a>
                     </p>
                     <p><b>Смарт-контракт Minter Hub:</b><br>
                     <a href="https://etherscan.io/address/0xc735478ef7562ecc37662fc7c5e521eb835f9dab" target="_blank" rel="nofollow">etherscan.io/address/0xc735478ef7562ecc37662fc7c5e521eb835f9dab</a>
                     </p>
                 </section>
                 <section>
-                    <h2>Как создать лучший кошелек для 1INCH в 2022</h2>
+                    <h2>Как создать лучший кошелек для Toncoin в 2022</h2>
                     <div class="article-picture-box">
                         <div class="article-picture-box-content">
-                            <p>Весь процесс создания кошелька займет у вас не более одной минуты.</p>
                             <ol>
-                                <li>Откройте кошелек <a href="https://my.honee.app/ru">Honee</a> и кликните по пиктограмме «Зарегистрируйтесь»;</li>
-                                <li>Сохраните полученную seed-фразу в надежном месте и сделайте ее резервную копию. Помните, что в случае потери вы не сможете ее восстановить и потеряете свои средства;</li>
-                                <li>Отметьте пункт «Я сохранил фразу»;</li>
-                                <li>Кликните на пункт «<b>Запустить Honee</b>».</li>
+                                <li>Переходим на <a href="https://my.honee.app/">Honee</a> и жмем <b>Зарегистрируйтесь</b>;</li>
+                                <li>Копируем полученную seed-фразу и сохраняем ее в проверенном месте, отмечая галочку впоследствии;</li>
+                                <li>Жмем <b>Запустить Honee</b>.</li>
                             </ol>
                         </div>
                         <div class="article-picture-box-img wallet-bitcoin-1">
                             <picture>
                                 <source srcset="/img/articles/buy-1inch-1-ru.avif 1x, /img/articles/buy-1inch-1-ru@2x.avif 2x" type="image/avif">
                                 <source srcset="/img/articles/buy-1inch-1-ru.webp 1x, /img/articles/buy-1inch-1-ru@2x.webp 2x" type="image/webp">
-                                <img src="/img/articles/buy-1inch-1-ru.png" srcset="/img/articles/buy-1inch-1-ru@2x.png 2x" alt="как создать 1inch кошелек 2022" role="presentation"/>
+                                <img src="/img/articles/buy-1inch-1-ru.png" srcset="/img/articles/buy-1inch-1-ru@2x.png 2x" alt="как создать toncoin кошелек 2022" role="presentation"/>
                             </picture>
                         </div>
                     </div>
                 </section>
                 <section class="article-last-block">
-                    <p class="subtitle-h1">С криптокошельком Honee вы можете покупать и обменивать 1INCH на любые активы буквально по щелчку мыши. Простой и понятный интерфейс, передовые технологии и легкие инструменты для заработка делают Honee лучшим кошельком для 1INCH в 2022 году. </p>
+                    <p class="subtitle-h1">Наша команда постаралась создать поистине лучший кошелек для Toncoin 2022 года — удобный, безопасный и предельно простой в использовании.</p>
                     <div class="cta-center">
                         <a class="btn btn-2" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Launch Honee', 'index.steps-button')}}</a>
                     </div>
