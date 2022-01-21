@@ -87,6 +87,9 @@ export default {
 		'footer-link-box-buy-toncoin': 'Купить TON',
 		'footer-link-box-earn-toncoin': 'Заработать TON',
 		'footer-link-box-wallet-toncoin': 'TON кошелек',
+		'footer-link-box-buy-shib': 'Купить SHIB',
+		'footer-link-box-earn-shib': 'Заработать SHIB',
+		'footer-link-box-wallet-shib': 'SHIB кошелек',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',
