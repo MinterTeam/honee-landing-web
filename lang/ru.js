@@ -90,6 +90,9 @@ export default {
 		'footer-link-box-buy-shib': 'Купить SHIB',
 		'footer-link-box-earn-shib': 'Заработать SHIB',
 		'footer-link-box-wallet-shib': 'SHIB кошелек',
+		'footer-link-box-buy-uni': 'Купить UNI',
+		'footer-link-box-earn-uni': 'Заработать UNI',
+		'footer-link-box-wallet-uni': 'UNI кошелек',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',
