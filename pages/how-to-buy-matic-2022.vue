@@ -10,8 +10,8 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle('How to Buy UNI 2022');
-        const description = 'Honee wallet is the best way to buy and earn UNI cryptocurrency in 2022.';
+        const title = getTitle('How to Buy MATIC 2022');
+        const description = 'How to buy MATIC in 2022 from within a secure Honee wallet. A fast, safe way.';
 
         return {
             title: title,
@@ -51,29 +51,24 @@ export default {
                     </div>
                 </div>
                 <section class="article-header">
-                    <p>This simple guide will help you understand how to buy UNI in 2022 quickly and safely using the best wallet, which is Honee.</p>
-                    <h1>How to Buy UNI in 2022</h1>
-                    <p class="subtitle-h1">There are two ways to buy UNI within Honee crypto wallet. The first method involves the direct swap of any liquid cryptocurrency in the Minter network for UNIBSC. The UNIBSC ticker on the Minter network is used to signify that it is a mirrored asset fully backed by the original UNI token. The Honee wallet got this opportunity thanks to the <a href="https://www.minter.network/earn/cross-chain">cross-chain transfer</a> mechanism, which is carried out through the Minter Hub bridge.</p>
-                    <p>If there is no UNI in your wallet yet, you must first replenish it with any liquid Minter network token or Ether. When replenishing through the Ethereum network, the ETH is automatically converted into the Minter network token of your choice and then exchanged for UNIBSC.</p>
+                    <p>MATIC is a native token of the secure autonomous sidechain network Polygon that was created to increase the scalability and speed of transactions on the Ethereum network. Our guide will show you how to buy MATIC cryptocurrency in 2022 with Honee crypto wallet.</p>
+                    <h1>How to Buy MATIC in 2022</h1>
+                    <p class="subtitle-h1">In Honee, you can buy MATIC quickly and securely. To do that, you need to fund your Honee wallet with any supported cryptocurrency and then swap it for MATICBSC. It is the MATIC cryptocurrency’s ticker on the Minter network, which is fully backed by the original tokens from the Binance Smart Chain network.</p>
                 </section>
                 <section class="article-picture-box">
                     <div class="article-picture-box-content">
-                        <p>For that:</p>
-                        <ol>
-                            <li>Click <b>Receive → Top up with ETH</b>;</li>
-                            <li>Select the amount of Ether you want to replenish your wallet with, and any base coin of the Minter network. Then click <b>Buy</b>;</li>
-                            <li>Copy the Ethereum address and make a transfer;</li>
-                            <li>After that, return to Honee to buy UNIBSC;</li>
-                            <li>On the main page, select the <b>Swap</b> section and the direction;</li>
-                            <li>Check the exchange conditions and confirm the operation;</li>
-                            <li>After completion, you will see the details of the swap in the Explorer upon clicking the <b>View transaction</b> button.</li>
-                        </ol>
+                        <h3>So, how to buy MATIC in 2022?</h3>
+                        <ul>
+                            <li>As soon as your wallet is replenished with any cryptocurrency of the Minter network, go to the main page and click the Swap button;</li>
+                            <li>Indicate the coin of the Minter network available on the wallet, and select the MATICBSC coin from the dropdown field below. Its amount will be calculated automatically;</li>
+                            <li>Click on the Swap icon and complete the exchange by confirming the operation in the next window.</li>
+                        </ul>
                     </div>
                     <div class="article-picture-box-img wallet-bitcoin-1">
                         <picture>
                             <source srcset="/img/articles/buy-1inch-1.avif 1x, /img/articles/buy-1inch-1@2x.avif 2x" type="image/avif">
                             <source srcset="/img/articles/buy-1inch-1.webp 1x, /img/articles/buy-1inch-1@2x.webp 2x" type="image/webp">
-                            <img src="/img/articles/buy-1inch-1.png" srcset="/img/articles/buy-1inch-1@2x.png 2x" alt="how to buy uni 2022" role="presentation"/>
+                            <img src="/img/articles/buy-1inch-1.png" srcset="/img/articles/buy-1inch-1@2x.png 2x" alt="how to buy matic 2022" role="presentation"/>
                         </picture>
                     </div>
                 </section>
@@ -81,22 +76,22 @@ export default {
                     <div class="article-picture-box">
                         <div class="article-picture-box-img buy-1inch-3">
                             <picture>
-                                <source srcset="/img/articles/uni/buy-uni-1.avif 1x, /img/articles/uni/buy-uni-1@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/articles/uni/buy-uni-1.webp 1x, /img/articles/uni/buy-uni-1@2x.webp 2x" type="image/webp">
-                                <img src="/img/articles/uni/buy-uni-1.png" srcset="/img/articles/uni/buy-uni-1@2x.png 2x" alt="how to buy UNI Uniswap 2022" role="presentation"/>
+                                <source srcset="/img/articles/matic/buy-matic-1.avif 1x, /img/articles/matic/buy-matic-1@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/articles/matic/buy-matic-1.webp 1x, /img/articles/matic/buy-matic-1@2x.webp 2x" type="image/webp">
+                                <img src="/img/articles/matic/buy-matic-1.png" srcset="/img/articles/matic/buy-matic-1@2x.png 2x" alt="how to buy MATIC Polygon 2022" role="presentation"/>
                             </picture>
                         </div>
                         <div class="article-picture-box-img buy-1inch-4">
                             <picture>
-                                <source srcset="/img/articles/uni/buy-uni-2.avif 1x, /img/articles/uni/buy-uni-2@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/articles/uni/buy-uni-2.webp 1x, /img/articles/uni/buy-uni-2@2x.webp 2x" type="image/webp">
-                                <img src="/img/articles/uni/buy-uni-2.png" srcset="/img/articles/uni/buy-uni-2@2x.png 2x" alt="how to buy uni 2022" role="presentation"/>
+                                <source srcset="/img/articles/matic/buy-matic-2.avif 1x, /img/articles/matic/buy-matic-2@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/articles/matic/buy-matic-2.webp 1x, /img/articles/matic/buy-matic-2@2x.webp 2x" type="image/webp">
+                                <img src="/img/articles/matic/buy-matic-2.png" srcset="/img/articles/matic/buy-matic-2@2x.png 2x" alt="how to buy matic 2022" role="presentation"/>
                             </picture>
                         </div>
                     </div>
                 </section>
                 <section class="article-last-block">
-                    <p class="subtitle-h1">Now you know how to buy UNI in 2022 from within your Honee crypto wallet. We hope that you have already checked out just how convenient it is!</p>
+                    <p class="subtitle-h1">Thanks to Honee’s advanced tools, trading becomes intuitive and safeguarded. The high speed of transactions without the need for Layer-2 solutions make the Minter blockchain and Honee crypto wallet the best mix of solutions for trading and storing crypto assets. Now you know how to buy MATIC in 2022 and how to do it quickly.</p>
                     <div class="cta-center">
                         <a class="btn btn-2" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Launch Honee', 'index.steps-button')}}</a>
                     </div>

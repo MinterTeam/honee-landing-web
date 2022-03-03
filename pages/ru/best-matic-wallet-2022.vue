@@ -5,7 +5,7 @@ import trackClick from '~/assets/v-track-click.js';
 export default {
     nuxtI18n: {
         paths: {
-            ru: '/luchshij-koshelek-dlya-shib-2022',
+            ru: '/luchshij-koshelek-dlya-matic-2022',
         },
         locales: ['ru'],
     },
@@ -13,8 +13,8 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle('Лучший кошелек для SHIB 2022');
-        const description = 'Лучший кошелек для SHIB в 2022 году: мем-токен, выросший в полноценный проект, нуждается в первую очередь в безопасности — и столь же сильно в удобстве.';
+        const title = getTitle('Лучший кошелек для MATIC в 2022');
+        const description = 'Кошелек Honee — ваш надежный помощник для хранения и заработка криптовалюты MATIC в 2022 году.';
 
         return {
             title: title,
@@ -54,77 +54,76 @@ export default {
                     </div>
                 </div>
                 <section class="article-header">
-                    <h1>Лучший кошелек для SHIB в 2022 году</h1>
-                    <h2>Что такое SHIB?</h2>
-                    <p class="subtitle-h1">SHIB — мемная криптовалюта, названная в честь японской породы собак. Проект изначально не акцентировал внимание на технологиях, однако после популярности основатели SHIB пообещали создать DEX-биржу (с внедрением NFT-маркетплейса).</p>
+                    <h1>Лучший кошелек для MATIC в 2022 году</h1>
+                    <h2>Что такое MATIC?</h2>
+                    <p class="subtitle-h1">MATIC (POLYGON) — токен управления сети Polygon, которая представляет собой платформу для взаимодействия и масштабирования сети Ethereum. C Honee вы сможете зарабатывать MATIC легко и непринужденно. Интуитивно понятный интерфейс, низкие комиссии, простые и быстрые операции с криптовалютами — все это делает Honee лучшим кошельком для MATIC в 2022 г.</p>
                 </section>
                 <section class="asset-block">
-                    <img src="/img/articles/asset-shib.svg" alt="лучший shib кошелек 2022">
+                    <img src="/img/articles/matic/logo-matic.png" srcset="/img/articles/matic/logo-matic@2x.png 2x" alt="лучший matic кошелек 2022">
                     <div class="asset-info">
                         <div class="asset-info-data">
                             <div class="asset-info-item">
                                 <div class="item-label">Название</div>
-                                <b>Shiba Inu</b>
+                                <b>Polygon</b>
                             </div>
                             <div class="asset-info-item">
                                 <div class="item-label">Символ</div>
-                                <b>SHIB</b>
+                                <b>MATIC</b>
                             </div>
                             <div class="asset-info-item">
                                 <div class="item-label">Макс. эмиссия</div>
-                                <b>не огранична</b>
+                                <b>10,000,000,000</b>
                             </div>
                         </div>
                         <div class="asset-info-links">
                             <div class="asset-info-item">
-                                <a href="https://shibatoken.com/" target="_blank" rel="nofollow">Сайт</a>
+                                <a href="https://polygon.technology/" target="_blank" rel="nofollow">Сайт</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://etherscan.io/" target="_blank" rel="nofollow">Эксплорер</a>
+                                <a href="https://bscscan.com/" target="_blank" rel="nofollow">Экслорер</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://github.com/shytoshikusama/woofwoofpaper/raw/main/SHIBA_INU_WOOF_WOOF.pdf" target="_blank" rel="nofollow">White Paper</a>
+                                <a href="https://github.com/maticnetwork/whitepaper" target="_blank" rel="nofollow">White Paper</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://coinmarketcap.com/currencies/shiba-inu/" target="_blank" rel="nofollow">CMC</a>
+                                <a href="https://coinmarketcap.com/currencies/polygon/" target="_blank" rel="nofollow">CMC</a>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <h2>Лучший кошелек для SHIB в 2022</h2>
-                    <p>Инвестируя в криптовалюту, важно подходить к решению задачи осознанно. Так каким же должен быть лучший кошелек для SHIB в 2022-м? Кошелек, который будет хранить ваши токены, должен быть некастодиальным и безопасным. Именно потому лучшим решение будет Honee.</p>
-                    <p>Honee — проверенный кошелек, который работает полностью децентрализовано, а это означает, что юзер может смело хранить свои монеты, не переживая за их сохранность. Помимо технических аспектов, стоит упомянуть и интерфейс, который позволяет разобраться в юзабилити Honee даже начинающим крипто-энтузиастам.</p>
-                    <p>В кошельке Honee проект Shiba Inu представлен как токен под тикером SHIB.</p>
-                    <p><b>Смарт-контракт SHIB в Ethereum:</b><br>
-                    <a href="https://etherscan.io/address/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce" target="_blank" rel="nofollow">etherscan.io/address/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce</a>
+                    <p>На сегодняшний день уже сотни пользователей по достоинству оценили удобство криптокошелька Honee. С помощью него вы можете хранить, обменивать и зарабатывать криптовалюту MATIC с минимальными комиссиями, а благодаря дружественному интерфейсу, любые операции с кошельком становятся понятными и простыми.</p>
+                    <p>В криптокошельке Honee токен MATIC имеет тикер MATICBSC. Это полностью обеспеченный актив, который был зеркалирован из сети Binance Smart Chain оракулами Minter. </p>
+                    <p><b>Смарт-контракт MATIC в BNB Chain:</b><br>
+                    <a href="https://bscscan.com/token/0xcc42724c6683b7e57334c4e856f4c9965ed682bd" target="_blank" rel="nofollow">bscscan.com/token/0xcc42724c6683b7e57334c4e856f4c9965ed682bd</a>
                     </p>
                     <p><b>Смарт-контракт Minter Hub:</b><br>
-                    <a href="https://etherscan.io/address/0x897c27Fa372AA730D4C75B1243E7EA38879194E2" target="_blank" rel="nofollow">etherscan.io/address/0x897c27Fa372AA730D4C75B1243E7EA38879194E2</a>
+                    <a href="https://bscscan.com/address/0xf5b0ed82a0b3e11567081694cc66c3df133f7c8f" target="_blank" rel="nofollow">bscscan.com/address/0xf5b0ed82a0b3e11567081694cc66c3df133f7c8f</a>
                     </p>
                 </section>
                 <section>
-                    <h2>Как создать лучший кошелек для SHIB в 2022</h2>
+                    <h2>HКак создать лучший кошелек для MATIC в 2022</h2>
+                    <p>Создать лучший кошелек для хранения MATIC в 2022 году очень просто. Для этого:</p>
                     <div class="article-picture-box">
                         <div class="article-picture-box-content">
                             <ol>
-                                <li>Переходим на <a href="https://my.honee.app/">Honee</a> и жмем <b>Зарегистрируйтесь</b>;</li>
-                                <li>Копируем полученную seed-фразу и сохраняем ее в проверенном месте, отмечая галочку впоследствии;</li>
-                                <li>Check the corresponding box;</li>
-                                <li>Жмем “Запустить Honee”.</li>
+                                <li>Перейдите на страницу с кошельком <a href="https://my.honee.app/">Honee</a>;</li>
+                                <li>Нажмите на кнопку регистрации и сохраните предложенную фразу из 12 слов в надежном месте на своем компьютере или бумажном носителе;</li>
+                                <li>Помните, что в случае утери Seed-фразы восстановить кошелек будет уже невозможно;</li>
+                                <li>Активируйте ваш кошелек, нажав на соответствующую кнопку «Запустить Honee».</li>
                             </ol>
                         </div>
                         <div class="article-picture-box-img wallet-bitcoin-1">
                             <picture>
                                 <source srcset="/img/articles/buy-1inch-1-ru.avif 1x, /img/articles/buy-1inch-1-ru@2x.avif 2x" type="image/avif">
                                 <source srcset="/img/articles/buy-1inch-1-ru.webp 1x, /img/articles/buy-1inch-1-ru@2x.webp 2x" type="image/webp">
-                                <img src="/img/articles/buy-1inch-1-ru.png" srcset="/img/articles/buy-1inch-1-ru@2x.png 2x" alt="как создать shib inu кошелек 2022" role="presentation"/>
+                                <img src="/img/articles/buy-1inch-1-ru.png" srcset="/img/articles/buy-1inch-1-ru@2x.png 2x" alt="как создать MATIC Polygon кошелек 2022" role="presentation"/>
                             </picture>
                         </div>
                     </div>
                 </section>
                 <section class="article-last-block">
-                    <p class="subtitle-h1">Отныне вы знаете про, вероятно, лучший кошелек для SHIB 2022-го года — быстрый, безопасный и удобный Honee!</p>
+                    <p class="subtitle-h1">Еще никогда управление собственными активами не было таким простым и безопасным. Создавая криптокошелек Honee, наша команда постарались учесть все возможные недочеты. Именно поэтому сегодня мы называем Honee лучшим кошельком для MATIC в 2022 году.</p>
                     <div class="cta-center">
                         <a class="btn btn-2" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Launch Honee', 'index.steps-button')}}</a>
                     </div>

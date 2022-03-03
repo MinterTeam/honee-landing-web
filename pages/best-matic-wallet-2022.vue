@@ -10,8 +10,8 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle('The Best Ethereum Wallet 2022');
-        const description = 'Security aside, the best Ethereum wallet of 2022 should be capable of providing its users with mobility. Honee app is developed with user experience in mind, and one of its main goals is to allow holders to move coins and tokens freely across the networks.';
+        const title = getTitle('The Best MATIC Wallet 2022');
+        const description = 'Honee wallet is your reliable assistant for holding and earning MATIC cryptocurrency in 2022.';
 
         return {
             title: title,
@@ -51,77 +51,76 @@ export default {
                     </div>
                 </div>
                 <section class="article-header">
-                    <h1>The Best Ethereum (ETH) Wallet in 2022</h1>
-                    <h2>What’s Ethereum?</h2>
-                    <p class="subtitle-h1">Ethereum (also known as Ether, or ETH) is the second-largest cryptocurrency. It was created back in 2015 and has since brought into the world the smart contracts and decentralized finance (DeFi). So what should the best Ethereum wallet of 2022 be like?</p>
+                    <h1>The Best MATIC Wallet in 2022</h1>
+                    <h2>What’s MATIC?</h2>
+                    <p class="subtitle-h1">MATIC is the governance token of the Polygon network, which is a platform aimed to improve the interoperability and scalability of the Ethereum network. With Honee wallet, you can earn MATIC easily. Intuitive interface, low fees, and fast yet cheap transactions all make Honee the best MATIC wallet of 2022.</p>
                 </section>
                 <section class="asset-block">
-                    <img src="/img/articles/asset-ethereum.png" alt="best ethereum (eth) wallet 2022">
+                    <img src="/img/articles/matic/logo-matic.png" srcset="/img/articles/matic/logo-matic@2x.png 2x" alt="best matic polygon wallet 2022">
                     <div class="asset-info">
                         <div class="asset-info-data">
                             <div class="asset-info-item">
                                 <div class="item-label">Name</div>
-                                <b>Ethereum, Ether</b>
+                                <b>Polygon</b>
                             </div>
                             <div class="asset-info-item">
                                 <div class="item-label">Symbol</div>
-                                <b>ETH</b>
+                                <b>MATIC</b>
                             </div>
                             <div class="asset-info-item">
                                 <div class="item-label">Max. supply</div>
-                                <b>infinite</b>
+                                <b>10,000,000,000</b>
                             </div>
                         </div>
                         <div class="asset-info-links">
                             <div class="asset-info-item">
-                                <a href="https://ethereum.org/" target="_blank" rel="nofollow">Site</a>
+                                <a href="https://polygon.technology/" target="_blank" rel="nofollow">Site</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://etherscan.io/" target="_blank" rel="nofollow">Explorer</a>
+                                <a href="https://bscscan.com/" target="_blank" rel="nofollow">Explorer</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://github.com/ethereum/wiki/wiki/White-Paper" target="_blank" rel="nofollow">Whitepaper</a>
+                                <a href="https://github.com/maticnetwork/whitepaper" target="_blank" rel="nofollow">White Paper</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://coinmarketcap.com/currencies/ethereum/" target="_blank" rel="nofollow">CMC</a>
+                                <a href="https://coinmarketcap.com/currencies/polygon/" target="_blank" rel="nofollow">CMC</a>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <h2>The Best Ethereum Wallet 2022: Honee</h2>
-                    <p>There are many different tokens in the Honee crypto wallet, one of which is Ethereum (ticker: ETH). It is a mirrored asset available for cross-chain transfers between the Minter and Ethereum blockchains. The Honee wallet can store both the original ETH and its wrapped and mirrored versions.</p>
-                    <p>The value of Ether remains the same across different networks thanks to the Minter Hub bridge, which transfers exactly the amount of ETH that has been sent. When making a cross-chain transfer, tokens are frozen in a smart contract on the one network and issued (or unfrozen, depending on the direction) on the other. Thus, Ethereum retains its value regardless of which wallet or network it is stored in.</p>
-                    <p>What makes Honee the best Ethereum wallet of 2022 is that it’s not only user-oriented, but also ever-growing in features and completely transparent.</p>
-                    <p><b>The smart contract of WETH:</b><br>
-                    <a href="https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2" target="_blank" rel="nofollow">etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2</a>
+                    <p>Today, hundreds of users are already enjoying the convenience of the Honee crypto wallet. With it, you can store, exchange, and earn MATIC cryptocurrency at minimal fees, and thanks to a user-friendly interface, all operations within the wallet are clear and simple.</p>
+                    <p>In the Honee crypto wallet, the MATIC token has the ticker symbol MATICBSC. It is a fully collateralized asset that has been mirrored from the Binance Smart Chain network by Minter oracles.</p>
+                    <p><b>MATIC's smart contract on BNB Chain:</b><br>
+                    <a href="https://bscscan.com/token/0xcc42724c6683b7e57334c4e856f4c9965ed682bd" target="_blank" rel="nofollow">bscscan.com/token/0xcc42724c6683b7e57334c4e856f4c9965ed682bd</a>
                     </p>
-                    <p><b>The smart contract of Minter Hub:</b><br>
-                    <a href="https://etherscan.io/address/0x897c27Fa372AA730D4C75B1243E7EA38879194E2" target="_blank" rel="nofollow">etherscan.io/address/0x897c27Fa372AA730D4C75B1243E7EA38879194E2</a>
+                    <p><b>Minter Hub’s smart contract:</b><br>
+                    <a href="https://bscscan.com/address/0xf5b0ed82a0b3e11567081694cc66c3df133f7c8f" target="_blank" rel="nofollow">bscscan.com/address/0xf5b0ed82a0b3e11567081694cc66c3df133f7c8f</a>
                     </p>
                 </section>
                 <section>
-                    <h2>How to Set Up and Create an Ethereum Wallet in 2022</h2>
+                    <h2>How to Create the Best MATIC Wallet 2022</h2>
+                    <p>Creating the best MATIC wallet in 2022 is very easy. To do that:</p>
                     <div class="article-picture-box">
                         <div class="article-picture-box-content">
                             <ol>
-                                <li>Open the web app of <b>Honee</b></li>
-                                <li>Click <b>Sign Up</b></li>
-                                <li>Save the seed phrase you got someplace safe (in future, you’ll need it to sign in to your freshly created wallet)</li>
-                                <li>Press <b>Launch</b></li>
+                                <li>Visit <a href="https://my.honee.app/">Honee</a> homepage;</li>
+                                <li>Click on the registration button and save the proposed 12-word phrase in a safe place on your computer or paper;</li>
+                                <li>Remember that if the passphrase is lost, it will be impossible to restore;</li>
+                                <li>Activate your wallet by clicking Launch Honee.</li>
                             </ol>
                         </div>
                         <div class="article-picture-box-img wallet-bitcoin-1">
                             <picture>
-                                <source srcset="/img/articles/buy-bitcoin-1.avif 1x, /img/articles/buy-bitcoin-1@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/articles/buy-bitcoin-1.webp 1x, /img/articles/buy-bitcoin-1@2x.webp 2x" type="image/webp">
-                                <img src="/img/articles/buy-bitcoin-1.png" srcset="/img/articles/buy-bitcoin-1@2x.png 2x" alt="how to create and set up an ethereum wallet in 2022" role="presentation"/>
+                                <source srcset="/img/articles/buy-1inch-1.avif 1x, /img/articles/buy-1inch-1@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/articles/buy-1inch-1.webp 1x, /img/articles/buy-1inch-1@2x.webp 2x" type="image/webp">
+                                <img src="/img/articles/buy-1inch-1.png" srcset="/img/articles/buy-1inch-1@2x.png 2x" alt="how to create and set up an matic wallet in 2022" role="presentation"/>
                             </picture>
                         </div>
                     </div>
                 </section>
                 <section class="article-last-block">
-                    <p class="subtitle-h1">We hope that after reading this article, you have an answer to the question, <i>What is the best Ethereum wallet in 2022?</i> and will use Honee!</p>
+                    <p class="subtitle-h1">Managing your assets has never been so easy and safe. When creating the Honee crypto wallet, our team tried to take into account all possible shortcomings. That is why today, we think it’s safe to call Honee the best wallet for MATIC in 2022.</p>
                     <div class="cta-center">
                         <a class="btn btn-2" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Launch Honee', 'index.steps-button')}}</a>
                     </div>

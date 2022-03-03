@@ -95,7 +95,7 @@ export default {
                     <a href="https://etherscan.io/address/0x111111111117dc0aa78b770fa6a738034120c302" target="_blank" rel="nofollow">etherscan.io/address/0x111111111117dc0aa78b770fa6a738034120c302</a>
                     </p>
                     <p><b>The smart contract of Minter Hub:</b><br>
-                    <a href="https://etherscan.io/address/0xc735478ef7562ecc37662fc7c5e521eb835f9dab" target="_blank" rel="nofollow">etherscan.io/address/0xc735478ef7562ecc37662fc7c5e521eb835f9dab</a>
+                    <a href="https://etherscan.io/address/0x897c27Fa372AA730D4C75B1243E7EA38879194E2" target="_blank" rel="nofollow">etherscan.io/address/0x897c27Fa372AA730D4C75B1243E7EA38879194E2</a>
                     </p>
                 </section>
                 <section>

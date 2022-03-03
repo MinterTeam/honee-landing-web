@@ -93,6 +93,9 @@ export default {
 		'footer-link-box-buy-uni': 'Купить UNI',
 		'footer-link-box-earn-uni': 'Заработать UNI',
 		'footer-link-box-wallet-uni': 'UNI кошелек',
+		'footer-link-box-buy-matic': 'Купить MATIC',
+		'footer-link-box-earn-matic': 'Заработать MATIC',
+		'footer-link-box-wallet-matic': 'MATIC кошелек',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',

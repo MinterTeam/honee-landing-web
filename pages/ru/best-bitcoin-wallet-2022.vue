@@ -100,7 +100,7 @@ export default {
                     <a href="https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599" target="_blank" rel="nofollow">etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599</a>
                     </p>
                     <p><b>Смарт-контракт Minter Hub:</b><br>
-                    <a href="https://etherscan.io/address/0xc735478ef7562ecc37662fc7c5e521eb835f9dab" target="_blank" rel="nofollow">etherscan.io/address/0xc735478ef7562ecc37662fc7c5e521eb835f9dab</a>
+                    <a href="https://etherscan.io/address/0x897c27Fa372AA730D4C75B1243E7EA38879194E2" target="_blank" rel="nofollow">etherscan.io/address/0x897c27Fa372AA730D4C75B1243E7EA38879194E2</a>
                     </p>
                     <p><b>Холодный кошелек BTC в Minter Hub:</b><br>
                     <a href="https://etherscan.io/address/0x58BD8047F441B9D511aEE9c581aEb1caB4FE0b6d" target="_blank" rel="nofollow">etherscan.io/address/0x58BD8047F441B9D511aEE9c581aEb1caB4FE0b6d</a>

@@ -99,7 +99,7 @@ export default {
                     <a href="https://etherscan.io/address/0x72e364f2abdc788b7e918bc238b21f109cd634d7" target="_blank" rel="nofollow">etherscan.io/address/0x72e364f2abdc788b7e918bc238b21f109cd634d7</a>
                     </p>
                     <p><b>Смарт-контракт Minter Hub:</b><br>
-                    <a href="https://etherscan.io/address/0xc735478ef7562ecc37662fc7c5e521eb835f9dab" target="_blank" rel="nofollow">etherscan.io/address/0xc735478ef7562ecc37662fc7c5e521eb835f9dab</a>
+                    <a href="https://etherscan.io/address/0x897c27Fa372AA730D4C75B1243E7EA38879194E2" target="_blank" rel="nofollow">etherscan.io/address/0x897c27Fa372AA730D4C75B1243E7EA38879194E2</a>
                     </p>
                 </section>
                 <section>

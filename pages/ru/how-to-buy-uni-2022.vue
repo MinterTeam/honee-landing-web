@@ -14,7 +14,7 @@ export default {
     },
     head() {
         const title = getTitle('Как купить UNI в 2022');
-        const description = 'Кошелек Honee — лучший способ купить и приумножить криптовалюту UNI в 2022 году.  ';
+        const description = 'Кошелек Honee — лучший способ купить и приумножить криптовалюту UNI в 2022 году.';
 
         return {
             title: title,
