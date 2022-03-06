@@ -96,6 +96,9 @@ export default {
 		'footer-link-box-buy-matic': 'Купить MATIC',
 		'footer-link-box-earn-matic': 'Заработать MATIC',
 		'footer-link-box-wallet-matic': 'MATIC кошелек',
+		'footer-link-box-buy-doge': 'Купить DOGE',
+		'footer-link-box-earn-doge': 'Заработать DOGE',
+		'footer-link-box-wallet-doge': 'DOGE кошелек',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',
