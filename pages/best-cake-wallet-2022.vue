@@ -10,8 +10,8 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle('The Best DOGE Wallet 2022');
-        const description = 'The best DOGE wallet of 2022 for safely storing and earning the cryptocurrency.';
+        const title = getTitle('The Best CAKE Wallet 2022');
+        const description = 'Honee is the best 2022 CAKE wallet that will help you store the cryptocurrency at an advantage, meaning it can ‘bake’ CAKEs without your participation whatsoever.';
 
         return {
             title: title,
@@ -51,21 +51,21 @@ export default {
                     </div>
                 </div>
                 <section class="article-header">
-                    <h1>The Best DOGE Wallet in 2022</h1>
-                    <h2>What’s DOGECOIN?</h2>
-                    <p class="subtitle-h1">Today, DOGE is perhaps the most recognizable cryptocurrency in the world. Named after a dog and invented as a joke, the DOGE cryptocurrency quickly gained popularity and broad attention from the crypto community. This guide will show you how to create and set up the best wallet for your DOGE coins in 2022.</p>
+                    <h1>The Best CAKE Wallet 2022</h1>
+                    <h2>What’s CAKE?</h2>
+                    <p class="subtitle-h1">Token of the PancakeSwap DeFi platform, CAKE was created to help users make use of the platform’s decentralized finance initiatives. In this guide, we will walk you through how to set up the best CAKE wallet of 2022.</p>
                 </section>
                 <section class="asset-block">
-                    <img src="/img/articles/doge/logo-doge.png" srcset="/img/articles/doge/logo-doge@2x.png 2x" alt="best doge dogecoin wallet 2022">
+                    <img src="/img/articles/cake/logo-cake.png" srcset="/img/articles/cake/logo-cake@2x.png 2x" alt="best cake PancakeSwap wallet 2022">
                     <div class="asset-info">
                         <div class="asset-info-data">
                             <div class="asset-info-item">
                                 <div class="item-label">Name</div>
-                                <b>Dogecoin</b>
+                                <b>PancakeSwap</b>
                             </div>
                             <div class="asset-info-item">
                                 <div class="item-label">Symbol</div>
-                                <b>DOGE</b>
+                                <b>CAKE</b>
                             </div>
                             <div class="asset-info-item">
                                 <div class="item-label">Max. supply</div>
@@ -74,51 +74,51 @@ export default {
                         </div>
                         <div class="asset-info-links">
                             <div class="asset-info-item">
-                                <a href="https://dogecoin.com/" target="_blank" rel="nofollow">Site</a>
+                                <a href="https://pancakeswap.finance/" target="_blank" rel="nofollow">Site</a>
                             </div>
                             <div class="asset-info-item">
                                 <a href="https://bscscan.com/" target="_blank" rel="nofollow">Explorer</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://github.com/dogecoin/dogecoin/blob/master/README.md" target="_blank" rel="nofollow">White Paper</a>
+                                <a href="https://docs.pancakeswap.finance/tokenomics/cake" target="_blank" rel="nofollow">About token</a>
                             </div>
                             <div class="asset-info-item">
-                                <a href="https://coinmarketcap.com/currencies/dogecoin/" target="_blank" rel="nofollow">CMC</a>
+                                <a href="https://coinmarketcap.com/currencies/pancakeswap/" target="_blank" rel="nofollow">CMC</a>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <p>Honee crypto wallet is one of the most efficient and reliable tools for storing and earning DOGE cryptocurrency. Honee’s DOGE token is a mirrored asset with the ticker DOGEBSC, which is fully backed by the original DOGE. This is made possible thanks to the cross-chain listing of DOGE.</p>
-                    <p><b>DOGE's smart contract on BNB Chain:</b><br>
-                    <a href="https://bscscan.com/token/0xba2ae424d960c26247dd6c32edc70b295c744c43" target="_blank" rel="nofollow">bscscan.com/token/0xba2ae424d960c26247dd6c32edc70b295c744c43</a>
+                    <p>Your reliable assistant in earning and securing your crypto holdings is just a few clicks apart. To start enjoying all the benefits, go to the Honeee wallet <a href="/">home page</a> and follow a simple registration process.</p>
+                    <p><b>CAKE's smart contract on BNB Chain:</b><br>
+                    <a href="https://bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" target="_blank" rel="nofollow">bscscan.com/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82</a>
                     </p>
                     <p><b>Minter Hub’s smart contract:</b><br>
                     <a href="https://bscscan.com/address/0xf5b0ed82a0b3e11567081694cc66c3df133f7c8f" target="_blank" rel="nofollow">bscscan.com/address/0xf5b0ed82a0b3e11567081694cc66c3df133f7c8f</a>
                     </p>
                 </section>
                 <section>
-                    <h2>How to Create the Best DOGE Wallet 2022</h2>
-                    <p>The process of creating a wallet requires minimum effort on the user’s part and is carried out in a few simple steps:</p>
+                    <h2>How to Create the Best CAKE Wallet 2022</h2>
                     <div class="article-picture-box">
                         <div class="article-picture-box-content">
                             <ol>
-                                <li>Go to <a href="https://my.honee.app/">wallet</a> and start the registration process by clicking on the Sign up button;</li>
-                                <li>Copy your 12-word wallet login phrase and save it somewhere safe;</li>
-                                <li>Activate your wallet by clicking Launch Honee.</li>
+                                <li>While on the home page, click Sign up;</li>
+                                <li>Save your seed phrase somewhere secure and back it up. Remember that it’s the only key to your assets;</li>
+                                <li>Tick the checkbox;</li>
+                                <li>Launch your wallet.</li>
                             </ol>
                         </div>
                         <div class="article-picture-box-img wallet-bitcoin-1">
                             <picture>
                                 <source srcset="/img/articles/buy-1inch-1.avif 1x, /img/articles/buy-1inch-1@2x.avif 2x" type="image/avif">
                                 <source srcset="/img/articles/buy-1inch-1.webp 1x, /img/articles/buy-1inch-1@2x.webp 2x" type="image/webp">
-                                <img src="/img/articles/buy-1inch-1.png" srcset="/img/articles/buy-1inch-1@2x.png 2x" alt="how to create and set up an doge wallet in 2022" role="presentation"/>
+                                <img src="/img/articles/buy-1inch-1.png" srcset="/img/articles/buy-1inch-1@2x.png 2x" alt="how to create and set up an cake wallet in 2022" role="presentation"/>
                             </picture>
                         </div>
                     </div>
                 </section>
                 <section class="article-last-block">
-                    <p class="subtitle-h1">Honee is a wallet that helps you automate the earning of DOGE cryptocurrency and be calm about its safety. Simple tools, intuitive interface, and advanced technology make Honee the best 2022 wallet for storing DOGE—and the most reliable.</p>
+                    <p class="subtitle-h1">Honee crypto wallet was designed to make your earning adventure simple and the storing of cryptocurrencies, as safe as possible. Create the best 2022 wallet for CAKE now!</p>
                     <div class="cta-center">
                         <a class="btn btn-2" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Launch Honee', 'index.steps-button')}}</a>
                     </div>

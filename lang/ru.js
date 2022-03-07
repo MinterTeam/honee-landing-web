@@ -99,6 +99,9 @@ export default {
 		'footer-link-box-buy-doge': 'Купить DOGE',
 		'footer-link-box-earn-doge': 'Заработать DOGE',
 		'footer-link-box-wallet-doge': 'DOGE кошелек',
+		'footer-link-box-buy-cake': 'Купить CAKE',
+		'footer-link-box-earn-cake': 'Заработать CAKE',
+		'footer-link-box-wallet-cake': 'CAKE кошелек',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',
