@@ -19,15 +19,15 @@ export default {
                     <a href="https://www.youtube.com/c/honeeapp" target="_blank">
                         <img src="/img/landing/youtube.svg" width="64" height="64" loading="lazy" alt="Youtube">
                     </a>
-                    <a href="https://www.facebook.com/honeeapp" target="_blank">
+                    <!--<a href="https://www.facebook.com/honeeapp" target="_blank">
                         <img src="/img/landing/facebook.svg" width="64" height="64" loading="lazy" alt="Facebook">
-                    </a>
+                    </a>-->
                     <a href="https://medium.com/@honeeapp" target="_blank">
                         <img src="/img/landing/medium.svg" width="64" height="64" loading="lazy" alt="Medium">
                     </a>
-                    <a href="https://www.instagram.com/honee_app/" target="_blank">
+                    <!--<a href="https://www.instagram.com/honee_app/" target="_blank">
                         <img src="/img/landing/instagram.svg" width="64" height="64" loading="lazy" alt="Instagram">
-                    </a>
+                    </a>-->
                 </div>
             </div>
         </section>
