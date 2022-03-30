@@ -142,5 +142,21 @@ export default {
                 <a class="btn btn-2 u-mt-40" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Get Started', 'index.steps-button')}}</a>
             </div>
         </section>
+        <section class="bee">
+            <div class="container">
+                <div class="bee-block">
+                    <div class="bee-logo">
+                        <img src="/img/landing/bee-logo.svg" alt="BEE token">
+                    </div>
+                    <div class="bee-content">
+                        <h2>{{ $td('BEE Token', 'index.bee-title')}}</h2>
+                        <i18n tag="p" path="index.bee-p1">
+                            <a href="#">{{ $td('contract', 'index.bee-p1-href')}}</a>
+                        </i18n>
+                        <p>{{ $td('BEE token holders unlock a variety of benefits when using Honee wallet, including rewards for actions, boosted yield for earning options in the app, and discounts on the use of DeFi services.', 'index.bee-p2')}}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>

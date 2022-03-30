@@ -274,6 +274,36 @@ h3, .h3 {
     margin: 26px 0 0 0;
 }
 
+.bee {
+    background: linear-gradient(to bottom, #f3f3f3, #fff 60%);
+    padding: 80px 0;
+}
+.bee-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 100px;
+}
+.bee-block a {
+    font-weight: 700;
+    border-bottom: 1px #000 solid;
+}
+.bee-block a:hover {
+    font-weight: 700;
+    border-bottom: 0;
+}
+.bee-logo img {
+    width: 140px;
+    height: 140px;
+}
+.bee-content {
+    max-width: 635px;
+    text-align: left;
+}
+.bee-block h2 {
+    margin: 0 0 22px 0;
+}
+
 .follow {
     background: linear-gradient(to bottom, #f3f3f3, #fff 60%);
     padding: 80px 0;
@@ -366,6 +396,8 @@ h3, .h3 {
 @media (max-width: 580px) {
     .steps-items img.arrow {display: none;}
     .socials img {width: 56px; height: 56px;}
+    .bee-block {flex-wrap: wrap; gap: 24px; justify-content: center;}
+    .bee-content {text-align: center;}
 }
 
 @media (max-width: 440px) {

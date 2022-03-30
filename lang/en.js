@@ -1,6 +1,7 @@
 export default {
     index: {
         'features-description': 'Find out why Honee is {0} crypto wallet',
+        'bee-p1': 'Honee wallet token, or BEE, is a simple BEP-20 ({0}) utility token that provides a wide range of benefits and incentives to Honee wallet users.',
 
     },
     form: {
