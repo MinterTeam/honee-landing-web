@@ -151,7 +151,7 @@ export default {
                     <div class="bee-content">
                         <h2>{{ $td('BEE Token', 'index.bee-title')}}</h2>
                         <i18n tag="p" path="index.bee-p1">
-                            <a href="#">{{ $td('contract', 'index.bee-p1-href')}}</a>
+                            <a href="https://bscscan.com/address/0x84B748b6a51548f3C1a59DAF4f36dF47Ca7fB4B5" target="_blank" rel="nofollow">{{ $td('contract', 'index.bee-p1-href')}}</a>
                         </i18n>
                         <p>{{ $td('BEE token holders unlock a variety of benefits when using Honee wallet, including rewards for actions, boosted yield for earning options in the app, and discounts on the use of DeFi services.', 'index.bee-p2')}}</p>
                     </div>
