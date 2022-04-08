@@ -150,14 +150,14 @@ export default {
                     </div>
                     <div class="bee-content">
                         <h2>{{ $td('BEE Token', 'index.bee-title')}}</h2>
-                        <i18n tag="p" path="index.bee-p1">
-                            <a href="https://bscscan.com/address/0x84B748b6a51548f3C1a59DAF4f36dF47Ca7fB4B5" target="_blank" rel="nofollow">{{ $td('contract', 'index.bee-p1-href')}}</a>
-                        </i18n>
+                        <p>{{ $td('Honee wallet token, or BEE, is a simple BEP-20 utility token that provides a wide range of benefits and incentives to Honee wallet users.', 'index.bee-p1')}}</p>
                         <p>{{ $td('BEE token holders unlock a variety of benefits when using Honee wallet, including rewards for actions, boosted yield for earning options in the app, and discounts on the use of DeFi services.', 'index.bee-p2')}}</p>
                         <div class="bee-buttons">
                             <a href="https://pancakeswap.finance/swap?outputCurrency=0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" class="btn btn-3" target="_blank" rel="nofollow"><img src="/img/landing/bee-pancake.svg" alt="Buy BEE on Pancake"> {{ $td('Buy on PancakeSwap', 'index.bee-pancake')}}</a>
-                            <a href="https://www.dextools.io/app/bsc/pair-explorer/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" target="_blank" rel="nofollow"><img src="/img/landing/bee-deextools.png" alt="BEE on Dextools" srcset="/img/landing/bee-dextools@2x.png 2x"> DexTools</a>
-                            <a href="https://bscscan.com/token/0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" target="_blank" rel="nofollow"><img src="/img/landing/bee-bsc.png" alt="BEE on bscscan" srcset="/img/landing/bee-bsc@2x.png 2x">BSC</a>
+                            <div class="bee-buttons-links">
+                                <a href="https://www.dextools.io/app/bsc/pair-explorer/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" target="_blank" rel="nofollow"><img src="/img/landing/bee-deextools.png" alt="BEE on Dextools" srcset="/img/landing/bee-dextools@2x.png 2x"> DexTools</a>
+                                <a href="https://bscscan.com/token/0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" target="_blank" rel="nofollow"><img src="/img/landing/bee-bsc.png" alt="BEE on bscscan" srcset="/img/landing/bee-bsc@2x.png 2x">BSC</a>
+                            </div>
                         </div>
                     </div>
                 </div>
