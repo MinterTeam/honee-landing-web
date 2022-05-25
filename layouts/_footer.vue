@@ -25,6 +25,9 @@ export default {
                     <a href="https://medium.com/@honeeapp" target="_blank">
                         <img src="/img/landing/medium.svg" width="64" height="64" loading="lazy" alt="Medium">
                     </a>
+                    <a href="https://github.com/MinterTeam/honee-app-web" target="_blank">
+                        <img src="/img/landing/github.svg" width="64" height="64" loading="lazy" alt="Github">
+                    </a>
                     <!--<a href="https://www.instagram.com/honee_app/" target="_blank">
                         <img src="/img/landing/instagram.svg" width="64" height="64" loading="lazy" alt="Instagram">
                     </a>-->

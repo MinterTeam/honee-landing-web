@@ -46,7 +46,7 @@ export default {
                 <div class="hello">
                     <div class="hello-content">
                         <div class="logo"><img src="/img/logo-honee.svg" alt="" width="122" height="24"/></div>
-                        <h1>{{ $td('The simplest crypto wallet that helps you earn', 'index.hello-title')}}</h1>
+                        <h1>{{ $td('Crypto wallet that helps you earn', 'index.hello-title')}}</h1>
                         <p class="subtitle-h1">{{ $td('Honee is focused on helping people to earn crypto. Join today!', 'index.hello-description')}}</p>
                         <a class="btn" :href="appUrl" v-track-click="'all-buttons'">{{ $td('Start Earning', 'index.hello-button')}}</a>
 <!--                        <IndexSubscribeForm class="u-mb-15"/>-->
