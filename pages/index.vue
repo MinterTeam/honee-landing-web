@@ -79,7 +79,7 @@ export default {
         </section>
         <section class="features">
             <div class="container">
-                <h2>{{ $td('Сrypto wallet as it’s meant to be', 'index.features-title')}}</h2>
+                <h2>{{ $td('Сrypto wallet as it’s meant to be', 'index.≈')}}</h2>
                 <i18n tag="p" class="subtitle-h2" path="index.features-description">
                     <b><i>{{ $td('the', 'index.features-description-highlight')}}</i></b>
                 </i18n>
