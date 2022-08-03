@@ -426,7 +426,9 @@ h3, .h3 {
         padding: 0 24px;
     }
     .hello {
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
         height: auto;
         width: 100%;
     }
@@ -461,6 +463,7 @@ h3, .h3 {
     h1 {font-size: 40px; line-height: 1.2em;}
     h2 {font-size: 30px; line-height: 1.2em;}
     .hello-image {max-width: 100%;}
+    .hello-content a.btn {width: 100%;}
     .features-item {margin: 0 8px 40px;}
 }
 
