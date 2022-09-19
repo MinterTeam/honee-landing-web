@@ -46,7 +46,6 @@ module.exports = {
         linkExactActiveClass: 'is-active',
         middleware: [
             // 'history',
-            'referral',
         ],
         extendRoutes(routes, resolve) {
             routes.forEach((route) => {
@@ -104,6 +103,7 @@ module.exports = {
         // { src: '~/plugins/custom-event-polyfill.js', ssr: false },
         { src: '~/plugins/persistedState.js', ssr: false },
         { src: '~/plugins/click-blur.js', ssr: false },
+        { src: '~/plugins/referral.js', ssr: false },
         { src: '~/plugins/seo-gtm.js', ssr: false },
     ],
     content: {
