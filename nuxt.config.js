@@ -46,6 +46,7 @@ module.exports = {
         linkExactActiveClass: 'is-active',
         middleware: [
             // 'history',
+            'referral',
         ],
         extendRoutes(routes, resolve) {
             routes.forEach((route) => {
