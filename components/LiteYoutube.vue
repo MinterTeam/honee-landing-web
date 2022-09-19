@@ -40,5 +40,5 @@ export default {
         params="rel=0"
         :style="`background-image: url(https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg);`"
         @click="trackCLick()"
-    ></lite-youtube>
+    />
 </template>

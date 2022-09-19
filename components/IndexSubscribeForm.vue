@@ -65,7 +65,7 @@ export default {
 </script>
 
 <template>
-    <form class="" novalidate @submit.prevent="submitForm">
+    <form class="" novalidate @submit.prevent="submitForm()">
         <div class="hello__form" v-if="!serverSuccess">
             <div class="hello__form-field">
                 <label class="form-field" :class="{'is-error': $v.form.email.$error}">
@@ -81,10 +81,10 @@ export default {
                 <span class="form-field__error" v-else-if="$v.form.email.$dirty && !$v.form.email.server">{{ sve.email.message }}</span>
             </div>
 
-            <button class="hello__form-button button button--main" :class="{'is-loading': isFormSending}">
+            <button class="hello__form-button button button--main" :class="{'is-loading': isFormSending}" type="submit">
                 <span class="button__content">{{ $td('Send', 'index.subscribe-button') }}</span>
                 <svg class="loader loader--button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-                    <circle class="loader__path" cx="20" cy="20" r="11"></circle>
+                    <circle class="loader__path" cx="20" cy="20" r="11"/>
                 </svg>
             </button>
 

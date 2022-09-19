@@ -1,11 +1,11 @@
 <script>
-import Footer from '~/layouts/_footer.vue';
+import TheFooter from '~/layouts/_footer.vue';
 import Language from '~/components/base/Language.vue';
 // import Snackbar from '~/components/base/Snackbar.vue';
 
 export default {
     components: {
-        Footer,
+        TheFooter,
         Language,
         // Snackbar,
     },
@@ -25,7 +25,7 @@ export default {
 
         <nuxt/>
 
-        <Footer/>
+        <TheFooter/>
 <!--        <Snackbar/>-->
     </div>
 </template>
