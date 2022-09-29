@@ -884,3 +884,117 @@ h3, .h3 {
     &:active {box-shadow: 0px 6px 8px fade(@c-yolk, 30%)}
 }
 .hello__form-success {padding: 18px 30px; display: inline-block; background: #e5e5e5; border-radius: 12px; font-weight: 700; font-size: 16px; line-height: 20px; width: 360px; max-width: 100%; text-align: center;}
+
+.promo-lang {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.bee-farming {
+    .hello {
+        height: auto;
+        padding: 40px 0 60px 0;
+    }
+    .pool-pair {
+        margin: 0 0 21px 0;
+    }
+    .pool-pair-icon {
+        border-radius: 50%;
+    }
+    .pool-pair-icon2 {
+        margin: 0 0 0 -14px;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        span {
+            color: #FF8A00;
+        }
+    }
+    h2 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .subtitle-h1 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .farming-image {
+        width: 431px;
+        height: 295px;
+    }
+    .bee-text-block {
+        padding: 80px 0;
+        text-align: left;
+        font-size: 16px;
+        line-height: 19px;
+        a {
+            font-weight: 700;
+            color: #FF8A00;
+            border-bottom: 1px solid #FF8A00;
+        }
+        a:hover {
+            border-bottom: none;
+        }
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 16px;
+            margin-block-end: 36px;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 20px;
+            li {
+                margin: 15px 0;
+            }
+        }
+    }
+    .promo-bar-div {
+        position: relative;
+        background-color: #FFE4B0;
+        border-radius: 16px;
+        padding: 16px;
+        font-weight: 700;
+        .promo-bar-text {
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 19px;
+        }
+        span {
+            color: #FF8A00;
+        }
+        img {
+            width: 132px;
+            height: 130px;
+            position: absolute;
+        }
+        .lottery-img-1 {
+            top: -30px;
+            left: 40px;
+        }
+        .lottery-img-2 {
+            top: -30px;
+            right: 40px;
+        }
+        a {
+            font-weight: 700;
+            color: #FF8A00;
+            border-bottom: 1px solid #FF8A00;
+        }
+        a:hover {
+            border-bottom: none;
+        }
+    }
+    @media (max-width: 960px) {
+        .lottery-img-1, .lottery-img-2 {
+            display: none;
+        }
+    }
+    @media (max-width: 490px) {
+        .farming-image {
+            width: 100%;
+        }
+    }
+}
