@@ -9,7 +9,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Earn 36.5% APR on farming in WBNB-BEE pool on PancakeSwap!', 'farming.title'));
-        const description = this.$td('To join our farming program just add your liquidity to the pool and receive BEE token rewards.', 'farming.description');
+        const description = this.$td('To join our farming program, just add your liquidity to the pool and start getting rewards in BEE token.', 'farming.description');
 
         return {
             title: title,
@@ -43,7 +43,7 @@ export default {
                             <i18n tag="h1" path="farming.h1">
                                 <span>{{ $td('36.5% APR', 'farming.apr')}}</span>
                             </i18n>
-                        <p class="subtitle-h1">{{ $td('To join our farming program just add your liquidity to the pool and receive BEE token rewards.', 'farming.hello-description')}}</p>
+                        <p class="subtitle-h1">{{ $td('To join our farming program, just add your liquidity to the pool and start getting rewards in BEE token.', 'farming.hello-description')}}</p>
                         <a class="btn" href="https://pancakeswap.finance/info/pool/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" target="_blank" v-track-click="'all-buttons'">{{ $td('Add Liquidity', 'farming.add-liquidity')}}</a>
                     </div>
                     <img src="/img/landing/bee-farming.svg" alt="" class="farming-image" role="presentation"/>
@@ -56,7 +56,7 @@ export default {
                     <img src="/img/landing/lottery-img-1.svg" alt="" class="lottery-img-1">
                     <img src="/img/landing/lottery-img-2.svg" alt="" class="lottery-img-2">
                     <template v-if="$i18n.locale === 'en'">
-                        <div class="promo-bar-text">All liquidity providers are automatically entered into the <span>$10,000 lottery</span>. Read the details <a href="https://t.me/HoneeApp" target="_blank">here</a>.</div>
+                        <div class="promo-bar-text">All liquidity providers automatically enter into the <span>$10,000 lottery</span>. Read the details <a href="https://t.me/HoneeApp" target="_blank">here</a>.</div>
                     </template>
                     <template v-if="$i18n.locale === 'ru'">
                         <div class="promo-bar-text">Все провайдеры ликвидности автоматически становятся участниками лотереи с призовым фондом <span>$10,000</span>. Читайте подробности <a href="https://t.me/HoneeRu" target="_blank">здесь</a>.</div>
@@ -69,7 +69,7 @@ export default {
                 <template v-if="$i18n.locale === 'en'">
                     <h2>Farming Program Details:</h2>
                     <ul>
-                        <li>The program is valid until <b>November 1</b> with possibility of an extension</li>
+                        <li>The program is valid until <b>November 1</b> and can be extended</li>
                         <li>Rewards are <b>0.1%</b> of your liquidity, paid in <b>BEE</b> token</li>
                         <li>Rewards must be claimed on your own</li>
                         <li>Cryptocurrencies are <b>prone to volatility</b>, so you must understand associated risks</li>
