@@ -9,7 +9,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Earn 36.5% APR on farming in WBNB-BEE pool on PancakeSwap!', 'farming.title'));
-        const description = this.$td('To join our yearly farming program just add your liquidity to the pool and receive BEE token rewards.', 'farming.description');
+        const description = this.$td('To join our farming program just add your liquidity to the pool and receive BEE token rewards.', 'farming.description');
 
         return {
             title: title,
@@ -43,8 +43,8 @@ export default {
                             <i18n tag="h1" path="farming.h1">
                                 <span>{{ $td('36.5% APR', 'farming.apr')}}</span>
                             </i18n>
-                        <p class="subtitle-h1">{{ $td('To join our yearly farming program just add your liquidity to the pool and receive BEE token rewards.', 'index.hello-description')}}</p>
-                        <a class="btn" href="https://pancakeswap.finance/info/pool/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" v-track-click="'all-buttons'">{{ $td('Add Liquidity', 'farming.add-liquidity')}}</a>
+                        <p class="subtitle-h1">{{ $td('To join our farming program just add your liquidity to the pool and receive BEE token rewards.', 'farming.hello-description')}}</p>
+                        <a class="btn" href="https://pancakeswap.finance/info/pool/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" target="_blank" v-track-click="'all-buttons'">{{ $td('Add Liquidity', 'farming.add-liquidity')}}</a>
                     </div>
                     <img src="/img/landing/bee-farming.svg" alt="" class="farming-image" role="presentation"/>
                 </div>
