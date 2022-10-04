@@ -56,10 +56,10 @@ export default {
                     <img src="/img/landing/lottery-img-1.svg" alt="" class="lottery-img-1">
                     <img src="/img/landing/lottery-img-2.svg" alt="" class="lottery-img-2">
                     <template v-if="$i18n.locale === 'en'">
-                        <div class="promo-bar-text">All liquidity providers automatically enter into the <span>$10,000 lottery</span>. Read the details <a href="https://t.me/HoneeApp" target="_blank">here</a>.</div>
+                        <div class="promo-bar-text">All liquidity providers automatically enter into the <span>$10,000 lottery</span>. Read the details <a href="https://t.me/HoneeApp/78" target="_blank">here</a>.</div>
                     </template>
                     <template v-if="$i18n.locale === 'ru'">
-                        <div class="promo-bar-text">Все провайдеры ликвидности автоматически становятся участниками лотереи с призовым фондом <span>$10,000</span>. Читайте подробности <a href="https://t.me/HoneeRu" target="_blank">здесь</a>.</div>
+                        <div class="promo-bar-text">Все провайдеры ликвидности автоматически становятся участниками лотереи с призовым фондом <span>$10,000</span>. Читайте подробности <a href="https://t.me/HoneeRu/166" target="_blank">здесь</a>.</div>
                     </template>
                 </div>
             </div>
