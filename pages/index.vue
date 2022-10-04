@@ -155,8 +155,9 @@ export default {
                         <div class="bee-buttons">
                             <a href="https://pancakeswap.finance/swap?outputCurrency=0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" class="btn btn-3" target="_blank" rel="nofollow"><img src="/img/landing/bee-pancake.svg" alt="Buy BEE on Pancake"> {{ $td('Buy on PancakeSwap', 'index.bee-pancake')}}</a>
                             <a :href="$td('https://medium.com/@honeeapp/bee-staking-2-yield-up-to-20-in-apr-40a967eee243', 'index.bee-stake-url')" class="btn btn-4" target="_blank"><img src="/img/honee.svg" alt="Stake BEE and earn"> {{ $td('Stake BEE', 'index.bee-stake')}}</a>
+                            <a :href="$td('https://honee.app/farming-pancakeswap-bnb-bee', 'index.bee-farming-url')" class="btn btn-4"><img src="/img/bsc-icon.svg" alt=""class="pool-pair-icon"> <img src="/img/honee.svg" alt="" class="pool-pair-icon pool-pair-icon2"> {{ $td('Farming', 'index.bee-farming')}}</a>
                             <div class="bee-buttons-links">
-                                <a href="https://www.dextools.io/app/bsc/pair-explorer/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" target="_blank" rel="nofollow"><img src="/img/landing/bee-deextools.png" alt="BEE on Dextools" srcset="/img/landing/bee-dextools@2x.png 2x"> DexTools</a>
+                                <a href="https://www.dextools.io/app/bsc/pair-explorer/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" target="_blank" rel="nofollow"><img src="/img/landing/bee-dextools.png" alt="BEE on Dextools" srcset="/img/landing/bee-dextools@2x.png 2x"> DexTools</a>
                                 <a href="https://bscscan.com/token/0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" target="_blank" rel="nofollow"><img src="/img/landing/bee-bsc.png" alt="BEE on bscscan" srcset="/img/landing/bee-bsc@2x.png 2x">BSC</a>
                             </div>
                         </div>

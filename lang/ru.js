@@ -62,6 +62,8 @@ export default {
 		'bee-pancake': 'Купить на PancakeSwap',
 		'bee-stake': 'Стейкинг BEE',
 		'bee-stake-url': 'https://t.me/HoneeRu/65',
+		'bee-farming': 'Фарминг',
+		'bee-farming-url': 'https://honee.app/ru/farming-pancakeswap-bnb-bee',
 
 		'follow-title': 'Подписывайтесь',
 
