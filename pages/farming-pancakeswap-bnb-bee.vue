@@ -44,7 +44,7 @@ export default {
                                 <span>{{ $td('36.5% APR', 'farming.apr')}}</span>
                             </i18n>
                         <p class="subtitle-h1">{{ $td('To join our farming program, just add your liquidity to the pool and start getting rewards in BEE token.', 'farming.hello-description')}}</p>
-                        <a class="btn" href="https://pancakeswap.finance/info/pool/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" target="_blank" v-track-click="'all-buttons'">{{ $td('Add Liquidity', 'farming.add-liquidity')}}</a>
+                        <a class="btn" href="https://pancakeswap.finance/add/0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5/BNB" target="_blank" v-track-click="'all-buttons'">{{ $td('Add Liquidity', 'farming.add-liquidity')}}</a>
                     </div>
                     <img src="/img/landing/bee-farming.svg" alt="" class="farming-image" role="presentation"/>
                 </div>
