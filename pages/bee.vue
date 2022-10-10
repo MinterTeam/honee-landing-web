@@ -233,7 +233,7 @@ export default {
                         <div class="bee-buttons">
                             <a :href="$td('https://my.honee.app/stake/19', 'bee.bee-saking-url')" class="btn btn-1" target="_blank" rel="nofollow">{{ $td('Staking', 'bee.bee-saking')}}</a>
                             <a :href="$td('https://honee.app/farming-pancakeswap-bnb-bee', 'bee.bee-farming-url')" class="btn btn-1" target="_blank" rel="nofollow">{{ $td('Farming', 'bee.bee-farming')}}</a>
-                            <button class="btn btn-6" target="_blank" rel="nofollow" disabled>{{ $td('Vote-to-Earn', 'bee.bee-vote')}}</button>
+                            <a class="btn btn-6" target="_blank" rel="nofollow">{{ $td('Vote-to-Earn', 'bee.bee-vote')}}</a>
                             <div class="bee-buttons-links">
                                 {{ $td('Coming soon!', 'bee.bee-coming')}}
                             </div>
