@@ -192,22 +192,22 @@ export default {
                     <div class="circulation-block-content">
                         <h2>{{ $td('BEE Circulation & Price', 'bee.circulation-title')}}</h2>
                         <template v-if="$i18n.locale === 'en'">
-                            <p>The current BEE token circulating supply is</p>
+                            <p>The total BEE token supply is</p>
                             <div class="bee-units">100,000,000 <span>units</span></div>
-                            <p>On <a href="https://bscscan.com/token/0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" target="_blank" rel="nofollow">BNB Smart Chain</a>, the BEE token contract was deployedat the maximum issuance of <b>1,000,000,000,000,000 BEE</b>.</p>
+                            <p>On <a href="https://bscscan.com/token/0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" target="_blank" rel="nofollow">BNB Smart Chain</a>, the BEE token contract was deployed at the maximum issuance of <b>1,000,000,000,000,000 BEE</b>.</p>
                             <p><b>99.99999%</b> of the initial supply was burned by being sent to the dead address.</p>
-                            <p>There are around <b>23,000,000</b> tokens currently on the market.</p>
+                            <p>There are around <b>24,000,000</b> tokens currently on the market.</p>
                             <p>The BEE token’s starting price was <b>$0.01</b>, and it first appeared in a decentralized liquidity pool on Minter DEX. The price recorded its low at <b>$0.0035</b> and then skyrocketed to <b>$0.06</b> in recent months, showing a 15x growth.</p>
-                            <a href="https://pancakeswap.finance/swap?outputCurrency=0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" class="btn btn-5" target="_blank">Follow BEE trading on PancakeSwap</a>
+                            <a href="https://www.dextools.io/app/bsc/pair-explorer/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" class="btn btn-5" target="_blank">Follow BEE trading on PancakeSwap</a>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <p>Текущее количество токенов BEE в обращении составляет</p>
+                            <p>Общее количество токенов BEE составляет</p>
                             <div class="bee-units">100,000,000 <span>единиц</span></div>
                             <p>В <a href="https://bscscan.com/token/0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" target="_blank" rel="nofollow">BNB Smart Chain</a> был развернут контракт токена BEE с максимальной эмиссией в <b>1,000,000,000,000,000 BEE</b>.</p>
                             <p><b>99.99999%</b> первоначального предложения было сожжено через оправку на нулевой адрес.</p>
-                            <p>В настоящее время на рынке насчитывается около <b>23,000,000</b> токено.</p>
+                            <p>В настоящее время на рынке насчитывается около <b>24,000,000</b> токенов.</p>
                             <p>Стартовая цена токена BEE составляла <b>$0.01</b>, и впервые он появился в децентрализованном пуле ликвидности на Minter DEX. Цена зафиксировала свой минимум на уровне <b>$0.0035</b>, а затем взлетела до <b>$0.06</b> в последние месяцы, показав 15-кратный рост.</p>
-                            <a href="https://pancakeswap.finance/swap?outputCurrency=0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" class="btn btn-5" target="_blank">Следите за торгами BEE на PancakeSwap</a>
+                            <a href="https://www.dextools.io/app/bsc/pair-explorer/0xfba050305315d34ac7b0ccedf3c624766ce3f10c" class="btn btn-5" target="_blank">Следите за торгами BEE на PancakeSwap</a>
                         </template>
                     </div>
                     <div class="circulation-block-pie">
@@ -231,8 +231,8 @@ export default {
                         <h2>{{ $td('BEE Earning Options', 'bee.bee-title')}}</h2>
                         <p>{{ $td('Honee wallet has great earning opportunities for BEE token holders and liquidity providers. Check them out below and pick the one that you like most.', 'bee.bee-p1')}}</p>
                         <div class="bee-buttons">
-                            <a :href="$td('https://my.honee.app/stake/19', 'bee.bee-saking-url')" class="btn btn-1" target="_blank" rel="nofollow">{{ $td('Staking', 'bee.bee-saking')}}</a>
-                            <a :href="$td('https://honee.app/farming-pancakeswap-bnb-bee', 'bee.bee-farming-url')" class="btn btn-1" target="_blank" rel="nofollow">{{ $td('Farming', 'bee.bee-farming')}}</a>
+                            <a :href="$td('https://medium.com/@honeeapp/bee-staking-2-yield-up-to-20-in-apr-40a967eee243', 'bee.bee-saking-url')" class="btn btn-1" target="_blank" rel="nofollow">{{ $td('Staking', 'bee.bee-saking')}}</a>
+                            <a :href="$td('https://honee.app/farming-pancakeswap-bnb-bee', 'bee.bee-farming-url')" class="btn btn-1" target="_blank">{{ $td('Farming', 'bee.bee-farming')}}</a>
                             <a class="btn btn-6" target="_blank" rel="nofollow">{{ $td('Vote-to-Earn', 'bee.bee-vote')}}</a>
                             <div class="bee-buttons-links">
                                 {{ $td('Coming soon!', 'bee.bee-coming')}}

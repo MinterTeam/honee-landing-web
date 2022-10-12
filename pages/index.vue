@@ -151,7 +151,14 @@ export default {
                     <div class="bee-content">
                         <h2>{{ $td('BEE Token', 'index.bee-title')}}</h2>
                         <p>{{ $td('Honee wallet token, or BEE, is a simple BEP-20 utility token that provides a wide range of benefits and incentives to Honee wallet users.', 'index.bee-p1')}}</p>
-                        <p>{{ $td('BEE token holders unlock a variety of benefits when using Honee wallet, including rewards for actions, boosted yield for earning options in the app, and discounts on the use of DeFi services.', 'index.bee-p2')}}</p>
+                        <p>{{ $td('BEE token holders unlock a variety of benefits when using Honee wallet, including rewards for actions, boosted yield for earning options in the app, and discounts on the use of DeFi services.', 'index.bee-p2')}} 
+                            <template v-if="$i18n.locale === 'en'">
+                                <a href="/bee" target="_blank">Learn more</a> about BEE and its utility.
+                            </template>
+                            <template v-if="$i18n.locale === 'ru'">
+                                <a href="/ru/bee" target="_blank">Узнайте больше</a> о BEE и его использовании.
+                            </template>
+                        </p>
                         <div class="bee-buttons">
                             <a href="https://pancakeswap.finance/swap?outputCurrency=0x84b748b6a51548f3c1a59daf4f36df47ca7fb4b5" class="btn btn-3" target="_blank" rel="nofollow"><img src="/img/landing/bee-pancake.svg" alt="Buy BEE on Pancake"> {{ $td('Buy on PancakeSwap', 'index.bee-pancake')}}</a>
                             <a :href="$td('https://medium.com/@honeeapp/bee-staking-2-yield-up-to-20-in-apr-40a967eee243', 'index.bee-stake-url')" class="btn btn-4" target="_blank"><img src="/img/honee.svg" alt="Stake BEE and earn"> {{ $td('Stake BEE', 'index.bee-stake')}}</a>
