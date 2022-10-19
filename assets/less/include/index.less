@@ -1,5 +1,15 @@
 /* BASE */
 
+@font-face {
+    font-family: 'Druk Cyr Heavy Italic';
+    src: url('../fonts/DrukCyr-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/DrukCyr-HeavyItalic.woff') format('woff'),
+        url('../fonts/DrukCyr-HeavyItalic.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+  }
+
 .page-landing {
     //color: #222;
     font-size: 14px;
@@ -1232,8 +1242,8 @@ html.portfolio-battle-html {
     a.simple-link:hover {
         text-decoration: none;
     }
-    h1, h2 {
-        font-family: 'Druk Cyr';
+    h1, h2, .prizes-item-prize span {
+        font-family: 'Druk Cyr Heavy Italic', sans-serif;
     }
     h1 {
         max-width: 100%;
@@ -1359,7 +1369,6 @@ html.portfolio-battle-html {
         padding: 0 0 8px 0;
     }
     .prizes-item-prize span {
-        font-family: 'Druk Cyr';
         font-size: 86px;
         line-height: 86px;
     }
