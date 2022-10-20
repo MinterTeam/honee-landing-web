@@ -96,6 +96,10 @@ export default {
                             <a class="link--default-black" href="/legal/privacy.pdf" target="_blank">Privacy</a>
                             <a class="link--default-black" href="mailto:hello@honee.app" target="_blank">Contact</a>
                         </div>
+                        <h3 class="footer__caption">{{ $td('About Honee', 'index.footer-menu-other')}}</h3>
+                        <div class="footer__links-cell">
+                            <a class="link--default-black" :href="$i18nGetPreferredPath('/portfolio-battle')">{{ $td('Portfolio Battle', 'index.footer-link-portfolio-battle')}}</a>
+                        </div>
                     </div>
                     <div class="footer__contacts u-cell u-cell--auto">
                         <h3 class="footer__caption">{{ $td('Contacts', 'index.footer-menu-contacts')}}</h3>

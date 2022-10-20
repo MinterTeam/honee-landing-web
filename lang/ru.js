@@ -76,6 +76,7 @@ export default {
 
 		'footer-menu-useful': 'Полезная информация',
 		'footer-menu-about': 'О Honee',
+		'footer-menu-other': 'Другое',
 		'footer-menu-contacts': 'Контакты',
 
 		'footer-link-box-buy-bitcoin': 'Купить Биткоин',
@@ -111,6 +112,7 @@ export default {
 		'footer-link-box-buy-cake': 'Купить CAKE',
 		'footer-link-box-earn-cake': 'Заработать CAKE',
 		'footer-link-box-wallet-cake': 'CAKE кошелек',
+		'footer-link-portfolio-battle': 'Битва портфелей',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',
