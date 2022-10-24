@@ -62,7 +62,7 @@ export default {
                         <div class="battle-buttons">
                             <a :href="$td('https://my.honee.app/auth/battle', 'battle.join-url')" class="btn btn-1" target="_blank">{{ $td('Join the Battle', 'battle.join')}}</a>
                             <div class="battle-buttons-links">
-                                <a :href="$td('https://t.me/+bawyvNtF_MgwOTky', 'battle.tg-url')" target="_blank"><img src="/img/landing/battle/share-telegram.svg" :alt="$td('Portfolios Battle from DeCenter & Honee', 'battle.alt')">{{ $td('Subscribe to the channel', 'battle.channel')}}</a>
+                                <a :href="$td('https://t.me/+4d2cu93iohk4YjQy', 'battle.tg-url')" target="_blank"><img src="/img/landing/battle/share-telegram.svg" :alt="$td('Portfolios Battle from DeCenter & Honee', 'battle.alt')">{{ $td('Subscribe to the channel', 'battle.channel')}}</a>
                             </div>
                         </div>
                     </div>
@@ -130,8 +130,8 @@ export default {
                     <p>Contest participants register on the Honee platform and create their portfolios with 100 virtual dollars, choosing the coins they think are the most promising. Every week, the top 3 best portfolios are selected, who receive fixed prizes, as well as an amount in the form <b>of their portfolio's profit</b>. In addition, the Top 100 receive a <b>guaranteed airdrop</b>. The tournament goes for 6 weeks, every week is a new rating. At the end of the competition, the top 3 best portfolios of all time are going to be selected, they will take <b>the main prizes</b> — the full value of their portfolios.</p>
                     <h2>Participation is very easy</h2>
                     <ol>
-                        <li>Subscribe to the <a href="https://t.me/+bawyvNtF_MgwOTky" target="_blank" class="simple-link">Honee Pro</a> Telegram channel, which gathers all portfolio managers;</li>
-                        <li>Register on the <a href="#" target="_blank" class="simple-link">Honee.app</a> platform (decentralized crypto wallet) and create your virtual crypto portfolio;</li>
+                        <li>Subscribe to the <a href="https://t.me/+4d2cu93iohk4YjQy" target="_blank" class="simple-link">Honee Pro</a> Telegram channel, which gathers all portfolio managers;</li>
+                        <li>Register on the <a href="https://my.honee.app/auth/battle" target="_blank" class="simple-link">Honee.app</a> platform (decentralized crypto wallet) and create your virtual crypto portfolio;</li>
                         <li>If necessary, during the battle you can edit your portfolio, but no more than 1 time per day;</li>
                         <li>Get your prize if you were able to show the maximum profit for the week.</li>
                     </ol>
@@ -159,8 +159,8 @@ export default {
                     <p>Участники конкурса регистрируются на платформе Honee и на 100 виртуальных долларов создают свои портфели, выбрав наиболее перспективные на их взгляд монеты. Каждую неделю выбирается Топ-3 лучших портфеля, которые получают фиксированные призы, а также сумму в виде <b>прибыли своего портфеля</b>. Кроме того, Топ-100 получают <b>гарантированный аирдроп</b>. Всего 6 недель, каждая неделя – новый рейтинг. В конце конкурса выбираются Топ-3 лучших портфеля за все время, которые забирают <b>главные призы</b> – полную стоимость своего портфеля.</p>
                     <h2>Участвовать максимально просто</h2>
                     <ol>
-                        <li>Подпишитесь на Telegram-канал <a href="https://t.me/+bawyvNtF_MgwOTky" target="_blank" class="simple-link">Honee Pro</a>, в котором собираются все управляющие портфелей;</li>
-                        <li>Зарегистрируйтесь на платформе <a href="#" target="_blank" class="simple-link">Honee.app</a> (децентрализованный крипто-кошелек) и создайте свой виртуальный крипто-портфель;</li>
+                        <li>Подпишитесь на Telegram-канал <a href="https://t.me/+4d2cu93iohk4YjQy" target="_blank" class="simple-link">Honee Pro</a>, в котором собираются все управляющие портфелей;</li>
+                        <li>Зарегистрируйтесь на платформе <a href="https://my.honee.app/ru/auth/battle" target="_blank" class="simple-link">Honee.app</a> (децентрализованный крипто-кошелек) и создайте свой виртуальный крипто-портфель;</li>
                         <li>При необходимости, в ходе битвы вы можете редактировать свой портфель, но не более 1 раза в сутки;</li>
                         <li>Получите свой приз, если смогли показать максимальную прибыль за неделю.</li>
                     </ol>
