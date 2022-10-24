@@ -317,8 +317,8 @@ export default {
 		'where-buy-title': 'Где купить?',
 	},
 	battle: {
-		'alt': 'Битва портфелей от Decenter и Honee',
-		'title': 'Битва портфелей от Decenter и Honee',
+		'alt': 'Битва портфелей от DeCenter и Honee',
+		'title': 'Битва портфелей от DeCenter и Honee',
 		'description': 'Призы и аирдропы каждую неделю, принимай участие в любой момент. Призовой фонд более $8500!',
 		'hello-title': 'Битва портфелей',
 		'hello-subtitle': '24 октября – 5 декабря',
