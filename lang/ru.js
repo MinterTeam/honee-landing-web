@@ -324,7 +324,7 @@ export default {
 		'hello-subtitle': '24 октября – 5 декабря',
 		'hello-description': 'Призы и аирдропы каждую неделю, принимай участие в любой момент. Призовой фонд более $8500!',
 		'join': 'Принять участие',
-		'join-url': '#',
+		'join-url': 'https://my.honee.app/ru/auth/battle',
 		'tg-url': 'https://t.me/+bawyvNtF_MgwOTky',
 		'channel': 'Подписаться на канал',
 		'prizes-before': 'до',

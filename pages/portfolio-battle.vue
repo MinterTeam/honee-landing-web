@@ -60,7 +60,7 @@ export default {
                         <p class="subtitle-h1">{{ $td('October 24 — December 5', 'battle.hello-subtitle')}}</p>
                         <p>{{ $td('Prizes and airdrops every week. You can take part at any time. The prize pool is over $8500!', 'battle.hello-description')}}</p>
                         <div class="battle-buttons">
-                            <a :href="$td('#', 'battle.join-url')" class="btn btn-1" target="_blank">{{ $td('Join the Battle', 'battle.join')}}</a>
+                            <a :href="$td('https://my.honee.app/auth/battle', 'battle.join-url')" class="btn btn-1" target="_blank">{{ $td('Join the Battle', 'battle.join')}}</a>
                             <div class="battle-buttons-links">
                                 <a :href="$td('https://t.me/+bawyvNtF_MgwOTky', 'battle.tg-url')" target="_blank"><img src="/img/landing/battle/share-telegram.svg" :alt="$td('Portfolios Battle from DeCenter & Honee', 'battle.alt')">{{ $td('Subscribe to the channel', 'battle.channel')}}</a>
                             </div>
@@ -139,7 +139,7 @@ export default {
                     <ul>
                         <li>You can join the portfolio battle at any time during the competition period;</li>
                         <li>Participation is free;</li>
-                        <li>One user — one portfolio, multi-accounts are prohibited;</li>
+                        <li>One user — one portfolio, multi-accounts are prohibited. If a violation of the rules is suspected, prize payments may be denied. We are for fair play!;</li>
                         <li>Portfolio editing is available once a day;</li>
                         <li>The portfolio can consist of 2-10 coins;</li>
                         <li>Battles take place every week from October 24 to December 5, in total 6 weeks (stages);</li>
@@ -168,7 +168,7 @@ export default {
                     <ul>
                         <li>Присоединиться к битве портфелей можно в любой момент на протяжении периода конкурса;</li>
                         <li>Участие бесплатное;</li>
-                        <li>Один пользователь - один портфель, мультиаккаунты запрещены;</li>
+                        <li>Один пользователь - один портфель, мультиаккаунты запрещены. При подозрении в нарушении правил, в призовых выплатах может быть отказано. Мы за честную игру!;</li>
                         <li>Редактирование портфеля доступно 1 раз в сутки;</li>
                         <li>Портфель может состоять из 2 – 10 монет;</li>
                         <li>Битвы проходят каждую неделю с 24 октября по 5 декабря, всего 6 недель (этапов);</li>
@@ -205,7 +205,7 @@ export default {
                 </picture>
                 <div class="top-rating">
                     <div class="empty-table">{{ $td('The battle is about to begin...', 'battle.empty-table')}}</div>
-                    <a :href="$td('#', 'battle.join-url')" class="btn btn-1 btn-block" target="_blank">{{ $td('Join the Battle', 'battle.join')}}</a>
+                    <a :href="$td('https://my.honee.app/auth/battle', 'battle.join-url')" class="btn btn-1 btn-block" target="_blank">{{ $td('Join the Battle', 'battle.join')}}</a>
                 </div>
             </div>
         </section>
