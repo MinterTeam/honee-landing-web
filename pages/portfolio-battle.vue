@@ -150,7 +150,7 @@ export default {
                     <ul>
                         <li>Top 3 portfolios each week receive fixed prizes: 3000 BEE, 2000 BEE and 1000 BEE;</li>
                         <li>The Top 3 portfolios of each week take the amount of profit received from the virtual deposit, but not more than $100. The virtual deposit is $100. For example, if a participant's portfolio got into the Top 3 in a week and brought 20% profit, then the participant will receive $20;</li>
-                        <li>Top 100 profitable portfolios weekly receive the airdrop of 100 BEE each;</li>
+                        <li>Weekly airdrop of 100 BEE to the Top 100 participants with profit;</li>
                         <li>Grand Prizes: The top 3 portfolios of all time turn their virtual portfolio into real money! For example, if the winner made $1000 with virtual $100, then they will receive the entire amount (deposit + profit) in the amount of $1000. The main prize is capped at $1,000 per winner. Top 3 is formed from the best results for all tournament weeks.</li>
                     </ul>
                 </template>
@@ -179,7 +179,7 @@ export default {
                     <ul>
                         <li>Топ-3 портфеля каждой недели получают фиксированные призы: 3000 BEE, 2000 BEE и 1000 BEE;</li>
                         <li>Топ-3 портфеля каждой недели забирают сумму полученной прибыли от виртуального депозита, но не более $100. Виртуальный депозит равен $100. Например, если за неделю портфель участника попал в Топ 3 и принес 20% прибыли, то участник получит $20;</li>
-                        <li>Еженедельный айрдроп для Топ-100 участников в размере 100 BEE каждому;</li>
+                        <li>Еженедельный айрдроп в размере 100 BEE каждому из Топ-100 участников с прибыльными портфелями;</li>
                         <li>Главные призы: Топ-3 лучших портфеля за все время превращают свой виртуальный портфель в реальные деньги! Например, если победитель с виртуальных $100 сделал $1000, то он получит всю сумму (депозит + прибыль) в размере $1000. Главный приз оганичен $1000 на одного победителя. Топ-3 формируется из лучших результатов за неделю всех участников.</li>
                     </ul>
                 </template>
