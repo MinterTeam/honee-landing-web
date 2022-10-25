@@ -112,7 +112,7 @@ module.exports = {
             remarkAutolinkHeadings: false,
         },
     },
-    modern: 'client',
+    modern: process.env.NODE_ENV === 'development' ? false : 'client',
     features: {
         store: false,
         // layouts: false,

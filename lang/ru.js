@@ -325,6 +325,7 @@ export default {
 		'hello-description': 'Призы и аирдропы каждую неделю, принимай участие в любой момент. Призовой фонд более $8500!',
 		'join': 'Принять участие',
 		'join-url': 'https://my.honee.app/ru/auth/battle',
+		'embed-url': 'https://my.honee.app/ru/embed/battle',
 		'tg-url': 'https://t.me/+4d2cu93iohk4YjQy',
 		'channel': 'Подписаться на канал',
 		'prizes-before': 'до',

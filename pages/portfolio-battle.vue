@@ -9,7 +9,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Portfolios Battle from DeCenter & Honee', 'battle.title'));
-        const description = this.$td('Porfolio battle', 'battle.description');
+        const description = this.$td('Portfolio battle', 'battle.description');
 
         return {
             title: title,
@@ -204,7 +204,12 @@ export default {
                     <img src="/img/landing/battle/top.png" srcset="/img/landing/battle/top@2x.png 2x" :alt="$td('Portfolios Battle from DeCenter & Honee', 'battle.alt')" class="top-img" />
                 </picture>
                 <div class="top-rating">
-                    <div class="empty-table">{{ $td('The battle is about to begin...', 'battle.empty-table')}}</div>
+                    <iframe
+                        :src="$td('https://my.honee.app/embed/battle', 'battle.embed-url')"
+                        frameborder="0"
+                        style="min-width: 100%; height: 652px;"
+                        onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px';"
+                    ></iframe>
                     <a :href="$td('https://my.honee.app/auth/battle', 'battle.join-url')" class="btn btn-1 btn-block" target="_blank">{{ $td('Join the Battle', 'battle.join')}}</a>
                 </div>
             </div>
