@@ -70,7 +70,7 @@ export default {
                     <h2>Farming Program Details:</h2>
                     <ul>
                         <li>The program is valid until <b>January 1, 2023</b> and can be extended</li>
-                        <li>Rewards are <b>0.1%</b> of your liquidity, paid in <b>BEE</b> token</li>
+                        <li>Daily rewards are <b>0.1%</b> of your liquidity, paid in <b>BEE</b> token</li>
                         <li>Rewards must be claimed on your own</li>
                         <li>Cryptocurrencies are <b>prone to volatility</b>, so you must understand associated risks</li>
                         <li>Liquidity pools are subject to <a href="https://www.minter.network/earn/impermanent-loss" target="_blank">Impermanent Loss</a></li>
@@ -81,7 +81,7 @@ export default {
                     <h2>Детали программы фарминга:</h2>
                     <ul>
                         <li>Программа действует до <b>1 января 2023</b> с возможностью продления</li>
-                        <li>Вознаграждения составляют <b>0.1%</b> от вашей ликвидности, выплачиваются в токене <b>BEE</b></li>
+                        <li>Ежедневные вознаграждения составляют <b>0.1%</b> от вашей ликвидности, выплачиваются в токене <b>BEE</b></li>
                         <li>Вознаграждения необходимо клеймить самостоятельно</li>
                         <li>Криптовалюты подвержены <b>волатильности</b>, поэтому вы должны понимать связанные с ними риски</li>
                         <li>Пулы ликвидности подвержены <a href="https://www.minter.network/ru/earn/impermanent-loss" target="_blank">Непостоянным потерям</a></li>

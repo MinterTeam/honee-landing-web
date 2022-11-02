@@ -1473,7 +1473,7 @@ html.ref-html {
         padding: 0 0 32px 0;
     }
     .hello-image {
-        position: absolute;
+        position: relative;
         top: 0;
         left: initial;
         z-index: 0;
@@ -1537,12 +1537,20 @@ html.ref-html {
                 width: 48px;
                 height: 100%;
             }
+            .levels-option {
+                
+            }
         }
         .levels-item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 24px;
+            width: 186px;
             font-weight: 700;
             font-size: 22px;
             line-height: 27px;
-            div {
+            .levels-percent {
                 font-weight: 900;
                 font-size: 32px;
                 line-height: 39px;
@@ -1569,7 +1577,7 @@ html.ref-html {
         }
     }
     @media (max-width: 960px) {
-        .hello-image {display: none;}
+        .hello-image {max-width: 70%; display: block;margin: 0 auto;}
         .ref-layout {background: none;}
     }
     @media (max-width: 700px) {

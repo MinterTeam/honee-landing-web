@@ -60,28 +60,38 @@ export default {
                 <h2>{{ $td('Referral reward levels:', 'ref.levels-title')}}</h2>
                 <div class="levels-block">
                     <div class="levels-item">
-                        {{ $td('Level', 'ref.levels-item')}} 1
-                        <div>10%</div>
+                        <div class="levels-option">
+                            {{ $td('Level', 'ref.levels-item')}} 1
+                            <div class="levels-percent">10%</div>
+                        </div>
+                        <img src="/img/landing/ref/lvl-right.png" alt="">
                     </div>
-                    <img src="/img/landing/ref/lvl-right.png" alt="">
                     <div class="levels-item">
-                        {{ $td('Level', 'ref.levels-item')}} 2
-                        <div>10%</div>
+                        <div class="levels-option">
+                            {{ $td('Level', 'ref.levels-item')}} 2
+                            <div class="levels-percent">7%</div>
+                        </div>
+                        <img src="/img/landing/ref/lvl-right.png" alt="">
                     </div>
-                    <img src="/img/landing/ref/lvl-right.png" alt="">
                     <div class="levels-item">
-                        {{ $td('Level', 'ref.levels-item')}} 3
-                        <div>10%</div>
+                        <div class="levels-option">
+                            {{ $td('Level', 'ref.levels-item')}} 3
+                            <div class="levels-percent">4%</div>
+                        </div>
+                        <img src="/img/landing/ref/lvl-right.png" alt="">
                     </div>
-                    <img src="/img/landing/ref/lvl-right.png" alt="">
                     <div class="levels-item">
-                        {{ $td('Level', 'ref.levels-item')}} 4
-                        <div>10%</div>
+                        <div class="levels-option">
+                            {{ $td('Level', 'ref.levels-item')}} 4
+                            <div class="levels-percent">2%</div>
+                        </div>
+                        <img src="/img/landing/ref/lvl-right.png" alt="">
                     </div>
-                    <img src="/img/landing/ref/lvl-right.png" alt="">
                     <div class="levels-item">
-                        {{ $td('Level', 'ref.levels-item')}} 5
-                        <div>10%</div>
+                        <div class="levels-option">
+                            {{ $td('Level', 'ref.levels-item')}} 5
+                            <div class="levels-percent">1%</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -99,7 +109,7 @@ export default {
                 </template>
                 <template v-if="$i18n.locale === 'ru'">
                     <p>Выплаты <b>мгновенные</b>. Программа действует для стейкинга токенов: <b>HUB</b>, <b>BEE</b> и <b>MUSD</b>.</p>
-                    <p>Необходимые сроки стейкинга токенов вашими рефератами для выплат наград:</p>
+                    <p>Необходимые сроки стейкинга токенов вашими рефералами для выплат наград:</p>
                     <p class="details-coins">
                         <span><img src="/img/landing/ref/bee.svg" alt="BEE" style="width:24px;height:24px"><b>BEE</b> – 3 года</span>
                         <span><img src="/img/landing/ref/hub.svg" alt="HUB" style="width:24px;height:24px"><b>HUB</b> – 5 лет</span>
