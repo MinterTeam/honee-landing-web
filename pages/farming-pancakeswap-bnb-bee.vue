@@ -50,7 +50,7 @@ export default {
                 </div>
             </div>
         </header>
-        <section class="promo-bar">
+        <!--<section class="promo-bar">
             <div class="container">
                 <div class="promo-bar-div">
                     <img src="/img/landing/lottery-img-1.svg" alt="" class="lottery-img-1">
@@ -63,13 +63,13 @@ export default {
                     </template>
                 </div>
             </div>
-        </section>
+        </section>-->
         <section class="bee-text-block">
             <div class="container">
                 <template v-if="$i18n.locale === 'en'">
                     <h2>Farming Program Details:</h2>
                     <ul>
-                        <li>The program is valid until <b>November 1</b> and can be extended</li>
+                        <li>The program is valid until <b>January 1, 2023</b> and can be extended</li>
                         <li>Rewards are <b>0.1%</b> of your liquidity, paid in <b>BEE</b> token</li>
                         <li>Rewards must be claimed on your own</li>
                         <li>Cryptocurrencies are <b>prone to volatility</b>, so you must understand associated risks</li>
@@ -80,7 +80,7 @@ export default {
                 <template v-if="$i18n.locale === 'ru'">
                     <h2>Детали программы фарминга:</h2>
                     <ul>
-                        <li>Программа действует до <b>1 ноября</b> с возможностью продления</li>
+                        <li>Программа действует до <b>1 января 2023</b> с возможностью продления</li>
                         <li>Вознаграждения составляют <b>0.1%</b> от вашей ликвидности, выплачиваются в токене <b>BEE</b></li>
                         <li>Вознаграждения необходимо клеймить самостоятельно</li>
                         <li>Криптовалюты подвержены <b>волатильности</b>, поэтому вы должны понимать связанные с ними риски</li>
