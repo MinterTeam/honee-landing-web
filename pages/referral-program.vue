@@ -102,18 +102,18 @@ export default {
                     <p><b>Payouts are instant</b>. The program is valid for staking: <b>HUB</b>, <b>BEE</b> and <b>MUSD</b> tokens.</p>
                     <p>Required time duration for staking tokens by your referrals:</p>
                     <p class="details-coins">
-                        <span><img src="/img/landing/ref/bee.svg" alt="BEE" style="width:24px;height:24px"><b>BEE</b> – 3 years</span>
-                        <span><img src="/img/landing/ref/hub.svg" alt="HUB" style="width:24px;height:24px"><b>HUB</b> – 5 years</span>
-                        <span><img src="/img/landing/ref/musd.svg" alt="MUSD" style="width:24px;height:24px"><b>MUSD</b> – 3 years</span>
+                        <span><img src="/img/landing/ref/bee.svg" alt="BEE"><b>BEE</b> – 3 years</span>
+                        <span><img src="/img/landing/ref/hub.svg" alt="HUB"><b>HUB</b> – 5 years</span>
+                        <span><img src="/img/landing/ref/musd.svg" alt="MUSD"><b>MUSD</b> – 3 years</span>
                     </p>
                 </template>
                 <template v-if="$i18n.locale === 'ru'">
                     <p>Выплаты <b>мгновенные</b>. Программа действует для стейкинга токенов: <b>HUB</b>, <b>BEE</b> и <b>MUSD</b>.</p>
                     <p>Необходимые сроки стейкинга токенов вашими рефералами для выплат наград:</p>
                     <p class="details-coins">
-                        <span><img src="/img/landing/ref/bee.svg" alt="BEE" style="width:24px;height:24px"><b>BEE</b> – 3 года</span>
-                        <span><img src="/img/landing/ref/hub.svg" alt="HUB" style="width:24px;height:24px"><b>HUB</b> – 5 лет</span>
-                        <span><img src="/img/landing/ref/musd.svg" alt="MUSD" style="width:24px;height:24px"><b>MUSD</b> – 3 года</span>
+                        <span><img src="/img/landing/ref/bee.svg" alt="BEE"><b>BEE</b> – 3 года</span>
+                        <span><img src="/img/landing/ref/hub.svg" alt="HUB"><b>HUB</b> – 5 лет</span>
+                        <span><img src="/img/landing/ref/musd.svg" alt="MUSD"><b>MUSD</b> – 3 года</span>
                     </p>
                 </template>
             </div>
