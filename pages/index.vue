@@ -151,12 +151,12 @@ export default {
                     <div class="bee-content">
                         <h2>{{ $td('BEE Token', 'index.bee-title')}}</h2>
                         <p>{{ $td('Honee wallet token, or BEE, is a simple BEP-20 utility token that provides a wide range of benefits and incentives to Honee wallet users.', 'index.bee-p1')}}</p>
-                        <p>{{ $td('BEE token holders unlock a variety of benefits when using Honee wallet, including rewards for actions, boosted yield for earning options in the app, and discounts on the use of DeFi services.', 'index.bee-p2')}} 
+                        <p>{{ $td('BEE token holders unlock a variety of benefits when using Honee wallet, including rewards for actions, boosted yield for earning options in the app, access to premium features, and discounts on the use of DeFi services.', 'index.bee-p2')}} 
                             <template v-if="$i18n.locale === 'en'">
-                                <a href="/bee" target="_blank">Learn more</a> about BEE and its utility.
+                                Learn more about the <a href="/bee" target="_blank">BEE token and its utility</a>.
                             </template>
                             <template v-if="$i18n.locale === 'ru'">
-                                <a href="/ru/bee" target="_blank">Узнайте больше</a> о BEE и его использовании.
+                                Узнайте больше о <a href="/ru/bee" target="_blank">BEE и его использовании</a>.
                             </template>
                         </p>
                         <div class="bee-buttons">

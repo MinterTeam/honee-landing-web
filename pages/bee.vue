@@ -243,10 +243,12 @@ export default {
                 <div class="referral">
                     <h2>{{ $td('Referral Program', 'bee.referral-title')}}</h2>
                     <template v-if="$i18n.locale === 'en'">
-                        <p>Invite friends to Honee and get <b>10%</b> of their BEE staking rewards. Soon, we will launch more referral programs in Honee that will help you earn by sharing options offered by Honee with your friends.</p>
+                        <p>Invite friends to Honee and get <b>10%</b> of amounts they stake. In Honee there is multilevel referral program for cryptocurrency staking options.</p>
+                        <a href="/referral-program" class="btn btn-1" target="_blank">Referral Program</a>
                     </template>
                     <template v-if="$i18n.locale === 'ru'">
-                        <p>Приглашайте друзей в Honee и получайте <b>10%</b> от их вознаграждений за стейкинг BEE. Вскоре мы запустим в Honee еще больше реферальных программ, которые помогут вам зарабатывать, делясь с друзьями опциями, предлагаемыми Honee.</p>
+                        <p>Приглашайте друзей в Honee и получайте <b>10%</b> от сумм, которые они стейкуют. В Honee имеется многоуровневая реферальная программа для стейкинга криптовалют.</p>
+                        <a href="/ru/referral-program" class="btn btn-1" target="_blank">Реферальная программа</a>
                     </template>
                 </div>
             </div>
