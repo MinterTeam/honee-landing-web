@@ -44,7 +44,7 @@ export default {
                         <h1>{{ $td('Multilevel referral program', 'ref.hello-title')}}</h1>
                         <p>{{ $td('Invite your friends to Honee and get rewards from their staking amounts.', 'ref.hello-description')}}</p>
                         <div class="ref-buttons">
-                            <a :href="$td('#', 'ref.join-url')" class="btn btn-1" target="_blank">{{ $td('Learn more', 'ref.join')}}</a>
+                            <a :href="$td('/referral-program-details', 'ref.join-url')" class="btn btn-1" target="_blank">{{ $td('Learn more', 'ref.join')}}</a>
                         </div>
                     </div>
                     <picture>

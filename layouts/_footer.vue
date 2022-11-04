@@ -99,6 +99,7 @@ export default {
                         <h3 class="footer__caption">{{ $td('Other', 'index.footer-menu-other')}}</h3>
                         <div class="footer__links-cell">
                             <a class="link--default-black" :href="$i18nGetPreferredPath('/portfolio-battle')">{{ $td('Portfolio Battle', 'index.footer-link-portfolio-battle')}}</a>
+                            <a class="link--default-black" :href="$i18nGetPreferredPath('/referral-program')">{{ $td('Referral program', 'index.footer-link-ref')}}</a>
                         </div>
                     </div>
                     <div class="footer__contacts u-cell u-cell--auto">
