@@ -113,7 +113,7 @@ export default {
 		'footer-link-box-earn-cake': 'Заработать CAKE',
 		'footer-link-box-wallet-cake': 'CAKE кошелек',
 		'footer-link-portfolio-battle': 'Битва портфелей',
-		'footer-link-ref': 'Реф. программа',
+		'footer-link-ref': 'Реферальная программа',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',
