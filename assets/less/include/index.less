@@ -1591,3 +1591,177 @@ html.ref-html {
         .levels-item img {display: none;}
     }
 }
+
+html.copytrading-html {
+    background: linear-gradient(180deg, #3A808F 27.5%, #3BBF80 76.97%);
+    @media (max-width: 960px) {
+        .copytrading-layout {background: none;}
+    }
+}
+.copytrading-layout {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: left;
+    background: url(/img/landing/copytrading/bg-1.svg) top left no-repeat, url(/img/landing/copytrading/bg-3.svg) top 122px right no-repeat, url(/img/landing/copytrading/bg-2.svg) top right 60% no-repeat;
+    .copytrading-lang {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        z-index: 1;
+        img {
+            display: block;
+        }
+        .header__language-button img {
+            border: 3px solid #fff;
+            border-radius: 64px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+    header {
+        padding: 0 0 32px 0;
+    }
+    .hello {
+        padding: 0;
+        height: 100%;
+    }
+    .hello-image {
+        position: relative;
+        left: initial;
+        z-index: 0;
+        top: -120px;
+    }
+    .hello-content {
+        max-width: 409px;
+    }
+    h1 {
+        max-width: 100%;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 53px;
+        text-transform: none;
+        margin: 0 0 16px 0;
+    }
+    h2 {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 39px;
+        margin: 0 0 40px 0;
+        text-align: center;
+    }
+    .buttons-block {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 24px;
+        padding: 16px 0 0 0;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .btn {
+        padding: 16px 18px;
+        text-transform: uppercase;
+    }
+    .btn-block {
+        display: block;
+        width: 100%;
+    }
+    .btn-1 {
+        background: #FF8A00;
+        color: #fff;
+        min-width: auto;
+        box-shadow: 0px 4px 4px rgba(99, 59, 45, 0.2);
+    }
+    .btn-1:hover {
+        background: #ff9a28;
+    }
+    .btn-1:active {
+        box-shadow: none;
+    }
+    .how {
+        padding: 64px 0;
+    }
+    .how p {
+        margin: 40px 0 0 0;
+    }
+    .how-block {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin: 0 40px;
+    }
+    .how-item {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .how-item-center {
+        position: relative;
+        left: 40%;
+    }
+    .how-item-img {
+        position: relative;
+        width: 226px;
+        text-align: center;
+    }
+    .how-item-1 {
+        position: absolute;
+        z-index: -1;
+        bottom: -33px;
+        left: -44px;
+    }
+    .how-item-2 {
+        position: absolute;
+        z-index: -1;
+        top: -40px;
+        right: -32px;
+    }
+    .how-item-3 {
+        position: absolute;
+        z-index: -1;
+        bottom: -34px;
+        left: -26px;
+    }
+    .how-item-4 {
+        position: absolute;
+        z-index: -1;
+        top: -42px;
+        right: -25px;
+    }
+    .how-item-5 {
+        position: absolute;
+        z-index: -1;
+        top: -15px;
+        right: -58px;
+    }
+    .top-portfilios {
+        padding: 64px 0;
+        .container {
+            max-width: 1080px;
+        }
+    }
+    @media (max-width: 960px) {
+        .hello-image {max-width: 70%; display: block;margin: 0 auto;top:0;}
+        .how-block {gap: 36px;}
+        .how-item-center {position: inherit;}
+        .how-item-bg {display: none;}
+        .copytrading-layout {background: none;}
+    }
+    @media (max-width: 710px) {
+        .how-item {flex-direction: column;gap: 0;}
+    }
+    @media (max-width: 450px) {
+        h1 {
+            font-size: 30px;
+            line-height: 35px;
+        }
+    }
+}
