@@ -9,7 +9,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Earn by copying expert trades', 'copytrading.title'));
-        const description = this.$td('Honee wallet users earn up to 10% weekly by copying expert portfolios.', 'copytrading.description');
+        const description = this.$td('Honee wallet users earn up to 10% weekly by copying expert crypto portfolios.', 'copytrading.description');
 
         return {
             title: title,
@@ -42,7 +42,7 @@ export default {
                 <div class="hello">
                     <div class="hello-content">
                         <h1>{{ $td('Earn by copying expert trades', 'copytrading.hello-title')}}</h1>
-                        <p>{{ $td('Honee wallet users earn up to 10% weekly by copying expert portfolios.', 'copytrading.hello-description')}}</p>
+                        <p>{{ $td('Honee wallet users earn up to 10% weekly by copying expert crypto portfolios.', 'copytrading.hello-description')}}</p>
                         <div class="buttons-block">
                             <a :href="$td('https://my.honee.app/', 'copytrading.join-url')" class="btn btn-1" target="_blank">{{ $td('Launch Honee', 'copytrading.join')}}</a>
                         </div>
@@ -180,13 +180,14 @@ export default {
                 </template>
             </div>
         </section>
-        <!--<section class="top-portfilios">
+        <section class="top-portfilios">
             <div class="container">
-                <h2>{{ $td('Top Performing Portfolios', 'copytrading.top-portfilios-title')}}</h2>
+                <!--<h2>{{ $td('Top Performing Portfolios', 'copytrading.top-portfilios-title')}}</h2>
                 <div class="portfilios-grid">
                     
-                </div>
+                </div>-->
+                <a :href="$td('https://my.honee.app/portfolio', 'copytrading.portfolios-url')" class="btn btn-1" target="_blank">{{ $td('Explore expert portfolios', 'copytrading.portfolios')}}</a>
             </div>
-        </section>-->
+        </section>
     </div>
 </template>
