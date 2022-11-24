@@ -113,6 +113,7 @@ export default {
 		'footer-link-box-wallet-cake': 'CAKE кошелек',
 		'footer-link-portfolio-battle': 'Битва портфелей',
 		'footer-link-ref': 'Реферальная программа',
+		'footer-link-copytrading': 'Копирование сделок экспертов',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',

@@ -414,6 +414,9 @@ h3, .h3 {
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
+.footer__other {
+    max-width: (180px + 24px);
+}
 .footer__contacts {
     max-width: (270px + 24px);
 }
@@ -458,6 +461,9 @@ h3, .h3 {
     }
     .features-items {
         justify-content: space-evenly;
+    }
+    .footer__other {
+        max-width: 100%;
     }
     /*.footer-menu, .footer-link-box {
         justify-content: flex-start !important;
@@ -1758,11 +1764,13 @@ html.copytrading-html {
     }
     @media (max-width: 710px) {
         .how-item {flex-direction: column;gap: 0;}
+        .m-25 {margin: 25px 0 0 0;}
     }
     @media (max-width: 450px) {
         h1 {
             font-size: 30px;
             line-height: 35px;
         }
+        .copytrading-layout .how-block {margin: 0;}
     }
 }

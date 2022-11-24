@@ -69,7 +69,7 @@ export default {
                                     <img src="/img/landing/copytrading/how-1.png" srcset="/img/landing/copytrading/how-1@2x.png 2x" alt="" role="presentation"/>
                                 </picture>
                             </div>
-                            <div>Create and top up <br>a wallet in Honee</div>
+                            <div class="m-25">Create and top up <br>a wallet in Honee</div>
                         </div>
                         <div class="how-item how-item-center">
                             <div class="how-item-img">
@@ -129,7 +129,7 @@ export default {
                                     <img src="/img/landing/copytrading/how-1-ru.png" srcset="/img/landing/copytrading/how-1-ru@2x.png 2x" alt="" role="presentation"/>
                                 </picture>
                             </div>
-                            <div>Создайте и пополните <br>кошелек в Honee</div>
+                            <div class="m-25">Создайте и пополните <br>кошелек в Honee</div>
                         </div>
                         <div class="how-item how-item-center">
                             <div class="how-item-img">

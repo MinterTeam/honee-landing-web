@@ -88,7 +88,7 @@ export default {
                             </div>
                         </div>
                     </div>
-                    <div class="u-cell u-cell--auto">
+                    <div class="footer__other u-cell u-cell--auto">
                         <h3 class="footer__caption">{{ $td('About Honee', 'index.footer-menu-about')}}</h3>
                         <div class="footer__links-cell">
                             <a class="link--default-black" href="/legal/terms.pdf" target="_blank">Terms</a>
@@ -99,6 +99,7 @@ export default {
                         <div class="footer__links-cell">
                             <a class="link--default-black" :href="$i18nGetPreferredPath('/portfolio-battle')">{{ $td('Portfolio Battle', 'index.footer-link-portfolio-battle')}}</a>
                             <a class="link--default-black" :href="$i18nGetPreferredPath('/referral-program')">{{ $td('Referral program', 'index.footer-link-ref')}}</a>
+                            <a class="link--default-black" :href="$i18nGetPreferredPath('/copytrading')">{{ $td('Copy Trading', 'index.footer-link-copytrading')}}</a>
                         </div>
                     </div>
                     <div class="footer__contacts u-cell u-cell--auto">
