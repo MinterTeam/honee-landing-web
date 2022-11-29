@@ -100,6 +100,7 @@ export default {
                             <a class="link--default-black" :href="$i18nGetPreferredPath('/portfolio-battle')">{{ $td('Portfolio Battle', 'index.footer-link-portfolio-battle')}}</a>
                             <a class="link--default-black" :href="$i18nGetPreferredPath('/referral-program')">{{ $td('Referral program', 'index.footer-link-ref')}}</a>
                             <a class="link--default-black" :href="$i18nGetPreferredPath('/copytrading')">{{ $td('Copy Trading', 'index.footer-link-copytrading')}}</a>
+                            <a class="link--default-black" :href="$i18nGetPreferredPath('/how-earn-cryptocurrency-for-likes-retweets-on-twitter')">{{ $td('Crypto for likes', 'index.footer-link-likes')}}</a>
                         </div>
                     </div>
                     <div class="footer__contacts u-cell u-cell--auto">

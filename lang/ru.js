@@ -114,6 +114,7 @@ export default {
 		'footer-link-portfolio-battle': 'Битва портфелей',
 		'footer-link-ref': 'Реферальная программа',
 		'footer-link-copytrading': 'Копирование сделок экспертов',
+		'footer-link-likes': 'Криптовалюта за лайки',
 	},
 	form: {
 		'toggle-simple-mode': 'Убрать сообщение',

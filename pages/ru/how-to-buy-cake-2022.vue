@@ -3,6 +3,7 @@ import getTitle from '~/assets/get-title.js';
 import trackClick from '~/assets/v-track-click.js';
 
 export default {
+    layout: 'default-seo',
     nuxtI18n: {
         paths: {
             ru: '/kak-kupit-cake-2022',

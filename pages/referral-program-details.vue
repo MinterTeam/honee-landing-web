@@ -59,7 +59,7 @@ export default {
                         <div class="article-picture-box-content">
                             <p>How to use:</p>
                             <ol>
-                                <li>Register with <a href="https://my.honee.app/ru">Honee</a>;</li>
+                                <li>Register with <a href="https://my.honee.app/">Honee</a>;</li>
                                 <li>Activate the referral link;</li>
                                 <li>Copy the referral link;</li>
                                 <li>Share your referral link with your friends.</li>

@@ -1774,3 +1774,25 @@ html.copytrading-html {
         .copytrading-layout .how-block {margin: 0;}
     }
 }
+
+.article-promo {
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    .article-promo-item {
+        width: 200px;
+        text-align: left;
+    }
+    .article-promo-item-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 10px 0 0 0;
+    }
+}
+@media (max-width: 464px) {
+    .article-promo .article-promo-item {text-align: center; width: 100%;}
+}
+.emoji {
+    font-family: Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,Android Emoji,EmojiSymbols,EmojiOne Mozilla,Twemoji Mozilla,Segoe UI Symbol,Noto Color Emoji Compat,emoji,noto-emojipedia-fallback;
+}
