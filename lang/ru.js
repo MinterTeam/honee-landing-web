@@ -321,10 +321,10 @@ export default {
 	battle: {
 		'alt': 'Битва портфелей от DeCenter и Honee',
 		'title': 'Битва портфелей от DeCenter и Honee',
-		'description': 'Призы и аирдропы каждую неделю, принимай участие в любой момент. Призовой фонд более $8500!',
+		'description': 'Призы и аирдропы каждую неделю, принимай участие в любой момент.',
 		'hello-title': 'Битва портфелей',
-		'hello-subtitle': '24 октября – 5 декабря',
-		'hello-description': 'Призы и аирдропы каждую неделю, принимай участие в любой момент. Призовой фонд более $8500!',
+		'hello-subtitle': 'Каждую неделю',
+		'hello-description': 'Призы и аирдропы каждую неделю, принимай участие в любой момент.',
 		'join': 'Принять участие',
 		'join-url': 'https://my.honee.app/ru/auth/battle',
 		'embed-url': 'https://my.honee.app/ru/embed/battle',
