@@ -9,7 +9,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Portfolios Battle from DeCenter & Honee', 'battle.title'));
-        const description = this.$td('Prizes and airdrops every week. You can take part at any time.', 'battle.description');
+        const description = this.$td('Prizes and airdrops every Monday. You can take part at any time.', 'battle.description');
 
         return {
             title: title,
@@ -58,7 +58,7 @@ export default {
                     <div class="hello-content">
                         <h1>{{ $td('Porfolio Battle', 'battle.hello-title')}}</h1>
                         <p class="subtitle-h1">{{ $td('Every week', 'battle.hello-subtitle')}}</p>
-                        <p>{{ $td('Prizes and airdrops every week. You can take part at any time.', 'battle.hello-description')}}</p>
+                        <p>{{ $td('Prizes and airdrops every Monday. You can take part at any time.', 'battle.hello-description')}}</p>
                         <div class="battle-buttons">
                             <a :href="$td('https://my.honee.app/auth/battle', 'battle.join-url')" class="btn btn-1" target="_blank">{{ $td('Join the Battle', 'battle.join')}}</a>
                             <div class="battle-buttons-links">
@@ -137,7 +137,7 @@ export default {
                     </ol>
                     <h2>Details and rules</h2>
                     <ul>
-                        <li>You can join the portfolio battle at any time during the competition period;</li>
+                        <li>You can join the portfolio battle at any time;</li>
                         <li>Participation is free;</li>
                         <li>One user — one portfolio, multi-accounts are prohibited. If a violation of the rules is suspected, prize payments may be denied. We are for fair play!;</li>
                         <li>Portfolio editing is available once a day;</li>
@@ -164,7 +164,7 @@ export default {
                     </ol>
                     <h2>Детали и правила</h2>
                     <ul>
-                        <li>Присоединиться к битве портфелей можно в любой момент на протяжении периода конкурса;</li>
+                        <li>Присоединиться к битве портфелей можно в любой момент;</li>
                         <li>Участие бесплатное;</li>
                         <li>Один пользователь - один портфель, мультиаккаунты запрещены. При подозрении в нарушении правил, в призовых выплатах может быть отказано. Мы за честную игру!;</li>
                         <li>Редактирование портфеля доступно 1 раз в сутки;</li>
