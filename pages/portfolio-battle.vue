@@ -94,7 +94,7 @@ export default {
                             <source srcset="/img/landing/battle/prize-1.webp 1x, /img/landing/battle/prize-1@2x.webp 2x" type="image/webp">
                             <img src="/img/landing/battle/prize-1.png" srcset="/img/landing/battle/prize-1@2x.png 2x" :alt="$td('Portfolios Battle from DeCenter & Honee', 'battle.alt')" class="prize-img prize-img-1" />
                         </picture>
-                        <div class="prizes-item-prize"><span>150 <span class="prize-symbol">USDT</span></span></div>
+                        <div class="prizes-item-prize">{{ $td('up to', 'battle.prizes-before')}}<span>3000 <span class="prize-symbol">BEE</span></span></div>
                         <div class="prizes-item-description">
                             <template v-if="$i18n.locale === 'en'">
                                 <p>Weekly Prize <br />for Top 3 Portfolios</p>
@@ -148,7 +148,7 @@ export default {
                     </ul>
                     <h2>Prizes</h2>
                     <ul>
-                        <li>Top 3 portfolios each week receive fixed prizes: 70 USDT, 50 USDT and 30 USDT;</li>
+                        <li>Top 3 portfolios each week receive fixed prizes: 3000 BEE, 2000 BEE and 1000 BEE;</li>
                         <li>Weekly airdrop of 200 BEE to the Top 20 participants with profit.</li>
                     </ul>
                 </template>
@@ -175,7 +175,7 @@ export default {
                     </ul>
                     <h2>Призы</h2>
                     <ul>
-                        <li>Топ-3 портфеля каждой недели получают фиксированные призы: 70 USDT, 50 USDT и 30 USDT;</li>
+                        <li>Топ-3 портфеля каждой недели получают фиксированные призы: 3000 BEE, 2000 BEE и 1000 BEE;</li>
                         <li>Еженедельный айрдроп в размере 200 BEE каждому из Топ-20 участников с прибыльными портфелями.</li>
                     </ul>
                 </template>
