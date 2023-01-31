@@ -356,4 +356,15 @@ export default {
 		'portfolios': 'Посмотреть портфели экспертов',
 		'portfolios-url': 'https://my.honee.app/ru/portfolio',
 	},
+	metagarden: {
+		'title': 'Metagarden',
+		'description': 'Play-to-earn платформа с мини-играми и крипто-призами!',
+		'hello-title': 'Добро пожаловать в Metagarden',
+		'hello-description': 'Play-to-earn платформа с мини-играми и крипто-призами!',
+		'start-button': 'Играть и зарабатывать',
+		'for-title': 'Здесь есть место для каждого',
+		'games-title': 'Игры Metagarden',
+		'games-description': 'Выберите игру из нашей библиотеки, которая вам больше всего подходит - от простых аркад до сложных головоломок. Одиночная игра, кооперативная или многопользовательская. Проверьте свои навыки и заработайте криптовалюту!',
+		'games-button': 'Играть и зарабатывать',
+	},
 };

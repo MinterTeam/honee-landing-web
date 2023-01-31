@@ -1824,3 +1824,230 @@ html.copytrading-html {
 .emoji {
     font-family: Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,Android Emoji,EmojiSymbols,EmojiOne Mozilla,Twemoji Mozilla,Segoe UI Symbol,Noto Color Emoji Compat,emoji,noto-emojipedia-fallback;
 }
+
+
+.metagarden-html {
+    background: #223E2D;
+    color: #fff;
+}
+.metagarden-layout {
+    background: url(/img/landing/metagarden/bg1.svg) top left 10% no-repeat, url(/img/landing/metagarden/bg2.svg) top 300px right no-repeat, url(/img/landing/metagarden/bg3.svg) bottom center no-repeat, url(/img/landing/metagarden/bg4.svg) center left no-repeat;
+}
+.metagarden-landing {
+    z-index: 1;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    .hello {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hello-content {
+        max-width: 430px;
+        .btn {
+            min-width: 312px;
+        }
+    }
+    .hello-content h1 {
+        max-width: 100%;
+    }
+    .hello-image {
+        left: unset;
+        max-width: 446px;
+        max-height: 445px;
+        position: relative;
+    }
+    .logo {
+        margin: 0 0 16px 0;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+        margin: 0 0 8px 0;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        margin: 0px 0px 8px 0;
+    }
+    h3 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 0 11px 0;
+    }
+    .subtitle-h1 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .buttons-block {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin: 0 0 24px 0;
+    }
+    .btn-1 {
+        background: #42DF81;
+        color: #0F2217;
+        border: 1px solid #42DF81;
+        min-width: 248px;
+        padding: 10px 18px;
+        box-shadow: none;
+    }
+    .btn-1:hover {
+        background: #51ec8f;
+    }
+    .btn-outline {
+        background: transparent;
+        color: #42DF81;
+        border: 1px solid #42DF81;
+        min-width: 248px;
+        padding: 10px 18px;
+        box-shadow: none;
+    }
+    .btn-outline:hover {
+        background: #51ec8f;
+        color: #0F2217;
+    }
+    ul li {
+        margin: 0 0 8px 20px;
+    }
+    p {
+        margin: 0 0 16px;
+    }
+    p a {
+        font-weight: 700;
+        color: #FF8A00;
+        text-decoration-line: underline;
+    }
+    p a:hover {
+        text-decoration-line: none;
+    }
+    .for {
+        padding: 50px 0 120px 0;
+    }
+    .for-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 36px;
+        margin: 40px 0 0 0;
+        .for-item {
+            max-width: 296px;
+        }
+        .for-img {
+            text-align: center !important;
+            margin: 0 0 18px 0;
+        }
+    }
+    .games {
+        padding: 0 0 70px 0;
+    }
+    .games-block {
+        display: flex;
+        gap: 17px;
+        flex-wrap: wrap;
+        .games-about {
+            max-width: 296px;
+        }
+    }
+    .block-reverse {
+        flex-direction: row-reverse;
+    }
+    .games-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        .games-item {
+            max-width: 205px;
+            img {
+                border-radius: 16px 16px 0 0;
+            }
+            .games-item-text {
+                background-color: #fff;
+                color: #0F2217;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 8px 16px 16px 16px;
+                border-radius: 0 0 16px 16px;
+                span {
+                    color: #5A9F77;
+                    font-size: 12px;
+                    line-height: 15px;
+                    margin: 0 0 4px 0;
+                };
+            }
+        }
+    }
+    .simple-content-section {
+        padding: 50px 0 50px 0;
+    }
+    .simple-content-block {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 56px;
+    }
+    .metagarden-footer {
+        padding: 25px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        div {
+            display: flex;
+            gap: 24px;
+        }
+    }
+
+    @media (max-width: 960px) {
+        .hello-content {
+            max-width: 100%;
+        }
+        .hello-image {
+            max-width: 60%;
+        }
+        .for-items {
+            justify-content: space-around;
+        }
+        .games-about {
+            max-width: 100% !important;
+            margin: 0 0 24px 0;
+        }
+    }
+    @media (max-width: 700px) {
+        .for-item {
+            max-width: 100% !important;
+        }
+        .simple-content-block {
+            flex-direction: column-reverse;
+        }
+    }
+    @media (max-width: 440px) {
+        h1 {
+            font-size: 32px;
+            line-height: 39px;
+        }
+        h2 {
+            font-size: 26px;
+            line-height: 32px;
+        }
+        .games-list {
+            justify-content: center;
+        }
+        .simple-content-img {
+            text-align: center;
+            img {
+                width: 50%;
+                height: 50%;
+                text-align: center;
+            }
+        }
+    }
+}
