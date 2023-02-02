@@ -9,7 +9,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Metagarden', 'metagarden.title'));
-        const description = this.$td('A play-to-earn platform with mini games and crypto prizes!', 'metagarden.description');
+        const description = this.$td('A play-to-earn platform with mini games. Become the platform miner to earn crypto.', 'metagarden.description');
 
         return {
             title: title,
@@ -85,11 +85,11 @@ export default {
                         </div>
                         <template v-if="$i18n.locale === 'en'">
                             <h3>For Developers</h3>
-                            <p>Want to add your games to the platform? We’ll provide everything you need – gateways, wallets & blockchain accounting systems.</p>
+                            <p>Want to add your games to the platform? We’ll provide everything you need — gateways, wallets & blockchain accounting systems.</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <h3>Для разработчиков</h3>
-                            <p>Хотите добавить свои игры на платформу? Мы предоставим все необходимое - шлюзы, кошельки и системы учета на основе блокчейна.</p>
+                            <p>Хотите добавить свои игры на платформу? Мы предоставим все необходимое — шлюзы, кошельки и системы учета на основе блокчейна.</p>
                         </template>
                     </div>
                     <div class="for-item">
@@ -117,7 +117,7 @@ export default {
                 <div class="games-block">
                     <div class="games-about">
                         <h2>{{ $td('Metagarden Games', 'metagarden.games-title')}}</h2>
-                        <p>{{ $td('Choose a game from our library that suits you best – from simple arcades to challenging puzzles. Single player, co-op or multiplayer. Test your skills and earn crypto!', 'metagarden.games-description')}}</p>
+                        <p>{{ $td('Choose a game from our library that suits you best — from simple arcades to challenging puzzles. Single player, co-op or multiplayer. Test your skills and earn crypto!', 'metagarden.games-description')}}</p>
                         <a class="btn btn-disable" target="_blank">{{ $td('Coming Soon', 'metagarden.games-button')}}</a>
                     </div>
                     <div class="games-list">
@@ -182,7 +182,7 @@ export default {
                     <div class="simple-content-text">
                         <template v-if="$i18n.locale === 'en'">
                             <h2>Join Our Ecosystem</h2>
-                            <p>We offer developers the easiest way to seamlessly integrate crypto into their games. Release a new token or use one of the popular ones, get a simple custom wallet, crypto input and output.</p>
+                            <p>We offer developers the easiest way to seamlessly integrate crypto into their games. Release a new token or use one of the popular ones, get a simple custom wallet, crypto deposits and withdrawals.</p>
                             <p><strong>What’s important.</strong> Players won’t have to interact with blockchain mumbo jumbo such as addresses, gas, unlocks, and confirms.</p>
                             <p><i>The SDK and API tools are in development.</i></p>
                         </template>
@@ -209,29 +209,37 @@ export default {
                     <div class="simple-content-text">
                         <template v-if="$i18n.locale === 'en'">
                             <h2>METAGARDEN Base Token</h2>
-                            <p>The token plays a major role on the platform for processing player earnings, it can be used as a:</p>
-                            <ul>
-                                <li>Base game token if the game does not have its own</li>
-                                <li>In-game payment to purchase skins, NFTs, boosts, etc.</li>
-                                <li>Reward for various actions and achievements</li>
-                                <li>Cross-game token</li>
-                                <li>Voting for promising games in developent and qualify for airdrops and discounts of up to 99% before launch)</li>
-                                <li>DAO - from 1 to 10% (commission from investment rounds for platform development)</li>
-                                <li>Staking (lock tokens in exchange for privileges, lootboxes, etc.)</li>
-                            </ul>
+                            <p>The token plays a major role on the platform, it will be used as:
+                                <ul>
+                                    <li>Base game token if the game does not have its own</li>
+                                    <li>In-game payment to purchase skins, NFTs, boosts, etc.</li>
+                                    <li>Reward for various actions and achievements</li>
+                                    <li>Cross-game token</li>
+                                    <li>Voting for promising games in development and qualify for airdrops and discounts of up to 99% before launch</li>
+                                    <li>DAO — from 1 to 10% (commission from all game rounds gathered for platform development)</li>
+                                    <li>Staking (lock tokens in exchange for privileges, lootboxes, etc.)</li>
+                                </ul>
+                            </p>
+                            <div class="buttons-block">
+                                <a href="#" class="btn btn-outline" target="_blank">METAGARDEN Tokenomics</a>
+                            </div>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <h2>Базовый токен METAGARDEN</h2>
-                            <p>Токен играет важную роль на платформе для обработки доходов игроков, его можно использовать как:</p>
-                            <ul>
-                                <li>Базовый игровой токен, если у игры нет собственного токена</li>
-                                <li>Внутриигровые платежи для покупки скинов, NFT, бустов и т.д.</li>
-                                <li>Награда за различные действия и достижения</li>
-                                <li>Межигровой токен</li>
-                                <li>Голосуйте за перспективные игры, находящиеся в разработке, и получайте право на аирдропы и скидки до 99% до запуска)</li>
-                                <li>DAO - от 1% до 10% (комиссия от инвестиционных раундов на развитие платформы)</li>
-                                <li>Стейкинг (блокировка токенов в обмен на привилегии, лутбоксы и т.д.)</li>
-                            </ul>
+                            <p>Токен играет важную роль на платформе для обработки доходов игроков, его можно использовать как:
+                                <ul>
+                                    <li>Базовый игровой токен, если у игры нет собственного токена</li>
+                                    <li>Внутриигровые платежи для покупки скинов, NFT, бустов и т.д.</li>
+                                    <li>Награда за различные действия и достижения</li>
+                                    <li>Межигровой токен</li>
+                                    <li>Голосуйте за перспективные игры, находящиеся в разработке, и получайте право на аирдропы и скидки до 99% до запуска</li>
+                                    <li>DAO — от 1% до 10% (комиссия от всех игровых раундов на развитие платформы)</li>
+                                    <li>Стейкинг (блокировка токенов в обмен на привилегии, лутбоксы и т.д.)</li>
+                                </ul>
+                            </p>
+                            <div class="buttons-block">
+                                <a href="#" class="btn btn-outline" target="_blank">Токеномика METAGARDEN</a>
+                            </div>
                         </template>
                     </div>
                     <div class="simple-content-img">
@@ -253,7 +261,6 @@ export default {
                             <p>Token mining is a game where the player buys mining spots that produce daily rewards in platforms’s base token METAGARDEN as well as VOTES token.</p>
                             <div class="buttons-block">
                                 <a href="https://my.honee.app/metagarden/buy-spot" class="btn btn-1" target="_blank">Buy Mining Spots</a>
-                                <a href="#" class="btn btn-outline" target="_blank">METAGARDEN Tokenomics</a>
                             </div>
                             <h3>Miner’s Privileges</h3>
                             <ul>
@@ -269,10 +276,9 @@ export default {
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <h2>Майнинг токена</h2>
-                            <p>Добыча токенов - это игра, в которой игрок покупает майнинг-споты. Они приносят ежедневные вознаграждения в базовом токене платформы METAGARDEN, а также в токене VOTES.</p>
+                            <p>Добыча токенов — это игра, в которой игрок покупает майнинг-споты. Они приносят ежедневные вознаграждения в базовом токене платформы METAGARDEN, а также в токене VOTES.</p>
                             <div class="buttons-block">
                                 <a href="https://my.honee.app/ru/metagarden/buy-spot" class="btn btn-1" target="_blank">Купить майнинг-спот</a>
-                                <a href="#" class="btn btn-outline" target="_blank">Токеномика METAGARDEN</a>
                             </div>
                             <h3>Привилегии майнеров</h3>
                             <ul>
