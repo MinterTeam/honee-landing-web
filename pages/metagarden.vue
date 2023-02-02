@@ -118,57 +118,57 @@ export default {
                     <div class="games-about">
                         <h2>{{ $td('Metagarden Games', 'metagarden.games-title')}}</h2>
                         <p>{{ $td('Choose a game from our library that suits you best – from simple arcades to challenging puzzles. Single player, co-op or multiplayer. Test your skills and earn crypto!', 'metagarden.games-description')}}</p>
-                        <a href="#" class="btn btn-outline" target="_blank">{{ $td('Play Games & Earn Crypto', 'metagarden.games-button')}}</a>
+                        <a class="btn btn-disable" target="_blank">{{ $td('Coming Soon', 'metagarden.games-button')}}</a>
                     </div>
                     <div class="games-list">
-                        <a href="#" target="_blank" class="games-item">
+                        <a target="_blank" class="games-item">
                             <picture>
                                 <source srcset="/img/landing/metagarden/g1.avif 1x, /img/landing/metagarden/g1@2x.avif 2x" type="image/avif">
                                 <source srcset="/img/landing/metagarden/g1.webp 1x, /img/landing/metagarden/g1@2x.webp 2x" type="image/webp">
-                                <img src="/img/landing/metagarden/g1.png" srcset="/img/landing/metagarden/g1@2x.png 2x" alt="metagarden games" role="presentation"/>
+                                <img src="/img/landing/metagarden/g1.png" srcset="/img/landing/metagarden/g1@2x.png 2x" alt="metagarden Carrots Mafia" role="presentation"/>
                             </picture>
                             <div class="games-item-text">
                                 <template v-if="$i18n.locale === 'en'">
-                                    <span>puzzle</span>
-                                    <div class="game-name">Dwarf Fortress</div>
+                                    <span>strategy</span>
+                                    <div class="game-name">Carrots Mafia</div>
                                 </template>
                                 <template v-if="$i18n.locale === 'ru'">
-                                    <span>пазл</span>
-                                    <div class="game-name">Dwarf Fortress</div>
+                                    <span>стратегия</span>
+                                    <div class="game-name">Carrots Mafia</div>
                                 </template>
                             </div>
                         </a>
-                        <a href="#" target="_blank" class="games-item">
+                        <a target="_blank" class="games-item">
                             <picture>
                                 <source srcset="/img/landing/metagarden/g2.avif 1x, /img/landing/metagarden/g2@2x.avif 2x" type="image/avif">
                                 <source srcset="/img/landing/metagarden/g2.webp 1x, /img/landing/metagarden/g2@2x.webp 2x" type="image/webp">
-                                <img src="/img/landing/metagarden/g2.png" srcset="/img/landing/metagarden/g2@2x.png 2x" alt="metagarden games" role="presentation"/>
+                                <img src="/img/landing/metagarden/g2.png" srcset="/img/landing/metagarden/g2@2x.png 2x" alt="metagarden Magic Lootbox" role="presentation"/>
                             </picture>
                             <div class="games-item-text">
                                 <template v-if="$i18n.locale === 'en'">
-                                    <span>board game</span>
-                                    <div class="game-name">World of Magic</div>
+                                    <span>lottery</span>
+                                    <div class="game-name">Magic Lootbox</div>
                                 </template>
                                 <template v-if="$i18n.locale === 'ru'">
-                                    <span>настольная</span>
-                                    <div class="game-name">Dwarf Fortress</div>
+                                    <span>лотерея</span>
+                                    <div class="game-name">Magic Lootbox</div>
                                 </template>
                             </div>
                         </a>
-                        <a href="#" target="_blank" class="games-item">
+                        <a target="_blank" class="games-item">
                             <picture>
-                                <source srcset="/img/landing/metagarden/g1.avif 1x, /img/landing/metagarden/g1@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/landing/metagarden/g1.webp 1x, /img/landing/metagarden/g1@2x.webp 2x" type="image/webp">
-                                <img src="/img/landing/metagarden/g1.png" srcset="/img/landing/metagarden/g1@2x.png 2x" alt="metagarden games" role="presentation"/>
+                                <source srcset="/img/landing/metagarden/g3.avif 1x, /img/landing/metagarden/g3@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/landing/metagarden/g3.webp 1x, /img/landing/metagarden/g3@2x.webp 2x" type="image/webp">
+                                <img src="/img/landing/metagarden/g3.png" srcset="/img/landing/metagarden/g3@2x.png 2x" alt="metagarden Build Your Garden" role="presentation"/>
                             </picture>
                             <div class="games-item-text">
                                 <template v-if="$i18n.locale === 'en'">
-                                    <span>puzzle</span>
-                                    <div class="game-name">Dwarf Fortress</div>
+                                    <span>strategy</span>
+                                    <div class="game-name">Build Your Garden</div>
                                 </template>
                                 <template v-if="$i18n.locale === 'ru'">
-                                    <span>пазл</span>
-                                    <div class="game-name">Dwarf Fortress</div>
+                                    <span>стратегия</span>
+                                    <div class="game-name">Build Your Garden</div>
                                 </template>
                             </div>
                         </a>
