@@ -1841,6 +1841,7 @@ html.copytrading-html {
     .hello {
         align-items: center;
         justify-content: space-between;
+        height: 100%;
     }
     .hello-content {
         max-width: 430px;
@@ -1856,6 +1857,7 @@ html.copytrading-html {
         max-width: 446px;
         max-height: 445px;
         position: relative;
+        top: 0;
     }
     .logo {
         margin: 0 0 16px 0;
@@ -2063,6 +2065,239 @@ html.copytrading-html {
                 height: 50%;
                 text-align: center;
             }
+        }
+    }
+}
+
+.metagarden-token-landing {
+    .logo {
+        display: flex;
+        align-items: center;
+        img {
+            margin: 0 13px 0 0;
+        }
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+        margin: 0;
+    }
+    h2 {
+        margin: 0 0 24px 0;
+    }
+    h3 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 16px 0;
+    }
+    h4 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 8px;
+    }
+    p a {
+        color: #42DF81;
+    }
+    .use-item-h4::before {
+        content: "▌";
+        color: #42DF81;
+    }
+    .subtitle-h1 {
+        margin: 0 0 24px 0;
+    }
+    .hello-content .btn {
+        min-width: 152px;
+    }
+    .hello-image {
+        max-width: 340px;
+        max-height: 309px;
+    }
+    .use {
+        padding: 83px 0 0 0;
+    }
+    .use-block {
+        margin: 0 0 48px 0;
+    }
+    .use-items {
+        columns: 3;
+        gap: 24px;
+    }
+    .use-item {
+        page-break-inside: avoid;
+        margin: 0 0 24px 0;
+    }
+    .use-img {
+        margin: 0 0 8px 0;
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+    .circulation {
+        padding: 70px 0 60px 0;
+    }
+    .pie {
+        display: flex;
+        margin: 0 0 40px 0;
+    }
+    .pie-img {
+        margin: 0 32px 0 0;
+        img {
+            width: 156px;
+            height: 125px;
+        }
+    }
+    .pie-item {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0 50px 11px 0;
+        span {
+            display: block;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: uppercase;
+            margin: 0 0 4px 0;
+        }
+    }
+    .pie-item-1 {
+        display: block;
+        span {color: #42DF81}
+    }
+    .pie-item-2 span {color: #F143C1}
+    .pie-item-3 span {color: #00B2FF}
+    .pie-item-4 span {color: #FFD600}
+    .circulation-text-block {
+        p {
+            margin: 0 0 17px 0;
+        }
+    }
+    .circulation-blockchain {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        margin: 0 0 23px 0;
+        word-break: break-all;
+        img {
+            width: 24px;
+            height: 24px;
+            margin: 0 8px 0 0;
+        }
+        .circulation-blockchain-address {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            color: #42DF81;
+            padding: 8px 0 0 0;
+        }
+    }
+    .circulation-text {
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    .circulation-text-block {
+        width: 45%;
+    }
+    .simple-content-section p {
+        margin: 0 0 32px 0;
+    }
+    .mining-privilege-items {
+        columns: 2;
+        gap: 32px;
+        margin: 0 0 24px 0;
+    }
+    .mining-privilege-item {
+        page-break-inside: avoid;
+        margin: 0 0 32px 0;
+        p::before {
+            content: "▌";
+            color: #42DF81;
+        }
+    }
+    .simple-content-section {
+        padding: 60px 0;
+    }
+    .pricing {
+        margin: 0 0 32px 0;
+        h3 {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: uppercase;
+            color: #42DF81;
+            margin: 0 0 17px;
+        }
+    }
+    .pricing-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 21px;
+        align-items: center;
+    }
+    .pricing-item {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        span {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+            display: block;
+            margin: 0 0 4px 0;
+        }
+    }
+    .important-text {
+        display: flex;
+        padding: 0 0 0 11px;
+        border-left: 5px solid #42DF81;
+        margin: 0 0 32px 0;
+        p {
+            max-width: 456px;
+            width: 100%;
+            margin: 0 32px 0 0;
+        }
+    }
+    @media (max-width: 960px) {
+        .circulation-text-block {
+            width: 100%;
+        }
+    }
+    @media (max-width: 800px) {
+        .use-items {
+            columns: 2;
+        }
+    }
+    @media (max-width: 640px) {
+        .hello-image {
+            max-width: 60%;
+            margin: 0 auto 34px auto;
+        }
+        .use-items, .mining-privilege-items {
+            columns: 1;
+        }
+        .important-text {
+            flex-direction: column;
+            gap: 24px;
+            p {
+                max-width: 100%;
+                margin: 0;
+            }
+        }
+        .simple-content-section {
+            padding: 30px 0;
+        }
+        .pie {
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
         }
     }
 }

@@ -44,7 +44,7 @@ export default {
                         <div class="logo"><img src="/img/landing/metagarden/metagarden-logo.svg" alt="Metagarden" width="72" height="72"/></div>
                         <h1>{{ $td('Welcome to Metagarden', 'metagarden.hello-title')}}</h1>
                         <p class="subtitle-h1">{{ $td('A play-to-earn platform with mini games and crypto prizes!', 'metagarden.hello-description')}}</p>
-                        <a href="#" class="btn btn-1" target="_blank">{{ $td('Play Games & Earn Crypto', 'metagarden.start-button')}}</a>
+                        <a :href="$td('https://go.honee.app/metagarden', 'metagarden.start-button-url')" class="btn btn-1" target="_blank">{{ $td('Play Games & Earn Crypto', 'metagarden.start-button')}}</a>
                     </div>
                     <picture>
                         <source srcset="/img/landing/metagarden/metagarden-hello.avif 1x, /img/landing/metagarden/metagarden-hello@2x.avif 2x" type="image/avif">
@@ -221,7 +221,7 @@ export default {
                                 </ul>
                             </p>
                             <div class="buttons-block">
-                                <a href="#" class="btn btn-outline" target="_blank">METAGARDEN Tokenomics</a>
+                                <a href="/metagarden/token" class="btn btn-outline" target="_blank">METAGARDEN Tokenomics</a>
                             </div>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
@@ -238,7 +238,7 @@ export default {
                                 </ul>
                             </p>
                             <div class="buttons-block">
-                                <a href="#" class="btn btn-outline" target="_blank">Токеномика METAGARDEN</a>
+                                <a href="/ru/metagarden/token" class="btn btn-outline" target="_blank">Токеномика METAGARDEN</a>
                             </div>
                         </template>
                     </div>
