@@ -19,8 +19,7 @@ export default {
                 { hid: 'og-description', name: 'og:description', content: description },
             ],
             link: [
-                { rel: 'icon', href: '/favicon123.png' },
-                { rel: 'apple-touch-icon', href: '/apple-touch-icon123.png' },
+                { hid: 'favicon', rel: 'icon', href: '/img/landing/metagarden/metagarden-icon.png' },
             ],
         };
     },
