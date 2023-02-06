@@ -8,8 +8,8 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('METAGARDEN token', 'metagarden-token.title'));
-        const description = this.$td('METAGARDEN is the utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in the functioning of the Platform.', 'metagarden-token.description');
+        const title = getTitle(this.$td('METAGARDEN token | Platform Tokenomics', 'metagarden-token.title'));
+        const description = this.$td('METAGARDEN is the utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in platform functionality.', 'metagarden-token.description');
 
         return {
             title: title,
@@ -17,6 +17,10 @@ export default {
                 { hid: 'og-title', name: 'og:title', content: title },
                 { hid: 'description', name: 'description', content: description },
                 { hid: 'og-description', name: 'og:description', content: description },
+            ],
+            link: [
+                { rel: 'icon', href: '/favicon123.png' },
+                { rel: 'apple-touch-icon', href: '/apple-touch-icon123.png' },
             ],
         };
     },
@@ -45,7 +49,7 @@ export default {
                             <img src="/img/landing/metagarden/metagarden-logo.svg" alt="Metagarden" width="46" height="46"/>
                             <h1>{{ $td('METAGARDEN', 'metagarden-token.hello-title')}}</h1>
                         </div>
-                        <p class="subtitle-h1">{{ $td('METAGARDEN is the utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in the functioning of the Platform.', 'metagarden-token.hello-description')}}</p>
+                        <p class="subtitle-h1">{{ $td('METAGARDEN is the utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in platform functionality.', 'metagarden-token.hello-description')}}</p>
                         <div class="buttons-block">
                             <a :href="$td('https://my.honee.app/metagarden/buy-spot', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Mining METAGARDEN', 'metagarden-token.start-button')}}</a>
                         </div>
@@ -383,6 +387,7 @@ export default {
                         </div>
                     </template>
                 </div>
+                <a :href="$td('https://my.honee.app/metagarden/buy-spot', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Buy Mining Spot', 'metagarden-token.mining-privilege-button')}}</a>
             </div>
         </section>
         <section class="simple-content-section">
@@ -452,7 +457,6 @@ export default {
                     </div>
                     <p>Такая модель позволяет не сосредотачиваться в руках любой группы пользователей большому объему токенов METAGARDEN, добытых при низкой цене токена.</p>
                 </template>
-                <a :href="$td('https://my.honee.app/metagarden/buy-spot', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Buy Mining Spot', 'metagarden-token.mining-privilege-button')}}</a>
             </div>
         </section>
         <footer>

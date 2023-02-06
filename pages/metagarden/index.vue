@@ -8,7 +8,7 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Metagarden', 'metagarden.title'));
+        const title = getTitle(this.$td('Metagarden — Play-to-Earn Platform with Crypto', 'metagarden.title'));
         const description = this.$td('A play-to-earn platform with mini games. Become the platform miner to earn crypto.', 'metagarden.description');
 
         return {
@@ -17,6 +17,9 @@ export default {
                 { hid: 'og-title', name: 'og:title', content: title },
                 { hid: 'description', name: 'description', content: description },
                 { hid: 'og-description', name: 'og:description', content: description },
+            ],
+            link: [
+                { hid: 'favicon', rel: 'icon', href: '/img/landing/metagarden/metagarden-icon.png' },
             ],
         };
     },
@@ -68,7 +71,7 @@ export default {
                         </div>
                         <template v-if="$i18n.locale === 'en'">
                             <h3>For Players</h3>
-                            <p>Play games solo or against friends, earn real money and use it in other games or withdraw straight to your bank card!</p>
+                            <p>Play games solo or against friends, earn crypto and use it in other games or withdraw straight to your bank card!</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <h3>Для игроков</h3>
@@ -183,13 +186,13 @@ export default {
                         <template v-if="$i18n.locale === 'en'">
                             <h2>Join Our Ecosystem</h2>
                             <p>We offer developers the easiest way to seamlessly integrate crypto into their games. Release a new token or use one of the popular ones, get a simple custom wallet, crypto deposits and withdrawals.</p>
-                            <p><strong>What’s important.</strong> Players won’t have to interact with blockchain mumbo jumbo such as addresses, gas, unlocks, and confirms.</p>
+                            <p><strong>What’s important.</strong> Players won't have to deal with blockchain mumbo jumbo like MetaMask, gas for transactions, unlocking, approvals, and other confusing things.</p>
                             <p><i>The SDK and API tools are in development.</i></p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <h2>Присоединяйтесь к нашей экосистеме</h2>
                             <p>Мы предлагаем разработчикам самый простой способ интегрировать криптовалюту в свои игры. Выпустите новый токен или используйте один из популярных, получите простой игровой кошелек для ваших пользователей с вводом и выводом криптовалюты.</p>
-                            <p><strong>Важно!</strong> Игрокам не придется взаимодействовать с блокчейн-мультипликаторами, такими как адреса, газ, разблокировки и различные подтверждения.</p>
+                            <p><strong>Важно!</strong> Игрокам не придется взаимодействовать с незнакомыми DeFi-атрибутами, такими как MetaMask, разные блокчейн-сети, множественные аппрувы, газ для транзакций и прочие сложности.</p>
                             <p><i>SDK и инструменты API находятся в разработке.</i></p>
                         </template>
                     </div>
@@ -221,12 +224,12 @@ export default {
                                 </ul>
                             </p>
                             <div class="buttons-block">
-                                <a href="/metagarden/token" class="btn btn-outline" target="_blank">METAGARDEN Tokenomics</a>
+                                <a href="/metagarden/token" class="btn btn-outline" target="_blank">Find out more in Tokenomics</a>
                             </div>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <h2>Базовый токен METAGARDEN</h2>
-                            <p>Токен играет важную роль на платформе для обработки доходов игроков, его можно использовать как:
+                            <p>Токен играет важную роль в функционировании платформы, его можно использовать как:
                                 <ul>
                                     <li>Базовый игровой токен, если у игры нет собственного токена</li>
                                     <li>Внутриигровые платежи для покупки скинов, NFT, бустов и т.д.</li>
@@ -238,7 +241,7 @@ export default {
                                 </ul>
                             </p>
                             <div class="buttons-block">
-                                <a href="/ru/metagarden/token" class="btn btn-outline" target="_blank">Токеномика METAGARDEN</a>
+                                <a href="/ru/metagarden/token" class="btn btn-outline" target="_blank">Подробнее в токеномике</a>
                             </div>
                         </template>
                     </div>
@@ -308,19 +311,19 @@ export default {
                 <div class="metagarden-footer">
                     <div class="metagarden-footer-left">
                         <template v-if="$i18n.locale === 'en'">
-                            <a href="#">For developers</a>
-                            <a href="#">Support</a>
+                            <a href="https://t.me/HoneeSupportBot" target="_blank">Support</a>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <a href="#">Разработчикам</a>
-                            <a href="#">Поддержка</a>
+                            <a href="https://t.me/HoneeSupportBot" target="_blank">Поддержка</a>
                         </template>
                     </div>
                     <div class="metagarden-footer-right">
                         <template v-if="$i18n.locale === 'en'">
+                            <a href="https://twitter.com/metagardengames" target="_blank"><img src="/img/landing/metagarden/icon-twitter.svg" alt="twitter eng"></a>
                             <a href="https://t.me/metagarden" target="_blank"><img src="/img/landing/metagarden/icon-telegram.svg" alt="telegram eng"></a>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
+                            <a href="https://twitter.com/metagardengamesu" target="_blank"><img src="/img/landing/metagarden/icon-twitter.svg" alt="twitter ru"></a>
                             <a href="https://t.me/metagardenru" target="_blank"><img src="/img/landing/metagarden/icon-telegram.svg" alt="telegram ru"></a>
                         </template>
                     </div>
