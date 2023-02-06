@@ -27,8 +27,8 @@ module.exports = {
             { hid: 'og-image', name: 'og:image', content: '/social-share.png' },
         ],
         link: [
-            { rel: 'icon', href: '/favicon.png' },
-            { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+            { hid: 'favicon', rel: 'icon', href: '/favicon.png' },
+            { hid: 'apple-touch-icon', rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
             // preload configures in bundleRenderer
             // { rel: 'preload', href: '/fonts/Inter-Bold.woff2', as: 'font', type: 'font/woff2' },
             // { rel: 'preload', href: '/fonts/Inter-Regular.woff2', as: 'font', type: 'font/woff2' },

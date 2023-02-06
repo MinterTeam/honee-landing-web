@@ -18,6 +18,9 @@ export default {
                 { hid: 'description', name: 'description', content: description },
                 { hid: 'og-description', name: 'og:description', content: description },
             ],
+            link: [
+                { hid: 'favicon', rel: 'icon', href: 'test.svg' },
+            ],
         };
     },
     data() {
