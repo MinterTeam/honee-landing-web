@@ -17,7 +17,7 @@ export default {
                 { hid: 'og-title', name: 'og:title', content: title },
                 { hid: 'description', name: 'description', content: description },
                 { hid: 'og-description', name: 'og:description', content: description },
-                { hid: 'og-image', name: 'og:image', content: '/img/landing/metagarden/metagarden-share.png' },
+                { hid: 'og-image', name: 'og:image', content: '/img/landing/metagarden/metagarden-share.jpeg' },
             ],
             link: [
                 { hid: 'favicon', rel: 'icon', href: '/img/landing/metagarden/metagarden-icon.png' },
@@ -343,7 +343,7 @@ export default {
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <p>Токены METAGARDEN поступают в свободное обращение через геймифицированный майнинг, пожалуй, один из самых инновационных способов выпуска токенов в обращение среди крипто-проектов.</p>
-                            <p>Для того, чтобы стать майнером, любой пользователь может приобрести за фиксированную цену майнинговый спот, дающий право на квотированный выпуск токенов METAGARDEN в свободное обращение в течение 5 лет.</p>
+                            <p>Для того, чтобы стать майнером, любой пользователь может приобрести за фиксированную цену майнинговый спот, дающий право на квотированный выпуск токенов METAGARDEN в свободное обращение в течение 5.5 лет (2000 дней).</p>
                             <p>Для удобства, получаемые токены METAGARDEN автоматически конвертируются в стейблкоин <strong>USDT</strong>.</p>
                             <p class="pie-item pie-item-1"><span>Текущая цена майнинового спота</span>$80</p>
                         </template>

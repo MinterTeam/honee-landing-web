@@ -17,7 +17,7 @@ export default {
                 { hid: 'og-title', name: 'og:title', content: title },
                 { hid: 'description', name: 'description', content: description },
                 { hid: 'og-description', name: 'og:description', content: description },
-                { hid: 'og-image', name: 'og:image', content: '/img/landing/metagarden/metagarden-share.png' },
+                { hid: 'og-image', name: 'og:image', content: '/img/landing/metagarden/metagarden-share.jpeg' },
             ],
             link: [
                 { hid: 'favicon', rel: 'icon', href: '/img/landing/metagarden/metagarden-icon.png' },
