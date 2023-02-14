@@ -385,7 +385,7 @@ export default {
 	'metagarden-spots': {
 		'title': 'Майнинг токенов METAGARDEN',
 		'description': 'Майнинг токенов платформы Metagarden — это увлекательный процесс в игровой форме.',
-		'hello-title': 'Майнинг в игровом формате',
+		'hello-title': 'Майнинг токенов METAGARDEN',
 		'buy-button': 'Купить майнинг-спот',
 		'about-button': 'О проекте',
 		'tokenomics-button': 'Токеномика',
