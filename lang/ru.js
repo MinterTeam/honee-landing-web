@@ -382,4 +382,18 @@ export default {
 		'mining-privilege-button': 'Купить майнинговый спот',
 		'price-title': 'Ценообразование для майнинговых спотов',
 	},
+	'metagarden-spots': {
+		'title': '123',
+		'description': 'Майнинг токенов платформы Metagarden — это увлекательный процесс в игровой форме.',
+		'hello-title': 'Майнинг в игровом формате',
+		'buy-button': 'Купить майнинговый спот',
+		'about-button': 'О проекте',
+		'tokenomics-button': 'Токеномика',
+		'buy-button-url': 'https://my.honee.app/ru/metagarden/buy-spot',
+		'about-button-url': '/ru/metagarden',
+		'tokenomics-button-url': '/ru/metagarden/token',
+		'mining-privilege-title': 'Привилегии майнера',
+		'spot-offer-title': 'Как стать майнером?',
+		'spot-offer-subtitle': 'Купите майнинг-слот прямо сейчас. Количество ограничено!',
+	},
 };

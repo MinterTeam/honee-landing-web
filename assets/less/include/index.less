@@ -2304,3 +2304,160 @@ html.copytrading-html {
         }
     }
 }
+
+.metagarden-spots-html {
+    background: #283459;
+    color: #fff;
+}
+.metagarden-spots-layout {
+    background: url(/img/landing/metagarden/bg1-b.svg) top left 10% no-repeat,url(/img/landing/metagarden/bg2-b.svg) top 35% left no-repeat,url(/img/landing/metagarden/bg3-b.svg) top 35% right no-repeat,url(/img/landing/metagarden/bg4-b.svg) bottom right no-repeat;
+}
+.metagarden-spots-landing {
+    .logo {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        margin: 0 0 8px 0;
+        img {
+            margin: 0 16px 0 0;
+        }
+    }
+    h1 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        text-transform: uppercase;
+        margin: 0 0 24px 0;
+    }
+    .hello-content {
+        max-width: 543px;
+        padding: 40px 0 32px 0;
+    }
+    .btn-outline {
+        min-width: 131px;
+    }
+    .mining-privilege-items {
+        columns: 2;
+        gap: 32px;
+        margin: 0 0 24px 0;
+    }
+    .mining-privilege-item {
+        page-break-inside: avoid;
+        margin: 0 0 32px 0;
+        p::before {
+            content: "▌";
+            color: #42DF81;
+        }
+    }
+    .simple-content-section {
+        padding: 50px 0 25px 0;
+        p {
+            margin: 0 0 32px 0;
+        }
+    }
+    h2 {
+        margin: 0 0 16px 0;
+    }
+    .subtitle-h2 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 24px 0;
+    }
+    .spot-offer-section {
+        padding: 100px 0 50px 0;
+        text-align: center;
+        h2 {
+            margin: 0;
+        }
+    }
+    .spot-offer-block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 298px;
+        justify-content: center;
+    }
+    .spot-offer-img {
+        img {
+            width: 298px;
+            height: 298px;
+            border-radius: 16px 0 0 16px;
+        }
+    }
+    .spot-offer-content {
+        width: 328px;
+        color: #000;
+        background-color: #fff;
+        border-radius: 0 16px 16px 0;
+        padding: 24px;
+        text-align: left;
+        span {
+            color: #5A9F77;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            margin: 0 0 8px 0;
+        }
+        h3 {
+            color: #0F2217;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-transform: uppercase;
+            margin: 0 0 16px 0;
+        }
+        ul {
+            margin: 0 0 12px 0;
+            list-style: none;
+            position: relative;
+            li {
+                padding: 0 0 12px 32px;
+                margin: 0;
+            }
+            li::before {
+                content: url('/img/landing/metagarden/li.svg');
+                width: 16px;
+                height: 16px;
+                display: inline-grid;
+                position: absolute;
+                place-items: center;
+                left: 0;
+            }
+        }
+        .btn {
+            width: 100%;
+        }
+    }
+    @media (max-width: 960px) {
+        .hello-content {
+            max-width: 100%;
+        }
+    }
+    
+    @media (max-width: 640px) {
+        .hello-image {
+            max-width: 60%;
+            margin: 0 auto 34px auto;
+        }
+        .spot-offer-block {
+            flex-wrap: wrap;
+            height: 100%;
+        }
+        .spot-offer-img img {
+            border-radius: 16px 16px 0 0;
+            height: 100%;
+        }
+        .spot-offer-content {
+            width: 298px;
+            border-radius: 0 0 16px 16px;
+        }
+        .mining-privilege-items {
+            columns: 1;
+        }
+        .simple-content-section {
+            padding: 30px 0;
+        }
+    }
+}
