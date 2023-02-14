@@ -8,7 +8,7 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle(this.$td('Gamified Mining — sipmle for everyone', 'metagarden-spots.title'));
+        const title = getTitle(this.$td('Mining METAGARDEN tokens — Gamified Mining', 'metagarden-spots.title'));
         const description = this.$td('The mining of the Metagarden platform tokens is an exciting process in the form of a game.', 'metagarden-spots.description');
 
         return {
@@ -17,7 +17,7 @@ export default {
                 { hid: 'og-title', name: 'og:title', content: title },
                 { hid: 'description', name: 'description', content: description },
                 { hid: 'og-description', name: 'og:description', content: description },
-                { hid: 'og-image', name: 'og:image', content: '/img/landing/metagarden/metagarden-share.jpg' },
+                { hid: 'og-image', name: 'og:image', content: '/img/landing/metagarden/metagarden-share.png' },
             ],
             link: [
                 { hid: 'favicon', rel: 'icon', href: '/img/landing/metagarden/metagarden-icon.png' },
@@ -52,7 +52,7 @@ export default {
                         <h1>{{ $td('Gamified Mining — sipmle for everyone', 'metagarden-spots.hello-title')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
                             <p class="subtitle-h1">The mining of the Metagarden platform tokens is an exciting process in the form of a game.</p>
-                            <p class="subtitle-h1">Buy a virtual plot (Mining Spot) to receive daily mining rewards with many other bonuses.</p>
+                            <p class="subtitle-h1">To become a miner you need to buy a Mining Spot to receive daily rewards with many other bonuses.</p>
                             <p class="subtitle-h1">You do not need any special equipment, knowledge or additional resources. It's simple to get started!</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
@@ -76,7 +76,7 @@ export default {
         </header>
         <section class="spot-offer-section">
             <div class="container">
-                <h2>{{ $td('How to become a miner?', 'metagarden-spots.spot-offer-title')}}</h2>
+                <h2>{{ $td('Mining METAGARDEN tokens', 'metagarden-spots.spot-offer-title')}}</h2>
                 <p class="subtitle-h2">{{ $td('Buy a Mining Spot. Quantity is limited!', 'metagarden-spots.spot-offer-subtitle')}}</p>
                 <div class="spot-offer-block">
                     <div class="spot-offer-img">
