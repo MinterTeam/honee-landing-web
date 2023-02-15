@@ -3,7 +3,7 @@ import getTitle from '~/assets/get-title.js';
 import trackClick from '~/assets/v-track-click.js';
 
 export default {
-    layout: 'metagarden',
+    layout: 'metagarden-token',
     directives: {
         trackClick,
     },

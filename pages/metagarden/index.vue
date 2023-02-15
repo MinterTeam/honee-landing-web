@@ -1,11 +1,15 @@
 <script>
 import getTitle from '~/assets/get-title.js';
 import trackClick from '~/assets/v-track-click.js';
+import Language from '~/components/base/Language.vue';
 
 export default {
     layout: 'metagarden',
     directives: {
         trackClick,
+    },
+    components: {
+        Language,
     },
     head() {
         const title = getTitle(this.$td('Metagarden — Play-to-Earn Platform with Crypto', 'metagarden.title'));
@@ -43,6 +47,134 @@ export default {
     <div class="metagarden-landing">
         <header>
             <div class="container">
+                <div class="top-bar">
+                    <div class="menu">
+                        <div class="menu-link">
+                            <span class="menu-link-a">{{ $td('Technologies', 'metagarden.menu-technologies')}}</span>
+                            <div class="sub-menu">
+                                <div class="sub-menu-item">
+                                    <a :href="$td('https://minter.network/bip', 'metagarden.technologies-minter-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/landing/metagarden/wallet-minter.svg" alt="Minter Network">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Minter Network', 'metagarden.technologies-minter')}}</h4>
+                                            <p>{{ $td('Layer 1 blockchain that enables the Metagarden platform to perform fully decentralised operations with digital assets. Low fees fixed in US dollars, fast transactions, unchain limit orders.', 'metagarden.technologies-minter-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('https://www.minter.network/hub', 'metagarden.technologies-hub-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/landing/metagarden/hub-logo.svg" alt="Minter HUB">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Minter HUB', 'metagarden.technologies-hub')}}</h4>
+                                            <p>{{ $td('Minter Hub is a bridge to global crypto liquidity, a standalone blockchain with unique cross-chain smart contract technology. The Metagarden platform relies on it for cross-chain operations.', 'metagarden.technologies-hub-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('https://honee.app/', 'metagarden.technologies-honee-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/landing/metagarden/honee.svg" alt="Honee Wallet">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Honee Wallet', 'metagarden.technologies-honee')}}</h4>
+                                            <p>{{ $td('The simplest crypto wallet. Metagarden is using it as a white label wallet solution.', 'metagarden.technologies-honee-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-link">
+                            <a :href="$td('/metagarden/token', 'metagarden.menu-tokenomics-url')" target="_blank" class="menu-link-a">{{ $td('Tokenomics', 'metagarden.menu-tokenomics')}}</a>
+                        </div>
+                        <div class="menu-link">
+                            <a :href="$td('/metagarden/mining-spots', 'metagarden.menu-spots-url')" target="_blank" class="menu-link-a">{{ $td('Mining spots', 'metagarden.menu-spots')}}</a>
+                        </div>
+                        <div class="menu-link">
+                            <a :href="$td('https://t.me/metagarden', 'metagarden.menu-community-url')" target="_blank" class="menu-link-a">{{ $td('Community', 'metagarden.menu-community')}}</a>
+                        </div>
+                        <language class="" :locales='[{"code":"","name":"English"},{"code":"ru","name":"Russian"}]' lang="" :push="true"/>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox" />
+                            <label class="menu__btn" for="menu__toggle">
+                                <span></span>
+                            </label>
+                            <div class="menu__box">
+                                <h4>{{ $td('Technologies', 'metagarden.menu-technologies')}}</h4>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('https://minter.network/bip', 'metagarden.technologies-minter-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/landing/metagarden/wallet-minter.svg" alt="Minter DEX">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Minter Network', 'metagarden.technologies-minter')}}</h4>
+                                            <p>{{ $td('Layer 1 blockchain that enables the Metagarden platform to perform fully decentralised operations with digital assets. Low fees fixed in US dollars, fast transactions, unchain limit orders.', 'metagarden.technologies-minter-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('https://www.minter.network/hub', 'metagarden.technologies-hub-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/landing/metagarden/hub-logo.svg" alt="Minter HUB">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Minter HUB', 'metagarden.technologies-hub')}}</h4>
+                                            <p>{{ $td('Minter Hub is a bridge to global crypto liquidity, a standalone blockchain with unique cross-chain smart contract technology. The Metagarden platform relies on it for cross-chain operations.', 'metagarden.technologies-hub-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('https://honee.app/', 'metagarden.technologies-honee-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/landing/metagarden/honee.svg" alt="Honee Wallet">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Honee Wallet', 'metagarden.technologies-honee')}}</h4>
+                                            <p>{{ $td('The simplest crypto wallet. Metagarden is using it as a white label wallet solution.', 'metagarden.technologies-hub-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <hr>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('/metagarden/token', 'metagarden.menu-tokenomics-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/landing/metagarden/metagarden-logo.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Tokenomics', 'metagarden.menu-tokenomics')}}</h4>
+                                            <p>{{ $td('METAGARDEN is the utility token of Metagarden, the play-to-earn Platform with mini-games.', 'metagarden.menu-tokenomics-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('/metagarden/mining-spots', 'metagarden.menu-spots-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/landing/metagarden/metagarden-logo.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Mining spots', 'metagarden.menu-spots')}}</h4>
+                                            <p>{{ $td('The mining of the Metagarden platform tokens is an exciting process in the form of a game.', 'metagarden.menu-spots-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('https://t.me/metagarden', 'metagarden.menu-community-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/landing/metagarden/metagarden-logo.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('Community', 'metagarden.menu-community')}}</h4>
+                                            <p>{{ $td('Our channel in Telegram.', 'metagarden.menu-community-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="hello">
                     <div class="hello-content">
                         <div class="logo"><img src="/img/landing/metagarden/metagarden-logo.svg" alt="Metagarden" width="72" height="72"/></div>

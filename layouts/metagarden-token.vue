@@ -18,6 +18,10 @@ export default {
 
 <template>
     <div class="wrapper page-landing metagarden-layout">
+        <div class="u-container u-container--wide header__language-container">
+            <Language/>
+        </div>
+
         <nuxt/>
 
 <!--        <Snackbar/>-->
