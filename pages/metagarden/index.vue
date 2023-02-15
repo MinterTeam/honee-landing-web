@@ -141,7 +141,7 @@ export default {
                                 <div class="sub-menu-item">
                                     <a :href="$td('/metagarden/token', 'metagarden.menu-tokenomics-url')" target="_blank">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/landing/metagarden/metagarden-logo.svg" alt="">
+                                            <img src="/img/landing/metagarden/token.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Tokenomics', 'metagarden.menu-tokenomics')}}</h4>
@@ -152,7 +152,7 @@ export default {
                                 <div class="sub-menu-item">
                                     <a :href="$td('/metagarden/mining-spots', 'metagarden.menu-spots-url')" target="_blank">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/landing/metagarden/metagarden-logo.svg" alt="">
+                                            <img src="/img/landing/metagarden/spot.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Mining spots', 'metagarden.menu-spots')}}</h4>
@@ -163,7 +163,7 @@ export default {
                                 <div class="sub-menu-item">
                                     <a :href="$td('https://t.me/metagarden', 'metagarden.menu-community-url')" target="_blank">
                                         <div class="sub-menu-item-image">
-                                            <img src="/img/landing/metagarden/metagarden-logo.svg" alt="">
+                                            <img src="/img/landing/metagarden/community.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Community', 'metagarden.menu-community')}}</h4>
