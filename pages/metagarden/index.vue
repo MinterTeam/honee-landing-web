@@ -96,7 +96,7 @@ export default {
                         <div class="menu-link">
                             <a :href="$td('https://t.me/metagarden', 'metagarden.menu-community-url')" target="_blank" class="menu-link-a">{{ $td('Community', 'metagarden.menu-community')}}</a>
                         </div>
-                        <language class="" :locales='[{"code":"","name":"English"},{"code":"ru","name":"Russian"}]' lang="" :push="true"/>
+                        <Language/>
                         <div class="hamburger-menu">
                             <input id="menu__toggle" type="checkbox" />
                             <label class="menu__btn" for="menu__toggle">

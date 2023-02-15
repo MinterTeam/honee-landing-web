@@ -1,13 +1,8 @@
 <script>
 import TheFooter from '~/layouts/_footer.vue';
-import Language from '~/components/base/Language.vue';
 // import Snackbar from '~/components/base/Snackbar.vue';
 
 export default {
-    components: {
-        Language,
-        // Snackbar,
-    },
     head: {
         htmlAttrs: {
             class: 'metagarden-html',
