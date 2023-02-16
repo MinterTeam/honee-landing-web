@@ -93,7 +93,7 @@ export default {
                             <a :href="$td('/metagarden/token', 'metagarden.menu-tokenomics-url')" target="_blank" class="menu-link-a">{{ $td('Tokenomics', 'metagarden.menu-tokenomics')}}</a>
                         </div>
                         <div class="menu-link">
-                            <a :href="$td('/metagarden/mining-spots', 'metagarden.menu-spots-url')" target="_blank" class="menu-link-a">{{ $td('Mining spots', 'metagarden.menu-spots')}}</a>
+                            <a :href="$td('/metagarden/mining-spots', 'metagarden.menu-spots-url')" target="_blank" class="menu-link-a">{{ $td('Mining', 'metagarden.menu-spots')}}</a>
                         </div>
                         <div class="menu-link">
                             <a :href="$td('https://t.me/metagarden', 'metagarden.menu-community-url')" target="_blank" class="menu-link-a">{{ $td('Community', 'metagarden.menu-community')}}</a>
@@ -157,7 +157,7 @@ export default {
                                             <img src="/img/landing/metagarden/spot.svg" alt="">
                                         </div>
                                         <div class="sub-menu-item-content">
-                                            <h4>{{ $td('Mining spots', 'metagarden.menu-spots')}}</h4>
+                                            <h4>{{ $td('Mining', 'metagarden.menu-spots')}}</h4>
                                             <p>{{ $td('The mining of the Metagarden platform tokens is an exciting process in the form of a game.', 'metagarden.menu-spots-description')}}</p>
                                         </div>
                                     </a>

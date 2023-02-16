@@ -371,7 +371,7 @@ export default {
 		'games-button': 'Скоро',
 		'menu-technologies': 'Технологии',
 		'menu-tokenomics': 'Токеномика',
-		'menu-spots': 'Майнинг-споты',
+		'menu-spots': 'Майнинг',
 		'menu-community': 'Сообщество',
 		'menu-tokenomics-url': '/ru/metagarden/token',
 		'menu-spots-url': '/ru/metagarden/mining-spots',
