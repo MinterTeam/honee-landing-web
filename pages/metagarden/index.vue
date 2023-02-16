@@ -6,12 +6,12 @@ import LiteYoutube from '@/components/LiteYoutube.vue';
 
 export default {
     layout: 'metagarden',
-    directives: {
-        trackClick,
-    },
     components: {
         Language,
         LiteYoutube,
+    },
+    directives: {
+        trackClick,
     },
     head() {
         const title = getTitle(this.$td('Metagarden — Play-to-Earn Platform with Crypto', 'metagarden.title'));
