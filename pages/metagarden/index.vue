@@ -2,6 +2,7 @@
 import getTitle from '~/assets/get-title.js';
 import trackClick from '~/assets/v-track-click.js';
 import Language from '~/components/base/Language.vue';
+import LiteYoutube from '@/components/LiteYoutube.vue';
 
 export default {
     layout: 'metagarden',
@@ -10,6 +11,7 @@ export default {
     },
     components: {
         Language,
+        LiteYoutube,
     },
     head() {
         const title = getTitle(this.$td('Metagarden — Play-to-Earn Platform with Crypto', 'metagarden.title'));
@@ -246,6 +248,15 @@ export default {
                         </template>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="container">
+                <h2>{{ $td('What’s Metagarden?', 'metagarden.video-title')}}</h2>
+                <LiteYoutube
+                    class="video-youtube"
+                    :video-id="$td('c7SfCyBDklw', 'metagarden.video-id')"
+                />
             </div>
         </section>
         <section class="games">

@@ -364,6 +364,8 @@ export default {
 		'start-button': 'Играть и зарабатывать',
 		'start-button-url': 'https://go.honee.app/ru/metagarden',
 		'for-title': 'Здесь есть место для каждого',
+		'video-title': 'Что такое Metagarden?',
+		'video-id': 'lfm7FuRd7m0',
 		'games-title': 'Игры Metagarden',
 		'games-description': 'Выберите игру из нашей библиотеки, которая вам больше всего подходит — от простых аркад до сложных головоломок. Одиночная игра, кооперативная или многопользовательская. Проверьте свои навыки и заработайте криптовалюту!',
 		'games-button': 'Скоро',
