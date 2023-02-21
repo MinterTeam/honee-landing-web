@@ -64,33 +64,9 @@ export default {
                 </div>
                 <div class="buttons-block">
                     <a :href="$td('https://t.me/bcmflead', 'metagarden-influencer.contact-button-url')" class="btn btn-1" target="_blank">{{ $td('Contact Us', 'metagarden-influencer.contact-button')}}</a>
-                    <a :href="$td('https://honee.app/metagarden', 'metagarden-influencer.learn-button-url')" class="btn btn-outline" target="_blank">{{ $td('Learn More', 'metagarden-influencer.learn-button')}}</a>
+                    <a :href="$td('https://honee.app/metagarden', 'metagarden-influencer.learn-button-url')" class="btn btn-outline" target="_blank">{{ $td('About Metagarden', 'metagarden-influencer.learn-button')}}</a>
                 </div>
             </div>
         </header>
-        <footer>
-            <div class="container">
-                <div class="metagarden-footer">
-                    <div class="metagarden-footer-left">
-                        <template v-if="$i18n.locale === 'en'">
-                            <a href="https://t.me/HoneeSupportBot" target="_blank">Support</a>
-                        </template>
-                        <template v-if="$i18n.locale === 'ru'">
-                            <a href="https://t.me/HoneeSupportBot" target="_blank">Поддержка</a>
-                        </template>
-                    </div>
-                    <div class="metagarden-footer-right">
-                        <template v-if="$i18n.locale === 'en'">
-                            <a href="https://twitter.com/metagardengames" target="_blank"><img src="/img/landing/metagarden/icon-twitter.svg" alt="twitter eng"></a>
-                            <a href="https://t.me/metagarden" target="_blank"><img src="/img/landing/metagarden/icon-telegram.svg" alt="telegram eng"></a>
-                        </template>
-                        <template v-if="$i18n.locale === 'ru'">
-                            <a href="https://twitter.com/metagardengames" target="_blank"><img src="/img/landing/metagarden/icon-twitter.svg" alt="twitter ru"></a>
-                            <a href="https://t.me/metagardenru" target="_blank"><img src="/img/landing/metagarden/icon-telegram.svg" alt="telegram ru"></a>
-                        </template>
-                    </div>
-                </div>
-            </div>
-        </footer>
     </div>
 </template>

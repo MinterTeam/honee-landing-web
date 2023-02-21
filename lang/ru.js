@@ -423,7 +423,7 @@ export default {
 		'description': 'Станьте партнером платформы Metagarden на ранних стадиях проекта! Создавайте контент в обмен на наши токены. Если вы заинтересованы, пишите нам.',
 		'hello-title': 'Вы Ютубер или инфлюенсер в социальных сетях?',
 		'contact-button': 'Написать нам',
-		'learn-button': 'Подробнее',
+		'learn-button': 'О Metagarden',
 		'contact-button-url': 'https://t.me/bcmflead',
 		'learn-button-url': 'https://honee.app/ru/metagarden',
 	},
