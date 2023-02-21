@@ -97,6 +97,7 @@ export default {
                         </div>
                         <h3 class="footer__caption">{{ $td('Other', 'index.footer-menu-other')}}</h3>
                         <div class="footer__links-cell">
+                            <a class="link--default-black" :href="$i18nGetPreferredPath('/metagarden')">{{ $td('Metagarden', 'index.footer-link-metagarden')}}</a>
                             <a class="link--default-black" :href="$i18nGetPreferredPath('/portfolio-battle')">{{ $td('Portfolio Battle', 'index.footer-link-portfolio-battle')}}</a>
                             <a class="link--default-black" :href="$i18nGetPreferredPath('/referral-program')">{{ $td('Referral program', 'index.footer-link-ref')}}</a>
                             <a class="link--default-black" :href="$i18nGetPreferredPath('/copytrading')">{{ $td('Copy Trading', 'index.footer-link-copytrading')}}</a>
@@ -111,7 +112,7 @@ export default {
                 </div>
                 <nuxt-link class="footer__logo" :to="$i18nGetPreferredPath('/')"><img src="/img/logo-honee.svg" alt="" width="82" height="16"/></nuxt-link>
                 <div class="footer__copyright">
-                    Copyright © 2022 Grom R&D Limited.<br>
+                    Copyright © 2023 Grom R&D Limited.<br>
                     All Rights Reserved.
                 </div>
             </div>

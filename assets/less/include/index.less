@@ -9,6 +9,15 @@
         font-style: normal;
         font-display: swap;
   }
+@font-face {
+font-family: 'Druk Cyr';
+src: url('../fonts/DrukCyr-Medium.woff2') format('woff2'),
+    url('../fonts/DrukCyr-Medium.woff') format('woff'),
+    url('../fonts/DrukCyr-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 .page-landing {
     //color: #222;
@@ -2666,5 +2675,66 @@ html.copytrading-html {
         .simple-content-section {
             padding: 30px 0;
         }
+    }
+}
+
+.metagarden-influencer-html {
+    background: #101F31;
+    color: #fff;
+}
+.metagarden-influencer-layout {
+    background: url(/img/landing/metagarden/bg-i2.svg) center left no-repeat,url(/img/landing/metagarden/bg-i1.svg) top center no-repeat,url(/img/landing/metagarden/bg-i3.svg) bottom right no-repeat;
+}
+.metagarden-influencer-landing {
+    .hello-content {
+        max-width: 610px;
+    }
+    .btn-1, .btn-outline {
+        min-width: 152px;
+    }
+    .logo {
+        margin: 0 0 8px ;
+    }
+    h1 {
+        font-family: 'Druk Cyr', sans-serif;
+        font-weight: 500;
+        font-size: 88px;
+        line-height: 96px;
+        margin: 0 0 23px 0;
+    }
+    .subtitle-h1 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        margin: 0 0 26px 0;
+    }
+    header {
+        margin: 0 0 125px 0;
+    }
+    .hello {
+        position: relative;
+    }
+    .hello-image {
+        left: initial;
+        max-width: 527px;
+        max-height: 600px;
+        position: absolute;
+        top: 0;
+        right: -100px;
+    }
+    @media (max-width: 960px) {
+        .hello-content {
+            max-width: 100%;
+        }
+        .hello-image {
+            max-width: 60%;
+            position: relative;
+            right: inherit;
+        }
+    }
+}
+@media (max-width: 960px) {
+    .metagarden-influencer-layout {
+        background: url(/img/landing/metagarden/bg-i1.svg) top center no-repeat,url(/img/landing/metagarden/bg-i3.svg) bottom right no-repeat;
     }
 }

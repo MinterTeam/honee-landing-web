@@ -51,7 +51,7 @@ export default {
                         </div>
                         <p class="subtitle-h1">{{ $td('METAGARDEN is the utility token of Metagarden, the play-to-earn Platform with mini-games. It plays a key role in platform functionality.', 'metagarden-token.hello-description')}}</p>
                         <div class="buttons-block">
-                            <a :href="$td('https://my.honee.app/metagarden/buy-spot', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Mining METAGARDEN', 'metagarden-token.start-button')}}</a>
+                            <a :href="$td('https://honee.app/metagarden/mining-spots', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Mining METAGARDEN', 'metagarden-token.start-button')}}</a>
                         </div>
                     </div>
                     <picture>
@@ -387,7 +387,7 @@ export default {
                         </div>
                     </template>
                 </div>
-                <a :href="$td('https://my.honee.app/metagarden/buy-spot', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Buy Mining Spot', 'metagarden-token.mining-privilege-button')}}</a>
+                <a :href="$td('https://honee.app/metagarden/mining-spots', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Buy Mining Spot', 'metagarden-token.mining-privilege-button')}}</a>
             </div>
         </section>
         <section class="simple-content-section">
