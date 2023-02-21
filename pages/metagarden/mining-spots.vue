@@ -81,33 +81,35 @@ export default {
                 <div class="spot-offer-block">
                     <div class="spot-offer-img">
                         <picture>
-                            <source srcset="/img/landing/metagarden/offer.avif 1x, /img/landing/metagarden/offer@2x.avif 2x" type="image/avif">
-                            <source srcset="/img/landing/metagarden/offer.webp 1x, /img/landing/metagarden/offer@2x.webp 2x" type="image/webp">
-                            <img src="/img/landing/metagarden/offer.png" srcset="/img/landing/metagarden/offer@2x.png 2x" alt="metagarden mining spots" role="presentation"/>
+                            <source srcset="/img/landing/metagarden/offer2.avif 1x, /img/landing/metagarden/offer2@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/landing/metagarden/offer2.webp 1x, /img/landing/metagarden/offer2@2x.webp 2x" type="image/webp">
+                            <img src="/img/landing/metagarden/offer2.png" srcset="/img/landing/metagarden/offer2@2x.png 2x" alt="metagarden mining spots" role="presentation"/>
                         </picture>
                     </div>
                     <div class="spot-offer-content">
                         <template v-if="$i18n.locale === 'en'">
-                            <span>Price per token $0.08</span>
+                            <span>Price per token $0.16</span>
                             <h3>Mining Spot</h3>
                             <ul>
                                 <li>1000 METAGARDEN tokens</li>
-                                <li>Issue period 2000 days, daily 0.5 tokens</li>
+                                <li>1000 VOTES tokens for Platform governance</li>
+                                <li>Issuing period 2000 days for both tokens, 0.5 tokens daily</li>
                                 <li>Auto conversion to USDT</li>
                                 <li>All miner privileges</li>
                             </ul>
-                            <a href="https://my.honee.app/metagarden/buy-spot" class="btn btn-1" target="_blank">Buy for $80</a>
+                            <a href="https://my.honee.app/metagarden/buy-spot" class="btn btn-1" target="_blank">Buy for $160</a>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <span>Цена за токен $0.08 </span>
+                            <span>Цена за токен $0.16</span>
                             <h3>Майнинг спот</h3>
                             <ul>
                                 <li>1000 токенов METAGARDEN</li>
-                                <li>Срок выпуска 2000 дней, ежедневно по 0.5 токена</li>
+                                <li>1000 токенов VOTES для управления платформой</li>
+                                <li>Срок выпуска 2000 дней для обоих токенов, 0.5 токена в день</li>
                                 <li>Автоконвертация в USDT</li>
                                 <li>Все привилегии майнера</li>
                             </ul>
-                            <a href="https://my.honee.app/ru/metagarden/buy-spot" class="btn btn-1" target="_blank">Купить за $80</a>
+                            <a href="https://my.honee.app/ru/metagarden/buy-spot" class="btn btn-1" target="_blank">Купить за $160</a>
                         </template>
                     </div>
                 </div>
