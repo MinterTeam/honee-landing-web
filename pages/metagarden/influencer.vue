@@ -9,7 +9,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Are you a YouTuber or Social Media Influencer?', 'metagarden-influencer.title'));
-        const description = this.$td('Станьте партнером платформы Metagarden на ранних стадиях проекта! Создавайте контент в обмен на наши токены. Если вы заинтересованы, пишите нам.', 'metagarden-influencer.description');
+        const description = this.$td('Partner with the Metagarden platform in the early stages of the project! Create content in exchange for our tokens. If interested, feel free to contact us.', 'metagarden-influencer.description');
 
         return {
             title: title,
