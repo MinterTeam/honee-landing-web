@@ -387,7 +387,7 @@ export default {
                         </div>
                     </template>
                 </div>
-                <a :href="$td('https://honee.app/metagarden/mining-spots', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Buy Mining Spot', 'metagarden-token.mining-privilege-button')}}</a>
+                <a :href="$td('https://go.honee.app/metagarden', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Buy Mining Spot', 'metagarden-token.mining-privilege-button')}}</a>
             </div>
         </section>
         <section class="simple-content-section">

@@ -407,7 +407,7 @@ export default {
                             <h2>Token Mining</h2>
                             <p>Token mining is a game where the player buys mining spots that produce daily rewards in platforms’s base token METAGARDEN as well as VOTES token.</p>
                             <div class="buttons-block">
-                                <a href="https://my.honee.app/metagarden/buy-spot" class="btn btn-1" target="_blank">Buy Mining Spots</a>
+                                <a href="https://go.honee.app/metagarden" class="btn btn-1" target="_blank">Buy Mining Spots</a>
                             </div>
                             <h3>Miner’s Privileges</h3>
                             <ul>
@@ -425,7 +425,7 @@ export default {
                             <h2>Майнинг токена</h2>
                             <p>Добыча токенов — это игра, в которой игрок покупает майнинг-споты. Они приносят ежедневные вознаграждения в базовом токене платформы METAGARDEN, а также в токене VOTES.</p>
                             <div class="buttons-block">
-                                <a href="https://my.honee.app/ru/metagarden/buy-spot" class="btn btn-1" target="_blank">Купить майнинг-спот</a>
+                                <a href="https://go.honee.app/ru/metagarden" class="btn btn-1" target="_blank">Купить майнинг-спот</a>
                             </div>
                             <h3>Привилегии майнеров</h3>
                             <ul>

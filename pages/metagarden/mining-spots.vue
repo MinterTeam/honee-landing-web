@@ -68,7 +68,7 @@ export default {
                     </picture>
                 </div>
                 <div class="buttons-block">
-                    <a :href="$td('https://my.honee.app/metagarden/buy-spot', 'metagarden-spots.buy-button-url')" class="btn btn-1" target="_blank">{{ $td('Buy mining spots', 'metagarden-spots.buy-button')}}</a>
+                    <a :href="$td('https://go.honee.app/metagarden', 'metagarden-spots.buy-button-url')" class="btn btn-1" target="_blank">{{ $td('Buy mining spots', 'metagarden-spots.buy-button')}}</a>
                     <a :href="$td('/metagarden', 'metagarden-spots.about-button-url')" class="btn btn-outline" target="_blank">{{ $td('About', 'metagarden-spots.about-button')}}</a>
                     <a :href="$td('/metagarden/token', 'metagarden-spots.tokenomics-button-url')" class="btn btn-outline" target="_blank">{{ $td('Tokenomics', 'metagarden-spots.tokenomics-button')}}</a>
                 </div>
@@ -97,7 +97,7 @@ export default {
                                 <li>Auto conversion to USDT</li>
                                 <li>All miner privileges</li>
                             </ul>
-                            <a href="https://my.honee.app/metagarden/buy-spot" class="btn btn-1" target="_blank">Buy for $160</a>
+                            <a href="https://go.honee.app/metagarden" class="btn btn-1" target="_blank">Buy for $160</a>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <span>Цена за токен $0.16</span>
@@ -109,7 +109,7 @@ export default {
                                 <li>Автоконвертация в USDT</li>
                                 <li>Все привилегии майнера</li>
                             </ul>
-                            <a href="https://my.honee.app/ru/metagarden/buy-spot" class="btn btn-1" target="_blank">Купить за $160</a>
+                            <a href="https://go.honee.app/ru/metagarden" class="btn btn-1" target="_blank">Купить за $160</a>
                         </template>
                     </div>
                 </div>
