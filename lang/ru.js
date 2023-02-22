@@ -419,12 +419,12 @@ export default {
 		'spot-offer-subtitle': 'Купите в крипто-кошельке Honee. Количество ограничено!',
 	},
 	'metagarden-influencer': {
-		'title': 'Вы Ютубер или инфлюенсер?',
-		'description': 'Станьте партнером платформы Metagarden на ранних стадиях проекта! Создавайте контент для нас. Если заинтересованы, пишите.',
-		'hello-title': 'Вы Ютубер или инфлюенсер?',
+		'title': 'Вы Ютьюбер, у вас своя аудитория?',
+		'description': 'Станьте партнером платформы Metagarden на ранней стадии! Создавайте контент про нас. Если вам интересно, напишите.',
+		'hello-title': 'Вы Ютьюбер, у вас своя аудитория?',
 		'contact-button': 'Написать нам',
 		'learn-button': 'Про Metagarden',
-		'contact-button-url': 'https://t.me/HoneeSupportBot',
+		'contact-button-url': 'https://t.me/bcmflead',
 		'learn-button-url': 'https://honee.app/ru/metagarden',
 	},
 };

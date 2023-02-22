@@ -9,7 +9,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Are you a YouTuber or Social Media Influencer?', 'metagarden-influencer.title'));
-        const description = this.$td('Partner with the Metagarden platform in the early stages of the project! Create content for us. If you are interested, please get in touch.', 'metagarden-influencer.description');
+        const description = this.$td('Partner with the Metagarden platform in its early stages! Create content about us. Please contact us if you are interested.', 'metagarden-influencer.description');
 
         return {
             title: title,
@@ -50,7 +50,7 @@ export default {
                         </div>
                         <h1>{{ $td('Are you a YouTuber or Social Media Influencer?', 'metagarden-influencer.hello-title')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
-                            <p class="subtitle-h1">Partner with the <b>Metagarden</b> platform in the early stages of the project! Create content for us. If you are interested, please get in touch.</p>
+                            <p class="subtitle-h1">Partner with the <b>Metagarden</b> platform in its early stages! Create content about us. Please contact us if you are interested.</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <p class="subtitle-h1">Станьте партнером платформы <b>Metagarden</b> на ранних стадиях проекта! Создавайте контент для нас. Если заинтересованы, пишите.</p>
@@ -63,7 +63,7 @@ export default {
                     </picture>
                 </div>
                 <div class="buttons-block">
-                    <a :href="$td('https://t.me/HoneeSupportBot', 'metagarden-influencer.contact-button-url')" class="btn btn-1" target="_blank">{{ $td('Contact Us', 'metagarden-influencer.contact-button')}}</a>
+                    <a :href="$td('https://t.me/bcmflead', 'metagarden-influencer.contact-button-url')" class="btn btn-1" target="_blank">{{ $td('Contact Us', 'metagarden-influencer.contact-button')}}</a>
                     <a :href="$td('https://honee.app/metagarden', 'metagarden-influencer.learn-button-url')" class="btn btn-outline" target="_blank">{{ $td('About Metagarden', 'metagarden-influencer.learn-button')}}</a>
                 </div>
             </div>
