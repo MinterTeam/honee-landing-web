@@ -9,7 +9,7 @@ export default {
     },
     head() {
         const title = getTitle(this.$td('Are you a YouTuber or Social Media Influencer?', 'metagarden-influencer.title'));
-        const description = this.$td('Partner with the Metagarden platform in its early stages! Create content about us. Please contact us if you are interested.', 'metagarden-influencer.description');
+        const description = this.$td('Partner with the Metagarden platform in its early stages! Create content about us. If you are interested, please contact us.', 'metagarden-influencer.description');
 
         return {
             title: title,
@@ -50,10 +50,10 @@ export default {
                         </div>
                         <h1>{{ $td('Are you a YouTuber or Social Media Influencer?', 'metagarden-influencer.hello-title')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
-                            <p class="subtitle-h1">Partner with the <b>Metagarden</b> platform in its early stages! Create content about us. Please contact us if you are interested.</p>
+                            <p class="subtitle-h1">Partner with the <b>Metagarden</b> platform in its early stages! Create content about us. If you are interested, please contact us.</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <p class="subtitle-h1">Станьте партнером платформы <b>Metagarden</b> на ранних стадиях проекта! Создавайте контент для нас. Если заинтересованы, пишите.</p>
+                            <p class="subtitle-h1">Станьте партнером платформы <b>Metagarden</b> на ранних стадиях проекта! Создавайте контент о нас. Если заинтересованы, пишите.</p>
                         </template>
                     </div>
                     <picture>
