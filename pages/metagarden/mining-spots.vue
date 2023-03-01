@@ -1,9 +1,13 @@
 <script>
 import getTitle from '~/assets/get-title.js';
 import trackClick from '~/assets/v-track-click.js';
+import LiteYoutube from '@/components/LiteYoutube.vue';
 
 export default {
     layout: 'metagarden-spots',
+    components: {
+        LiteYoutube,
+    },
     directives: {
         trackClick,
     },
@@ -148,6 +152,15 @@ export default {
                         </div>
                     </template>
                 </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="container">
+                <h2>{{ $td('Learn More', 'metagarden-spots.video-title')}}</h2>
+                <LiteYoutube
+                    class="video-youtube"
+                    :video-id="$td('q-vFl0y4rXY', 'metagarden-spots.video-id')"
+                />
             </div>
         </section>
         <footer>
