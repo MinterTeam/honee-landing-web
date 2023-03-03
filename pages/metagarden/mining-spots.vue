@@ -156,7 +156,7 @@ export default {
         </section>
         <section class="video">
             <div class="container">
-                <h2>{{ $td('Learn More', 'metagarden-spots.video-title')}}</h2>
+                <h2>{{ $td('Video Guide', 'metagarden-spots.video-title')}}</h2>
                 <LiteYoutube
                     class="video-youtube"
                     :video-id="$td('q-vFl0y4rXY', 'metagarden-spots.video-id')"

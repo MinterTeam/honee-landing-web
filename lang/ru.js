@@ -417,7 +417,7 @@ export default {
 		'mining-privilege-title': 'Привилегии майнера',
 		'spot-offer-title': 'Майнинг токенов METAGARDEN',
 		'spot-offer-subtitle': 'Купите в крипто-кошельке Honee. Количество ограничено!',
-		'video-title': 'Подробнее',
+		'video-title': 'Видео-инструкция',
 		'video-id': 'q-vFl0y4rXY',
 	},
 	'metagarden-influencer': {
