@@ -56,12 +56,12 @@ export default {
                         <h1>{{ $td('Gamified Mining — sipmle for everyone', 'metagarden-spots.hello-title')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
                             <p class="subtitle-h1">The mining of the Metagarden platform tokens is an exciting process in the form of a game.</p>
-                            <p class="subtitle-h1">To become a miner you need to buy a Mining Spot to receive daily rewards with many other bonuses.</p>
+                            <p class="subtitle-h1">To become a miner you need to buy a Miners to receive daily rewards with many other bonuses.</p>
                             <p class="subtitle-h1">You do not need any special equipment, knowledge or additional resources. It's simple to get started!</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <p class="subtitle-h1">Майнинг токенов платформы Metagarden — это увлекательный процесс в игровой форме.</p>
-                            <p class="subtitle-h1">Купите виртуальные участки (майнинг-споты) и получайте ежедневные вознаграждения с множеством других бонусов.</p>
+                            <p class="subtitle-h1">Купите майнер и получайте ежедневные вознаграждения с множеством других бонусов.</p>
                             <p class="subtitle-h1">Вам не потребуется специальное оборудование, знания или дополнительные ресурсы. Это просто, подключайтесь!</p>
                         </template>
                     </div>
@@ -93,7 +93,7 @@ export default {
                     <div class="spot-offer-content">
                         <template v-if="$i18n.locale === 'en'">
                             <span>Price per token $0.16</span>
-                            <h3>Mining Spot</h3>
+                            <h3>Miner</h3>
                             <ul>
                                 <li>1000 METAGARDEN tokens</li>
                                 <li>1000 VOTES tokens for Platform governance</li>
@@ -105,7 +105,7 @@ export default {
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <span>Цена за токен $0.16</span>
-                            <h3>Майнинг спот</h3>
+                            <h3>Майнер</h3>
                             <ul>
                                 <li>1000 токенов METAGARDEN</li>
                                 <li>1000 токенов VOTES для управления платформой</li>
