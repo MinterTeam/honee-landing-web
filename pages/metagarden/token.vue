@@ -141,7 +141,7 @@ export default {
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">The DAO Governance</h4>
-                                <p>METAGARDEN is a voting token used to make decisions about developing and promoting the Platform.</p>
+                                <p>Through the METAGARDEN token and its mining process, governance tokens VOTES are issued. VOTES tokens are used to make decisions about the development and promotion of the platform.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Cross-Game Reputation</h4>
@@ -170,7 +170,7 @@ export default {
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">ДАО гавернанс</h4>
-                                <p>Голосующий токен для принятия решений о развитии и продвижении платформы.</p>
+                                <p>Токен, через который выпускаются голосующие токены VOTES необходимые для принятия решений о развитии и продвижении платформы.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Кросс-гейм репутация</h4>
@@ -337,13 +337,13 @@ export default {
                     <div class="simple-content-text">
                         <template v-if="$i18n.locale === 'en'">
                             <p>METAGARDEN tokens get distributed through gamified mining, perhaps one of the most innovative ways to distribute crypto tokens.</p>
-                            <p>To become a Miner, any user can purchase a Mining Spot for a fixed price. This gives the user the right to issue a quota of METAGARDEN tokens for free circulation within 5.5 years (2000 days).</p>
+                            <p>To become a Miner, any user can purchase a virtual Miner for a fixed price. This gives the user the right to issue a quota of METAGARDEN tokens for free circulation within 5.5 years (2000 days).</p>
                             <p>For your convenience, the mined METAGARDEN tokens will be automatically converted into <strong>USDT</strong> stablecoin.</p>
                             <p class="pie-item pie-item-1"><span>Current mining spot price</span>$160</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <p>Токены METAGARDEN поступают в свободное обращение через геймифицированный майнинг, пожалуй, один из самых инновационных способов выпуска токенов в обращение среди крипто-проектов.</p>
-                            <p>Для того, чтобы стать майнером, любой пользователь может приобрести за фиксированную цену майнинговый спот, дающий право на квотированный выпуск токенов METAGARDEN в свободное обращение в течение 5.5 лет (2000 дней).</p>
+                            <p>Для того, чтобы стать майнером, любой пользователь может приобрести за фиксированную цену майнер, дающий право на квотированный выпуск токенов METAGARDEN в свободное обращение в течение 5.5 лет (2000 дней).</p>
                             <p>Для удобства, получаемые токены METAGARDEN автоматически конвертируются в стейблкоин <strong>USDT</strong>.</p>
                             <p class="pie-item pie-item-1"><span>Текущая цена майнинового спота</span>$160</p>
                         </template>
@@ -387,7 +387,7 @@ export default {
                         </div>
                     </template>
                 </div>
-                <a :href="$td('https://go.honee.app/metagarden', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Buy Mining Spot', 'metagarden-token.mining-privilege-button')}}</a>
+                <a :href="$td('https://go.honee.app/metagarden', 'metagarden-token.buy-spot-url')" class="btn btn-1" target="_blank">{{ $td('Buy miner', 'metagarden-token.mining-privilege-button')}}</a>
             </div>
         </section>
         <section class="simple-content-section">

@@ -405,9 +405,9 @@ export default {
                     <div class="simple-content-text">
                         <template v-if="$i18n.locale === 'en'">
                             <h2>Token Mining</h2>
-                            <p>Token mining is a game where the player buys mining spots that produce daily rewards in platforms’s base token METAGARDEN as well as VOTES token.</p>
+                            <p>Token mining is a game where the player buys miners that produce daily rewards in platforms’s base token METAGARDEN as well as VOTES token.</p>
                             <div class="buttons-block">
-                                <a href="https://go.honee.app/metagarden" class="btn btn-1" target="_blank">Buy Mining Spots</a>
+                                <a href="https://go.honee.app/metagarden" class="btn btn-1" target="_blank">Buy miners</a>
                             </div>
                             <h3>Miner’s Privileges</h3>
                             <ul>
@@ -423,9 +423,9 @@ export default {
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <h2>Майнинг токена</h2>
-                            <p>Добыча токенов — это игра, в которой игрок покупает майнинг-споты. Они приносят ежедневные вознаграждения в базовом токене платформы METAGARDEN, а также в токене VOTES.</p>
+                            <p>Добыча токенов — это игра, в которой игрок покупает майнеры. Они приносят ежедневные вознаграждения в базовом токене платформы METAGARDEN, а также в токене VOTES.</p>
                             <div class="buttons-block">
-                                <a href="https://go.honee.app/ru/metagarden" class="btn btn-1" target="_blank">Купить майнинг-спот</a>
+                                <a href="https://go.honee.app/ru/metagarden" class="btn btn-1" target="_blank">Купить майнер</a>
                             </div>
                             <h3>Привилегии майнеров</h3>
                             <ul>

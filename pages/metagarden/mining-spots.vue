@@ -56,7 +56,7 @@ export default {
                         <h1>{{ $td('Gamified Mining — sipmle for everyone', 'metagarden-spots.hello-title')}}</h1>
                         <template v-if="$i18n.locale === 'en'">
                             <p class="subtitle-h1">The mining of the Metagarden platform tokens is an exciting process in the form of a game.</p>
-                            <p class="subtitle-h1">To become a miner you need to buy a Miners to receive daily rewards with many other bonuses.</p>
+                            <p class="subtitle-h1">To become a miner you need to buy a virtual miner to receive daily rewards with many other bonuses.</p>
                             <p class="subtitle-h1">You do not need any special equipment, knowledge or additional resources. It's simple to get started!</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
@@ -72,7 +72,7 @@ export default {
                     </picture>
                 </div>
                 <div class="buttons-block">
-                    <a :href="$td('https://go.honee.app/metagarden', 'metagarden-spots.buy-button-url')" class="btn btn-1" target="_blank">{{ $td('Buy mining spots', 'metagarden-spots.buy-button')}}</a>
+                    <a :href="$td('https://go.honee.app/metagarden', 'metagarden-spots.buy-button-url')" class="btn btn-1" target="_blank">{{ $td('Buy miners', 'metagarden-spots.buy-button')}}</a>
                     <a :href="$td('/metagarden', 'metagarden-spots.about-button-url')" class="btn btn-outline" target="_blank">{{ $td('About', 'metagarden-spots.about-button')}}</a>
                     <a :href="$td('/metagarden/token', 'metagarden-spots.tokenomics-button-url')" class="btn btn-outline" target="_blank">{{ $td('Tokenomics', 'metagarden-spots.tokenomics-button')}}</a>
                 </div>
@@ -81,7 +81,7 @@ export default {
         <section class="spot-offer-section">
             <div class="container">
                 <h2>{{ $td('Mining METAGARDEN tokens', 'metagarden-spots.spot-offer-title')}}</h2>
-                <p class="subtitle-h2">{{ $td('Buy a Mining Spot. Quantity is limited!', 'metagarden-spots.spot-offer-subtitle')}}</p>
+                <p class="subtitle-h2">{{ $td('Buy a Miner. Quantity is limited!', 'metagarden-spots.spot-offer-subtitle')}}</p>
                 <div class="spot-offer-block">
                     <div class="spot-offer-img">
                         <picture>
