@@ -282,14 +282,14 @@ export default {
                                 <img src="/img/landing/metagarden/icon-e.svg" alt="Ethereum">
                                 <div>
                                     <div class="circulation-blockchain-name">Ethereum</div>
-                                    <div class="circulation-blockchain-address">0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c</div>
+                                    <div class="circulation-blockchain-address"><a href="https://etherscan.io/token/0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c" target="_blank">0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c</a></div>
                                 </div>
                             </div>
                             <div class="circulation-blockchain">
                                 <img src="/img/landing/metagarden/icon-b.svg" alt="BNB Smart Chain">
                                 <div>
                                     <div class="circulation-blockchain-name">BNB Smart Chain</div>
-                                    <div class="circulation-blockchain-address">0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c</div>
+                                    <div class="circulation-blockchain-address"><a href="https://bscscan.com/token/0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c" target="_blank">0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c</a></div>
                                 </div>
                             </div>
                         </div>
@@ -310,14 +310,14 @@ export default {
                                 <img src="/img/landing/metagarden/icon-e.svg" alt="Ethereum">
                                 <div>
                                     <div class="circulation-blockchain-name">Ethereum</div>
-                                    <div class="circulation-blockchain-address">0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c</div>
+                                    <div class="circulation-blockchain-address"><a href="https://etherscan.io/token/0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c" target="_blank">0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c</a></div>
                                 </div>
                             </div>
                             <div class="circulation-blockchain">
                                 <img src="/img/landing/metagarden/icon-b.svg" alt="BNB Smart Chain">
                                 <div>
                                     <div class="circulation-blockchain-name">BNB Smart Chain</div>
-                                    <div class="circulation-blockchain-address">0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c</div>
+                                    <div class="circulation-blockchain-address"><a href="https://bscscan.com/token/0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c" target="_blank">0xA5E63AE36Ce169e0EDc7dD0c99e19Ab8325a5F4c</a></div>
                                 </div>
                             </div>
                         </div>
@@ -339,13 +339,13 @@ export default {
                             <p>METAGARDEN tokens get distributed through gamified mining, perhaps one of the most innovative ways to distribute crypto tokens.</p>
                             <p>To become a Miner, any user can purchase a virtual Miner for a fixed price. This gives the user the right to issue a quota of METAGARDEN tokens for free circulation within 5.5 years (2000 days).</p>
                             <p>For your convenience, the mined METAGARDEN tokens will be automatically converted into <strong>USDT</strong> stablecoin.</p>
-                            <p class="pie-item pie-item-1"><span>Current mining spot price</span>$160</p>
+                            <p class="pie-item pie-item-1"><span>Current miner price</span>$160</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <p>Токены METAGARDEN поступают в свободное обращение через геймифицированный майнинг, пожалуй, один из самых инновационных способов выпуска токенов в обращение среди крипто-проектов.</p>
                             <p>Для того, чтобы стать майнером, любой пользователь может приобрести за фиксированную цену майнер, дающий право на квотированный выпуск токенов METAGARDEN в свободное обращение в течение 5.5 лет (2000 дней).</p>
                             <p>Для удобства, получаемые токены METAGARDEN автоматически конвертируются в стейблкоин <strong>USDT</strong>.</p>
-                            <p class="pie-item pie-item-1"><span>Текущая цена майнинового спота</span>$160</p>
+                            <p class="pie-item pie-item-1"><span>Текущая цена майнера</span>$160</p>
                         </template>
                     </div>
                     <div class="simple-content-img">

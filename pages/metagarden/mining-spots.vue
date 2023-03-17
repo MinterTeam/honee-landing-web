@@ -98,7 +98,6 @@ export default {
                                 <li>1000 METAGARDEN tokens</li>
                                 <li>1000 VOTES tokens for Platform governance</li>
                                 <li>Issuing period 2000 days for both tokens, 0.5 tokens daily</li>
-                                <li>Auto conversion to USDT</li>
                                 <li>All miner privileges</li>
                             </ul>
                             <a href="https://go.honee.app/metagarden" class="btn btn-1" target="_blank">Buy for $160</a>
@@ -110,7 +109,6 @@ export default {
                                 <li>1000 токенов METAGARDEN</li>
                                 <li>1000 токенов VOTES для управления платформой</li>
                                 <li>Срок выпуска 2000 дней для обоих токенов, 0.5 токена в день</li>
-                                <li>Автоконвертация в USDT</li>
                                 <li>Все привилегии майнера</li>
                             </ul>
                             <a href="https://go.honee.app/ru/metagarden" class="btn btn-1" target="_blank">Купить за $160</a>

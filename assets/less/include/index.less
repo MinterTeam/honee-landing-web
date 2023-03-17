@@ -2178,11 +2178,13 @@ html.copytrading-html {
         gap: 16px;
         .games-item {
             max-width: 205px;
+            line-height: 0;
             a {
                 cursor: default;
             }
             img {
                 border-radius: 16px 16px 0 0;
+                width: 205px;
             }
             .games-item-text {
                 background-color: #fff;
@@ -2240,7 +2242,7 @@ html.copytrading-html {
             margin: 0 0 24px 0;
         }
     }
-    @media (max-width: 700px) {
+    @media (max-width: 750px) {
         .menu-link {display: none;}
         .hamburger-menu {display: block;}
         .for-item {
@@ -2400,6 +2402,12 @@ html.copytrading-html {
             line-height: 17px;
             color: #42DF81;
             padding: 8px 0 0 0;
+            a {
+                text-decoration: underline;
+            }
+            a:hover {
+                text-decoration: none;
+            }
         }
     }
     .circulation-text {

@@ -98,6 +98,9 @@ export default {
                         <div class="menu-link">
                             <a :href="$td('https://t.me/metagarden', 'metagarden.menu-community-url')" target="_blank" class="menu-link-a">{{ $td('Community', 'metagarden.menu-community')}}</a>
                         </div>
+                        <div class="menu-link">
+                            <a :href="$td('/metagarden/influencer', 'metagarden.menu-influencer-url')" target="_blank" class="menu-link-a">{{ $td('For Influencers', 'metagarden.menu-influencer')}}</a>
+                        </div>
                         <Language/>
                         <div class="hamburger-menu">
                             <input id="menu__toggle" type="checkbox" />
@@ -170,6 +173,17 @@ export default {
                                         <div class="sub-menu-item-content">
                                             <h4>{{ $td('Community', 'metagarden.menu-community')}}</h4>
                                             <p>{{ $td('Our channel in Telegram.', 'metagarden.menu-community-description')}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sub-menu-item">
+                                    <a :href="$td('/metagarden/influencer', 'metagarden.menu-influencer-url')" target="_blank">
+                                        <div class="sub-menu-item-image">
+                                            <img src="/img/landing/metagarden/influencer.svg" alt="">
+                                        </div>
+                                        <div class="sub-menu-item-content">
+                                            <h4>{{ $td('For Influencers', 'metagarden.menu-influencer')}}</h4>
+                                            <p>{{ $td('Partner with the Metagarden platform in its early stages!', 'metagarden.menu-influencer-description')}}</p>
                                         </div>
                                     </a>
                                 </div>
@@ -272,7 +286,7 @@ export default {
                             <picture>
                                 <source srcset="/img/landing/metagarden/g1.avif 1x, /img/landing/metagarden/g1@2x.avif 2x" type="image/avif">
                                 <source srcset="/img/landing/metagarden/g1.webp 1x, /img/landing/metagarden/g1@2x.webp 2x" type="image/webp">
-                                <img src="/img/landing/metagarden/g1.png" srcset="/img/landing/metagarden/g1@2x.png 2x" alt="metagarden Carrots Mafia" role="presentation"/>
+                                <img src="/img/landing/metagarden/g1.jpg" srcset="/img/landing/metagarden/g1@2x.jpg 2x" alt="metagarden Carrots Mafia" role="presentation"/>
                             </picture>
                             <div class="games-item-text">
                                 <template v-if="$i18n.locale === 'en'">
@@ -294,28 +308,28 @@ export default {
                             <div class="games-item-text">
                                 <template v-if="$i18n.locale === 'en'">
                                     <span>lottery</span>
-                                    <div class="game-name">Magic Lootbox</div>
+                                    <div class="game-name">Magic Box</div>
                                 </template>
                                 <template v-if="$i18n.locale === 'ru'">
                                     <span>лотерея</span>
-                                    <div class="game-name">Magic Lootbox</div>
+                                    <div class="game-name">Magic Box</div>
                                 </template>
                             </div>
                         </a>
                         <a target="_blank" class="games-item">
                             <picture>
-                                <source srcset="/img/landing/metagarden/g3.avif 1x, /img/landing/metagarden/g3@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/landing/metagarden/g3.webp 1x, /img/landing/metagarden/g3@2x.webp 2x" type="image/webp">
-                                <img src="/img/landing/metagarden/g3.png" srcset="/img/landing/metagarden/g3@2x.png 2x" alt="metagarden Build Your Garden" role="presentation"/>
+                                <source srcset="/img/landing/metagarden/g4.avif 1x, /img/landing/metagarden/g4@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/landing/metagarden/g4.webp 1x, /img/landing/metagarden/g4@2x.webp 2x" type="image/webp">
+                                <img src="/img/landing/metagarden/g4.png" srcset="/img/landing/metagarden/g4@2x.png 2x" alt="metagarden Chess" role="presentation"/>
                             </picture>
                             <div class="games-item-text">
                                 <template v-if="$i18n.locale === 'en'">
-                                    <span>strategy</span>
-                                    <div class="game-name">Build Your Garden</div>
+                                    <span>board game</span>
+                                    <div class="game-name">Chess</div>
                                 </template>
                                 <template v-if="$i18n.locale === 'ru'">
-                                    <span>стратегия</span>
-                                    <div class="game-name">Build Your Garden</div>
+                                    <span>настольная</span>
+                                    <div class="game-name">Шахматы</div>
                                 </template>
                             </div>
                         </a>
