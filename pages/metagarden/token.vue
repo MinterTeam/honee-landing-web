@@ -420,8 +420,8 @@ export default {
                         </div>
                     </div>
                     <div class="important-text">
-                        <p>For example, at the first level of the quadratic model, mining slots are offered for <strong>$40</strong> (which secures the right to issue 1000 tokens in 2000 days). At this level, there is a quota of <strong>4000</strong> slots.</p>
-                        <p>At the second level of the quadratic model, mining spots cost <strong>$80</strong> per unit (1000 tokens) and the total number of spots at that level is <strong>8000</strong>, etc.</p>
+                        <p>For example, at the first level of the quadratic model, miners are offered for <strong>$40</strong> (which secures the right to issue 1000 tokens in 2000 days). At this level, there is a quota of <strong>4000</strong> slots.</p>
+                        <p>At the second level of the quadratic model, miners cost <strong>$80</strong> per unit (1000 tokens) and the total number of spots at that level is <strong>8000</strong>, etc.</p>
                     </div>
                     <p>This model does not concentrate a large volume of METAGARDEN tokens in the hands of one group of users. The tokens are mined at a low price.</p>
                 </template>
@@ -452,8 +452,8 @@ export default {
                         </div>
                     </div>
                     <div class="important-text">
-                        <p>Для примера, на первом уровне квадратичной модели майнинговые споты предлагаются за <strong>$40</strong> (закрепляют право на выпуск 1000 токенов за 5 лет) и имеют квоту на данном уровне в <strong>4000</strong> слотов.</p>
-                        <p>На втором уровне квадратичной модели майнинговые споты будут стоить уже <strong>$80</strong> за одну единицу (1000 токенов) и общее количество спотов на уровне не должно превышать <strong>8000</strong> и так далее.</p>
+                        <p>Для примера, на первом уровне квадратичной модели майнеры предлагаются за <strong>$40</strong> (закрепляют право на выпуск 1000 токенов за 5 лет) и имеют квоту на данном уровне в <strong>4000</strong> слотов.</p>
+                        <p>На втором уровне квадратичной модели майнеры будут стоить уже <strong>$80</strong> за одну единицу (1000 токенов) и общее количество спотов на уровне не должно превышать <strong>8000</strong> и так далее.</p>
                     </div>
                     <p>Такая модель позволяет не сосредотачиваться в руках любой группы пользователей большому объему токенов METAGARDEN, добытых при низкой цене токена.</p>
                 </template>

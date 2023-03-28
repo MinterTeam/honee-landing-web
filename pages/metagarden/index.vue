@@ -254,11 +254,11 @@ export default {
                         </div>
                         <template v-if="$i18n.locale === 'en'">
                             <h3>For Miners</h3>
-                            <p>Buy a virtual mining spot to earn guaranteed daily profit. Increase your profit even more by decorating spot with boost items!</p>
+                            <p>Buy a virtual miner to earn guaranteed daily profit. Increase your profit even more by decorating miner with boost items!</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <h3>Для майнеров</h3>
-                            <p>Купите виртуальный майнинг-спот, чтобы получать гарантированную ежедневную прибыль. Увеличьте свою прибыль еще больше, усилив свой спот бустами!</p>
+                            <p>Купите виртуальный майнер, чтобы получать гарантированную ежедневную прибыль. Увеличьте свою прибыль еще больше, усилив свой майнер бустами!</p>
                         </template>
                     </div>
                 </div>
