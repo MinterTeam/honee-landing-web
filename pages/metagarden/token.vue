@@ -78,7 +78,7 @@ export default {
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Royalties</h4>
-                                <p>Platform miners with over 100 spots can receive royalties from all Platform games for 2 years.</p>
+                                <p>Platform users with over 100 miners can receive royalties from all Platform games for 2 years.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Staking Token</h4>
@@ -103,7 +103,7 @@ export default {
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Роялти</h4>
-                                <p>Майнеры платформы, имеющие более 100 спотов смогут получать рояли от всех выходящих игр в течение 2 лет.</p>
+                                <p>Пользователи платформы, имеющие более 100 майнеров смогут получать рояли от всех выходящих игр в течение 2 лет.</p>
                             </div>
                             <div class="use-item">
                                 <h4 class="use-item-h4">Стейкинг токен</h4>
@@ -392,9 +392,9 @@ export default {
         </section>
         <section class="simple-content-section">
             <div class="container">
-                <h2>{{ $td('Pricing for Mining Spots', 'metagarden-token.price-title')}}</h2>
+                <h2>{{ $td('Pricing for Miners', 'metagarden-token.price-title')}}</h2>
                 <template v-if="$i18n.locale === 'en'">
-                    <p>The pricing of the Mining Spot uses a quadratic model, where<strong>each successive</strong> level of the Mining Spot selling <strong>price is twice</strong> as expensive and has <strong>twice as many tokens</strong> in supply. The supply volume of tokens can be reduced at any of the levels, but should not exceed the specified values.</p>
+                    <p>The pricing of the Miners uses a quadratic model, where<strong>each successive</strong> level of the Miner selling <strong>price is twice</strong> as expensive and has <strong>twice as many tokens</strong> in supply. The supply volume of tokens can be reduced at any of the levels, but should not exceed the specified values.</p>
                     <div class="pricing">
                         <h3>PRICE AND VOLUME OF METAGARDEN TOKENS on sale at the specified price</h3>
                         <div class="pricing-items">
@@ -421,12 +421,12 @@ export default {
                     </div>
                     <div class="important-text">
                         <p>For example, at the first level of the quadratic model, miners are offered for <strong>$40</strong> (which secures the right to issue 1000 tokens in 2000 days). At this level, there is a quota of <strong>4000</strong> slots.</p>
-                        <p>At the second level of the quadratic model, miners cost <strong>$80</strong> per unit (1000 tokens) and the total number of spots at that level is <strong>8000</strong>, etc.</p>
+                        <p>At the second level of the quadratic model, miners cost <strong>$80</strong> per unit (1000 tokens) and the total number of miners at that level is <strong>8000</strong>, etc.</p>
                     </div>
                     <p>This model does not concentrate a large volume of METAGARDEN tokens in the hands of one group of users. The tokens are mined at a low price.</p>
                 </template>
                 <template v-if="$i18n.locale === 'ru'">
-                    <p>В ценообразовании для майнинговых спотов используется квадратичная модель, при которой <strong>каждый следующий</strong> уровень цены продажи майнинговых спотов <strong>вдвое дороже</strong> и имеет <strong>вдвое больший объем</strong> предложения токенов. Объем предложения токенов может быть уменьшен на любом из уровней, но не должен превышать указанные значения.</p>
+                    <p>В ценообразовании для майнеров используется квадратичная модель, при которой <strong>каждый следующий</strong> уровень цены продажи майнеров <strong>вдвое дороже</strong> и имеет <strong>вдвое больший объем</strong> предложения токенов. Объем предложения токенов может быть уменьшен на любом из уровней, но не должен превышать указанные значения.</p>
                     <div class="pricing">
                         <h3>Цена И объем токенов METAGARDEN в продаже по указанной цене</h3>
                         <div class="pricing-items">
@@ -453,7 +453,7 @@ export default {
                     </div>
                     <div class="important-text">
                         <p>Для примера, на первом уровне квадратичной модели майнеры предлагаются за <strong>$40</strong> (закрепляют право на выпуск 1000 токенов за 5 лет) и имеют квоту на данном уровне в <strong>4000</strong> слотов.</p>
-                        <p>На втором уровне квадратичной модели майнеры будут стоить уже <strong>$80</strong> за одну единицу (1000 токенов) и общее количество спотов на уровне не должно превышать <strong>8000</strong> и так далее.</p>
+                        <p>На втором уровне квадратичной модели майнеры будут стоить уже <strong>$80</strong> за одну единицу (1000 токенов) и общее количество майнеров на уровне не должно превышать <strong>8000</strong> и так далее.</p>
                     </div>
                     <p>Такая модель позволяет не сосредотачиваться в руках любой группы пользователей большому объему токенов METAGARDEN, добытых при низкой цене токена.</p>
                 </template>
