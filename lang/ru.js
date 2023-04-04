@@ -405,7 +405,7 @@ export default {
 		'mining-title': 'Геймифицированный майнинг METAGARDEN',
 		'mining-privilege-title': 'Привилегии майнера',
 		'mining-privilege-button': 'Купить майнер',
-		'price-title': 'Ценообразование для майнинговых спотов',
+		'price-title': 'Ценообразование для майнеров',
 	},
 	'metagarden-spots': {
 		'title': 'Майнинг токенов METAGARDEN',

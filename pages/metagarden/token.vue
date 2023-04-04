@@ -394,7 +394,7 @@ export default {
             <div class="container">
                 <h2>{{ $td('Pricing for Miners', 'metagarden-token.price-title')}}</h2>
                 <template v-if="$i18n.locale === 'en'">
-                    <p>The pricing of the Miners uses a quadratic model, where<strong>each successive</strong> level of the Miner selling <strong>price is twice</strong> as expensive and has <strong>twice as many tokens</strong> in supply. The supply volume of tokens can be reduced at any of the levels, but should not exceed the specified values.</p>
+                    <p>The pricing of the Miners uses a quadratic model, where <strong>each successive</strong> level of the Miner selling <strong>price is twice</strong> as expensive and has <strong>twice as many tokens</strong> in supply. The supply volume of tokens can be reduced at any of the levels, but should not exceed the specified values.</p>
                     <div class="pricing">
                         <h3>PRICE AND VOLUME OF METAGARDEN TOKENS on sale at the specified price</h3>
                         <div class="pricing-items">
