@@ -339,13 +339,13 @@ export default {
                             <p>METAGARDEN tokens get distributed through gamified mining, perhaps one of the most innovative ways to distribute crypto tokens.</p>
                             <p>To become a Miner, any user can purchase a virtual Miner for a fixed price. This gives the user the right to issue a quota of METAGARDEN tokens for free circulation within 5.5 years (2000 days).</p>
                             <p>For your convenience, the mined METAGARDEN tokens will be automatically converted into <strong>USDT</strong> stablecoin.</p>
-                            <p class="pie-item pie-item-1"><span>Current miner price</span>$160</p>
+                            <p class="pie-item pie-item-1"><span>Current miner price</span>$80</p>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
                             <p>Токены METAGARDEN поступают в свободное обращение через геймифицированный майнинг, пожалуй, один из самых инновационных способов выпуска токенов в обращение среди крипто-проектов.</p>
                             <p>Для того, чтобы стать майнером, любой пользователь может приобрести за фиксированную цену майнер, дающий право на квотированный выпуск токенов METAGARDEN в свободное обращение в течение 5.5 лет (2000 дней).</p>
                             <p>Для удобства, получаемые токены METAGARDEN автоматически конвертируются в стейблкоин <strong>USDT</strong>.</p>
-                            <p class="pie-item pie-item-1"><span>Текущая цена майнера</span>$160</p>
+                            <p class="pie-item pie-item-1"><span>Текущая цена майнера</span>$80</p>
                         </template>
                     </div>
                     <div class="simple-content-img">

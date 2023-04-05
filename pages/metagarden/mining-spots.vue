@@ -92,7 +92,7 @@ export default {
                     </div>
                     <div class="spot-offer-content">
                         <template v-if="$i18n.locale === 'en'">
-                            <span>Price per token $0.16</span>
+                            <span>Price per token $0.08</span>
                             <h3>Miner</h3>
                             <ul>
                                 <li>1000 METAGARDEN tokens</li>
@@ -100,10 +100,10 @@ export default {
                                 <li>Issuing period 2000 days for both tokens, 0.5 tokens daily</li>
                                 <li>All miner privileges</li>
                             </ul>
-                            <a href="https://go.honee.app/metagarden" class="btn btn-1" target="_blank">Buy for $160</a>
+                            <a href="https://go.honee.app/metagarden" class="btn btn-1" target="_blank">Buy for $80</a>
                         </template>
                         <template v-if="$i18n.locale === 'ru'">
-                            <span>Цена за токен $0.16</span>
+                            <span>Цена за токен $0.08</span>
                             <h3>Майнер</h3>
                             <ul>
                                 <li>1000 токенов METAGARDEN</li>
@@ -111,7 +111,7 @@ export default {
                                 <li>Срок выпуска 2000 дней для обоих токенов, 0.5 токена в день</li>
                                 <li>Все привилегии майнера</li>
                             </ul>
-                            <a href="https://go.honee.app/ru/metagarden" class="btn btn-1" target="_blank">Купить за $160</a>
+                            <a href="https://go.honee.app/ru/metagarden" class="btn btn-1" target="_blank">Купить за $80</a>
                         </template>
                     </div>
                 </div>
