@@ -66,7 +66,7 @@ export default {
                         <li>If the collateral of the loan (loan + accrued interest) falls below 150%, the pledged amount of BEE may be transferred to the lender;</li>
                         <li>You can return BNB + % for the period of usage at any time in order to receive your BEE back;</li>
                         <li>The maximum loan period is 365 days. If by this time, you will not have returned the BNB, then BEE may be transferred to the lender;</li>
-                        <li>The minimum loan amount is $1.</li>
+                        <li>The minimum loan amount is 0.001 BNB.</li>
                     </ul>
                 </section>
                 <section>
@@ -82,7 +82,7 @@ export default {
                         <li>The interest is 12% per annum. 1% is charged once the borrower receives BNB and then continues to charge every 30th day;</li>
                         <li>You will receive interest when the debt is repaid;</li>
                         <li>If the collateral for the used BNB drops below 150%, then you have an opportunity to take the collateral in order to sell it and get your BNB back (10% of the BEE amount goes to Fund);</li>
-                        <li>The minimum amount is $1. The maximum is $10,000.</li>
+                        <li>The minimum amount is 0.001 BNB. The maximum is 100 BNB.</li>
                     </ul>
                 </section>
                 <section class="article-last-block">
