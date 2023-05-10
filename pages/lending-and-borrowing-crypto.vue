@@ -10,7 +10,7 @@ export default {
         trackClick,
     },
     head() {
-        const title = getTitle('How to lending and borrowing crypto');
+        const title = getTitle('How to lend and borrow crypto');
         const description = 'Honee crypto wallet users have the opportunity to lending and borrowing cryptocurrency.';
 
         return {
@@ -51,13 +51,13 @@ export default {
                     </div>
                 </div>
                 <section class="article-header">
-                    <h1>How to lending and borrowing crypto</h1>
+                    <h1>How to lend and borrow crypto</h1>
                 </section>
                 <section>
                     <h2>Borrowing</h2>
-                    <p>This service lets you quickly get BNB by putting up your BEE tokens as collateral. You can repay BNB within 365 days; the longer the period, the bigger the interest rate. If the BEE you’ve put up decreases in price by 25% or more, the lender may claim it. In such case, you won’t have to repay BNB.</p>
+                    <p>This service lets you quickly get BNB by putting up your BEE or other tokens as collateral. You can repay BNB within 365 days; the longer the period, the bigger the interest rate. If the BEE or other tokens you’ve put up decreases in price by 25% or more, the lender may claim it. In such case, you won’t have to repay BNB.</p>
                     <h3>Example</h3>
-                    <p>You have 10 BEE that is worth 200 BNB. By putting up 10 BEE, you borrow 100 BNB (two times less). Say, in 6 months’ time, you want to repay the loan, so you’ll have to send 106 BNB (100 BNB + 6% accrued over that period) in order to get your 10 BEE back. If the total worth of 10 BEEs and the interest generated went down to 154.5 BNB (-25%), the lender would have the right to keep your BEEs, meaning you wouldn’t have to return 106 BNB anymore.</p>
+                    <p>You have 60000 BEE that is worth 2 BNB. By putting up 60000 BEE, you borrow 1 BNB (two times less). Say, in 6 months’ time, you want to repay the loan, so you’ll have to send 1.06 BNB (1 BNB + 6% accrued over that period) in order to get your 60000 BEE back. If the total worth of 60000 BEEs and the interest generated went down to 1.545 BNB (-25%), the lender would have the right to keep your BEEs, meaning you wouldn’t have to return 1.06 BNB anymore.</p>
                     <h3>Terms</h3>
                     <ul>
                         <li>You will receive 50% of pledged BEE value in BNB;</li>
@@ -73,7 +73,7 @@ export default {
                     <h2>Lending</h2>
                     <p>This service lets you lend your BNB and earn interest. Before the borrower gets your BNB, they put up their BEE tokens as collateral. If these tokens decrease in price by 25% or more, you may claim them. In such case, the borrower won’t have to repay BNB, while you’ll be able to sell their BEE.</p>
                     <h3>Example</h3>
-                    <p>You’re lending 100 BNB to the borrower who puts up 10 BEE worth 200 BNB in return (two times the worth of your BNB). Say, in 6 months’ time, the borrower wants to repay the loan, so they send you 106 BNB (100 BNB + 6% accrued over that period) and get their 10 BEE back. If the total worth of 10 BEEs and the interest generated were to go down to 154.5 BNB (-25%), you’d have the right to keep the borrower’s BEEs, while the borrower wouldn’t have to return 106 BNB anymore.</p>
+                    <p>You’re lending 1 BNB to the borrower who puts up 60000 BEE worth 2 BNB in return (two times the worth of your BNB). Say, in 6 months’ time, the borrower wants to repay the loan, so they send you 1.06 BNB (1 BNB + 6% accrued over that period) and get their 60000 BEE back. If the total worth of 60000 BEEs and the interest generated were to go down to 1.545 BNB (-25%), you’d have the right to keep the borrower’s BEEs, while the borrower wouldn’t have to return 1.06 BNB anymore.</p>
                     <h3>Terms</h3>
                     <ul>
                         <li>You can send BNB and wait for someone to borrow it;</li>
