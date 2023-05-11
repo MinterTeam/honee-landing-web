@@ -279,57 +279,57 @@ export default {
                     <div class="games-about">
                         <h2>{{ $td('Metagarden Games', 'metagarden.games-title')}}</h2>
                         <p>{{ $td('Choose a game from our library that suits you best — from simple arcades to challenging puzzles. Single player, co-op or multiplayer. Test your skills and earn crypto!', 'metagarden.games-description')}}</p>
-                        <a class="btn btn-disable" target="_blank">{{ $td('Coming Soon', 'metagarden.games-button')}}</a>
+                        <a :href="$td('https://my.honee.app/metagarden', 'metagarden.games-button-url')" class="btn btn-1" target="_blank">{{ $td('Play Games', 'metagarden.games-button')}}</a>
                     </div>
                     <div class="games-list">
                         <a target="_blank" class="games-item">
                             <picture>
-                                <source srcset="/img/landing/metagarden/g1.avif 1x, /img/landing/metagarden/g1@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/landing/metagarden/g1.webp 1x, /img/landing/metagarden/g1@2x.webp 2x" type="image/webp">
-                                <img src="/img/landing/metagarden/g1.jpg" srcset="/img/landing/metagarden/g1@2x.jpg 2x" alt="metagarden Carrots Mafia" role="presentation"/>
+                                <source srcset="/img/landing/metagarden/game-miner.avif 1x, /img/landing/metagarden/game-miner@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/landing/metagarden/game-miner.webp 1x, /img/landing/metagarden/game-miner@2x.webp 2x" type="image/webp">
+                                <img src="/img/landing/metagarden/game-miner.jpg" srcset="/img/landing/metagarden/game-miner@2x.jpg 2x" alt="metagarden Lucky Miner" role="presentation"/>
                             </picture>
                             <div class="games-item-text">
                                 <template v-if="$i18n.locale === 'en'">
                                     <span>strategy</span>
-                                    <div class="game-name">Carrots Mafia</div>
+                                    <div class="game-name">Lucky Miner</div>
                                 </template>
                                 <template v-if="$i18n.locale === 'ru'">
                                     <span>стратегия</span>
-                                    <div class="game-name">Carrots Mafia</div>
+                                    <div class="game-name">Lucky Miner</div>
                                 </template>
                             </div>
                         </a>
                         <a target="_blank" class="games-item">
                             <picture>
-                                <source srcset="/img/landing/metagarden/g2.avif 1x, /img/landing/metagarden/g2@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/landing/metagarden/g2.webp 1x, /img/landing/metagarden/g2@2x.webp 2x" type="image/webp">
-                                <img src="/img/landing/metagarden/g2.png" srcset="/img/landing/metagarden/g2@2x.png 2x" alt="metagarden Magic Lootbox" role="presentation"/>
+                                <source srcset="/img/landing/metagarden/game-magic-box.avif 1x, /img/landing/metagarden/game-magic-box@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/landing/metagarden/game-magic-box.webp 1x, /img/landing/metagarden/game-magic-box@2x.webp 2x" type="image/webp">
+                                <img src="/img/landing/metagarden/game-magic-box.jpg" srcset="/img/landing/metagarden/game-magic-box@2x.jpg 2x" alt="metagarden Wonder" role="presentation"/>
                             </picture>
                             <div class="games-item-text">
                                 <template v-if="$i18n.locale === 'en'">
                                     <span>lottery</span>
-                                    <div class="game-name">Magic Box</div>
+                                    <div class="game-name">Wonder</div>
                                 </template>
                                 <template v-if="$i18n.locale === 'ru'">
                                     <span>лотерея</span>
-                                    <div class="game-name">Magic Box</div>
+                                    <div class="game-name">Wonder</div>
                                 </template>
                             </div>
                         </a>
                         <a target="_blank" class="games-item">
                             <picture>
-                                <source srcset="/img/landing/metagarden/g4.avif 1x, /img/landing/metagarden/g4@2x.avif 2x" type="image/avif">
-                                <source srcset="/img/landing/metagarden/g4.webp 1x, /img/landing/metagarden/g4@2x.webp 2x" type="image/webp">
-                                <img src="/img/landing/metagarden/g4.png" srcset="/img/landing/metagarden/g4@2x.png 2x" alt="metagarden Chess" role="presentation"/>
+                                <source srcset="/img/landing/metagarden/game-snatch.avif 1x, /img/landing/metagarden/game-snatch@2x.avif 2x" type="image/avif">
+                                <source srcset="/img/landing/metagarden/game-snatch.webp 1x, /img/landing/metagarden/game-snatch@2x.webp 2x" type="image/webp">
+                                <img src="/img/landing/metagarden/game-snatch.png" srcset="/img/landing/metagarden/game-snatch@2x.png 2x" alt="metagarden Snatch" role="presentation"/>
                             </picture>
                             <div class="games-item-text">
                                 <template v-if="$i18n.locale === 'en'">
-                                    <span>board game</span>
-                                    <div class="game-name">Chess</div>
+                                    <span>strategy</span>
+                                    <div class="game-name">Snatch</div>
                                 </template>
                                 <template v-if="$i18n.locale === 'ru'">
-                                    <span>настольная</span>
-                                    <div class="game-name">Шахматы</div>
+                                    <span>стратегия</span>
+                                    <div class="game-name">Snatch</div>
                                 </template>
                             </div>
                         </a>
