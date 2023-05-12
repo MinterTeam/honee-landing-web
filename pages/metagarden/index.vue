@@ -337,6 +337,82 @@ export default {
                 </div>
             </div>
         </section>
+        <section class="meganet">
+            <div class="meganet-block">
+                <div class="meganet-block-content">
+                    <div class="meganet-block-text">
+                        <template v-if="$i18n.locale === 'en'">
+                            <h2>Metagarden Chain</h2>
+                            <p>Join the Metagarden chain, the ultimate EVM blockchain designed for gaming. Buy MEGANET tokens to get a 100% bonus when the main network goes live. Don't miss the chance to be part of history!</p>
+                            <p>Metagarden Chain Testnet is live — <a href="https://scan.testnet.metagarden.io" target="_blank">https://scan.testnet.metagarden.io</a></p>
+                            <a href="https://my.honee.app/metagarden/account" target="_blank" class="btn btn-1">Buy MEGANET tokens *</a>
+                            <p class="meganet-small-p">*MEGANET tokens give you the right to enter the Metagarden Chain genesis block at the network launch and receive METAGARDEN coins, native Metagarden Chain coins with 100% bonus.</p>
+                        </template>
+                        <template v-if="$i18n.locale === 'ru'">
+                            <h2>Metagarden Chain</h2>
+                            <p>Присоединяйтесь к чейну Metagarden, передовому EVM-блокчейну, предназначенному для игр. Купите токены MEGANET, чтобы получить 100% бонус, когда запустится мейннет. Не упустите шанс стать частью истории!</p>
+                            <p>Тестнет Metagarden Chain здесь — <a href="https://scan.testnet.metagarden.io" target="_blank">https://scan.testnet.metagarden.io</a></p>
+                            <a href="https://my.honee.app/ru/metagarden/account" target="_blank" class="btn btn-1">Купить токены MEGANET *</a>
+                            <p class="meganet-small-p">*Токены MEGANET дают право войти в генезисный блок Metagarden Chain при запуске сети и получить монеты METAGARDEN (нативные монеты Metagarden Chain) со 100% бонусом.</p>
+                        </template>
+                    </div>
+                    <div class="meganet-block-img">
+                        <img src="/img/landing/metagarden/meganet-block-logo.svg" alt="Metagarden Chain">
+                    </div>
+                </div>
+                <h2>{{ $td('Main Features', 'metagarden.meganet-features-title')}}</h2>
+                <div class="meganet-features">
+                    <div class="meganet-features-item">
+                        <picture>
+                            <source srcset="/img/landing/metagarden/mf-1.avif 1x, /img/landing/metagarden/mf-1@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/landing/metagarden/mf-1.webp 1x, /img/landing/metagarden/mf-1@2x.webp 2x" type="image/webp">
+                            <img src="/img/landing/metagarden/mf-1.png" srcset="/img/landing/metagarden/mf-1@2x.png 2x" alt="metagarden chain features" role="presentation" width="64px" height="64px"/>
+                        </picture>
+                        <h3>{{ $td('Made for gamers', 'metagarden.meganet-features-1')}}</h3>
+                    </div>
+                    <div class="meganet-features-item">
+                        <picture>
+                            <source srcset="/img/landing/metagarden/mf-2.avif 1x, /img/landing/metagarden/mf-2@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/landing/metagarden/mf-2.webp 1x, /img/landing/metagarden/mf-2@2x.webp 2x" type="image/webp">
+                            <img src="/img/landing/metagarden/mf-2.png" srcset="/img/landing/metagarden/mf-2@2x.png 2x" alt="metagarden chain features" role="presentation" width="64px" height="64px"/>
+                        </picture>
+                        <h3>{{ $td('Cross-chain compatibility with Top blockchains ', 'metagarden.meganet-features-2')}}</h3>
+                    </div>
+                    <div class="meganet-features-item">
+                        <picture>
+                            <source srcset="/img/landing/metagarden/mf-3.avif 1x, /img/landing/metagarden/mf-3@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/landing/metagarden/mf-3.webp 1x, /img/landing/metagarden/mf-3@2x.webp 2x" type="image/webp">
+                            <img src="/img/landing/metagarden/mf-3.png" srcset="/img/landing/metagarden/mf-3@2x.png 2x" alt="metagarden chain features" role="presentation" width="64px" height="64px"/>
+                        </picture>
+                        <h3>{{ $td('Fast block propagation', 'metagarden.meganet-features-3')}}</h3>
+                    </div>
+                    <div class="meganet-features-item">
+                        <picture>
+                            <source srcset="/img/landing/metagarden/mf-4.avif 1x, /img/landing/metagarden/mf-4@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/landing/metagarden/mf-4.webp 1x, /img/landing/metagarden/mf-4@2x.webp 2x" type="image/webp">
+                            <img src="/img/landing/metagarden/mf-4.png" srcset="/img/landing/metagarden/mf-4@2x.png 2x" alt="metagarden chain features" role="presentation" width="64px" height="64px"/>
+                        </picture>
+                        <h3>{{ $td('Cheap transactions', 'metagarden.meganet-features-4')}}</h3>
+                    </div>
+                    <div class="meganet-features-item">
+                        <picture>
+                            <source srcset="/img/landing/metagarden/mf-5.avif 1x, /img/landing/metagarden/mf-5@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/landing/metagarden/mf-5.webp 1x, /img/landing/metagarden/mf-5@2x.webp 2x" type="image/webp">
+                            <img src="/img/landing/metagarden/mf-5.png" srcset="/img/landing/metagarden/mf-5@2x.png 2x" alt="metagarden chain features" role="presentation" width="64px" height="64px"/>
+                        </picture>
+                        <h3>{{ $td('Cheap smart-contracts', 'metagarden.meganet-features-5')}}</h3>
+                    </div>
+                    <div class="meganet-features-item">
+                        <picture>
+                            <source srcset="/img/landing/metagarden/mf-6.avif 1x, /img/landing/metagarden/mf-6@2x.avif 2x" type="image/avif">
+                            <source srcset="/img/landing/metagarden/mf-6.webp 1x, /img/landing/metagarden/mf-6@2x.webp 2x" type="image/webp">
+                            <img src="/img/landing/metagarden/mf-6.png" srcset="/img/landing/metagarden/mf-6@2x.png 2x" alt="metagarden chain features" role="presentation" width="64px" height="64px"/>
+                        </picture>
+                        <h3>{{ $td('Cheap NFT-minting', 'metagarden.meganet-features-6')}}</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="simple-content-section">
             <div class="container">
                 <div class="simple-content-block">

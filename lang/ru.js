@@ -393,6 +393,13 @@ export default {
 		'technologies-honee': 'Honee Wallet',
 		'technologies-honee-description': 'Простейший криптокошелек. Metagarden использует его в качестве white-label решения.',
 		'technologies-honee-url': 'https://honee.app/ru',
+		'meganet-features-title': 'Главные особенности',
+		'meganet-features-1': 'Сделано для геймеров',
+		'meganet-features-2': 'Кросс-чейн совместимость с Топ блокчейнами',
+		'meganet-features-3': 'Быстрые блоки',
+		'meganet-features-4': 'Низкие комиссии',
+		'meganet-features-5': 'Дешевый запуск смарт-контрактов',
+		'meganet-features-6': 'Дешевый выпуск NFT',
 	},
 	'metagarden-token': {
 		'title': 'Токен METAGARDEN | Токеномика платформы',
