@@ -1790,9 +1790,13 @@ html.copytrading-html {
     flex-wrap: wrap;
     .article-promo-item {
         width: 200px;
-        text-align: left;
+        text-align: center;
+    }
+    .article-promo-item-big {
+        width: 100%;
     }
     .article-promo-item-title {
+        color: #FF8A00;
         font-weight: 700;
         font-size: 16px;
         line-height: 19px;
@@ -1808,26 +1812,12 @@ html.copytrading-html {
     .article-promo .article-promo-item {text-align: left; width: 100%;}
     .article-promo .article-promo-item a {
         display: flex;
-        flex-direction: row;
+        flex-direction:column;
         flex-wrap: nowrap;
         align-items: center;
-        gap: 24px;
     }
     .article-promo .article-promo-item-title {
         padding: 0;
-    }
-}
-@media (max-width: 500px) {
-    .article-promo .article-promo-item a {
-        gap: 16px;
-    }
-    .article-promo .article-promo-item img {
-        width: 150px;
-    }
-}
-@media (max-width: 400px) {
-    .article-promo .article-promo-item img {
-        width: 120px;
     }
 }
 .emoji {
