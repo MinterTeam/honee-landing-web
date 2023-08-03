@@ -8,4 +8,3 @@ Disallow: /ru/_*
 Disallow: /dashboard/
 Disallow: /ru/dashboard/
 Host: https://honee.app
-Sitemap: https://honee.app/sitemap.xml
